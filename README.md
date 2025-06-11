@@ -1,4 +1,4 @@
-# NativeResLLaVA
+
 This is a repo enabling you train a LLaVA using images with any resolution.
 ## Install
 Install the required environment in `requirements.txt`. The Transforms version should be able to support at least `Qwen2-VL model`.
