@@ -682,7 +682,7 @@ class LlavaMetaForCausalLM(ABC):
 
         # Combine them
         max_len = max(x.shape[0] for x in new_input_embeds)
-        print("****************","max_len:",max_len,"***********************")
+        # print("****************","max_len:",max_len,"***********************")
         batch_size = len(new_input_embeds)
         assert cur_image_idx_qwen==cur_image_idx
         

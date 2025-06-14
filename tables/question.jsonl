@@ -1,1 +1,0 @@
-{"sample_id": 1001, "metadata": {"question_type": "single_turn", "dataset": "test_dataset"}, "conversations": [{"from": "human", "value": "<image>\nDescribe the image?"}, {"from": "gpt", "value": "None"}], "image": ["/root/Downloads/zhengyuanhong/LLaVA-NeXT/demo.jpeg"]}

@@ -22,7 +22,9 @@ export NCCL_SOCKET_IFNAME=eth0
 # export NCCL_DEBUG=INFO
 export NCCL_DEBUG=""
 
-export LLM_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2-7B-Instruct"
+export LLM_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2-0.5B-Instruct"
+# export LLM_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2-1.5B-Instruct"
+# export LLM_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2-7B-Instruct"
 export LLM_VERSION_CLEAN="$(basename "$LLM_VERSION")" 
 export VISION_MODEL_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2.5-VL-3B-Instruct"
 export VISION_MODEL_VERSION_CLEAN="${VISION_MODEL_VERSION//\//_}"
@@ -37,14 +39,13 @@ echo "BASE_RUN_NAME: ${BASE_RUN_NAME}"
 export PARTITION="mineru2"
 export NODES=1
 export CPUS=128
-export MASTER_PORT=12349
+export MASTER_PORT=12351
 
 srun -J debug \
     -p $PARTITION \
     --nodes=$NODES \
     --ntasks-per-node=1 \
     --gres=gpu:8 \
-    --cpus-per-task=$CPUS \
     bash -c  'ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node 8 --nnodes ${NODES} --node_rank ${SLURM_NODEID} --master_addr $(scontrol show hostname $SLURM_NODELIST | head -n1) --master_port ${MASTER_PORT} llava/train/train_mem.py \
     --deepspeed scripts/zero2.json \
     --model_name_or_path ${LLM_VERSION} \
@@ -58,8 +59,10 @@ srun -J debug \
     --mm_use_im_start_end False \
     --mm_use_im_patch_token False \
     --bf16 True \
-    --output_dir /mnt/hwfile/doc_parse/niujunbo/llava/checkpoints/projectors/${BASE_RUN_NAME} \
+    --output_dir /mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA/checkpoints/projectors/${BASE_RUN_NAME} \
     --num_train_epochs 1 \
+    --mm_min_image_token 4 \
+    --mm_max_image_token 2048 \
     --per_device_train_batch_size 8 \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps 2 \

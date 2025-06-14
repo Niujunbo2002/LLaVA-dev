@@ -43,7 +43,7 @@ srun -J debug \
     -p $PARTITION \
     --nodes=$NODES \
     --ntasks-per-node=1 \
-    --gres=gpu:1 \
+    --gres=gpu:8 \
     --cpus-per-task=$CPUS \
     bash -c  'ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node 1 --nnodes ${NODES} --node_rank ${SLURM_NODEID} --master_addr $(scontrol show hostname $SLURM_NODELIST | head -n1) --master_port ${MASTER_PORT} llava/train/train_mem.py \
     --deepspeed scripts/zero2.json \

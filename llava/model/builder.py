@@ -242,9 +242,9 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                             model.get_model().get_vision_tower().reset_image_processor(min_image_tokens, max_image_tokens)
                             image_processor = model.get_model().get_vision_tower().image_processor
                             
-                            print(model.get_model().get_vision_tower().image_processor)
-                            print(f"======================")
-                            print(f"{dir(image_processor)}")
+                            # print(model.get_model().get_vision_tower().image_processor)
+                            # print(f"======================")
+                            # print(f"{dir(image_processor)}")
 
             elif "gemma" in model_name.lower():
                 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
