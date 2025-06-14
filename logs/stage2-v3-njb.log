@@ -1,0 +1,365 @@
+OpenCLIP not installed
+OpenCLIP not installed
+OpenCLIP not installed
+OpenCLIP not installed
+OpenCLIP not installed
+OpenCLIP not installed
+OpenCLIP not installed
+OpenCLIP not installed
+[2025-06-04 02:04:50,323] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-04 02:04:50,326] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-04 02:04:50,327] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-04 02:04:50,329] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-04 02:04:50,329] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-04 02:04:50,337] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-04 02:04:50,338] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-04 02:04:50,339] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-06-04 02:05:02,185] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-06-04 02:05:02,189] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-06-04 02:05:02,190] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-06-04 02:05:01,281] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-06-04 02:05:01,339] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-06-04 02:05:01,342] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-06-04 02:05:01,438] [INFO] [comm.py:658:init_distributed] cdb=None
+[2025-06-04 02:05:01,462] [INFO] [comm.py:658:init_distributed] cdb=None
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+[92mLoading QwenViT ...[0m
+[92mQwenViT loaded successfully![0m
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 2048 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 7290 * 28 * 28[0m
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+[92mLoading QwenViT ...[0m
+[92mLoading QwenViT ...[0m
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+[92mLoading QwenViT ...[0m
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+[92mLoading QwenViT ...[0m
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+[92mLoading QwenViT ...[0m
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+[92mLoading QwenViT ...[0m
+[92mQwenViT [92mQwenViT loaded successfully![0m[92mQwenViT loaded successfully![0m
+
+[92mQwenViT loaded successfully![0m
+[92mQwenViT loaded successfully![0m[92mQwenViT loaded successfully![0m
+
+[92mQwenViT loaded successfully![0m
+[92mQwenViT loaded successfully![0m
+[92mQwenViT loaded successfully![0m
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 2048 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 2048 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 2048 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 2048 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 2048 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 2048 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 2048 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 2048 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 7290 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 7290 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 7290 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 7290 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 7290 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 7290 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 7290 * 28 * 28[0m
+[92mMIN_PIXELS: 4 * 28 * 28 
+MAX_PIXELS: 7290 * 28 * 28[0m
+代理被关闭代理被关闭
+
+代理被关闭
+代理被关闭
+代理被关闭
+代理被关闭
+代理被关闭
+代理被关闭
+s3 Client 创建成功
+s3 Client 创建成功
+s3 Client 创建成功
+s3 Client 创建成功
+s3 Client 创建成功
+s3 Client 创建成功
+s3 Client 创建成功
+s3 Client 创建成功
+Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
+Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
+Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
+Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
+Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
+Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
+Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
+Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Time to load fused_adam op: 0.7107622623443604 secondsTime to load fused_adam op: 0.7097463607788086 secondsTime to load fused_adam op: 0.7122559547424316 seconds
+
+
+Time to load fused_adam op: 0.7098891735076904 seconds
+Time to load fused_adam op: 0.7085468769073486 seconds
+Time to load fused_adam op: 0.7102763652801514 seconds
+Time to load fused_adam op: 0.7099978923797607 seconds
+Time to load fused_adam op: 0.7106101512908936 seconds[[rank14]: Traceback (most recent call last):
+[rank14]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train_mem.py", line 8, in <module>
+[rank14]:     train()
+[rank14]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train.py", line 1793, in train
+[rank14]:     trainer.train(resume_from_checkpoint=True)
+[rank14]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank14]:     return inner_training_loop(
+[rank14]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2394, in _inner_training_loop
+[rank14]:     deepspeed_load_checkpoint(
+[rank14]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 495, in deepspeed_load_checkpoint
+[rank14]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank14]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2935, in load_checkpoint
+[rank14]:     success = self._load_zero_checkpoint(load_dir, tag, load_optimizer_states=load_optimizer_states)
+[rank14]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3114, in _load_zero_checkpoint
+[rank14]:     raise ZeRORuntimeException("The checkpoint being loaded used a DP " \
+[rank14]: deepspeed.runtime.zero.utils.ZeRORuntimeException: The checkpoint being loaded used a DP world size of 8 but the current world size is 64. Automatic adjustment of ZeRO's optimizer state partitioning with a new world size is not currently supported.
+[rank11]: Traceback (most recent call last):
+[rank11]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train_mem.py", line 8, in <module>
+[rank11]:     train()
+[rank11]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train.py", line 1793, in train
+[rank11]:     trainer.train(resume_from_checkpoint=True)
+[rank11]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank11]:     return inner_training_loop(
+[rank11]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2394, in _inner_training_loop
+[rank11]:     deepspeed_load_checkpoint(
+[rank11]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 495, in deepspeed_load_checkpoint
+[rank11]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank11]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2935, in load_checkpoint
+[rank11]:     success = self._load_zero_checkpoint(load_dir, tag, load_optimizer_states=load_optimizer_states)
+[rank11]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3114, in _load_zero_checkpoint
+[rank11]:     raise ZeRORuntimeException("The checkpoint being loaded used a DP " \
+[rank11]: deepspeed.runtime.zero.utils.ZeRORuntimeException: The checkpoint being loaded used a DP world size of 8 but the current world size is 64. Automatic adjustment of ZeRO's optimizer state partitioning with a new world size is not currently supported.
+[rank13]: Traceback (most recent call last):
+[rank13]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train_mem.py", line 8, in <module>
+[rank13]:     train()
+[rank13]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train.py", line 1793, in train
+[rank13]:     trainer.train(resume_from_checkpoint=True)
+[rank13]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank13]:     return inner_training_loop(
+[rank13]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2394, in _inner_training_loop
+[rank13]:     deepspeed_load_checkpoint(
+[rank13]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 495, in deepspeed_load_checkpoint
+[rank13]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank13]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2935, in load_checkpoint
+[rank13]:     success = self._load_zero_checkpoint(load_dir, tag, load_optimizer_states=load_optimizer_states)
+[rank13]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3114, in _load_zero_checkpoint
+[rank13]:     raise ZeRORuntimeException("The checkpoint being loaded used a DP " \
+[rank13]: deepspeed.runtime.zero.utils.ZeRORuntimeException: The checkpoint being loaded used a DP world size of 8 but the current world size is 64. Automatic adjustment of ZeRO's optimizer state partitioning with a new world size is not currently supported.
+[rank8]: Traceback (most recent call last):
+[rank8]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train_mem.py", line 8, in <module>
+[rank8]:     train()
+[rank8]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train.py", line 1793, in train
+[rank8]:     trainer.train(resume_from_checkpoint=True)
+[rank8]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank8]:     return inner_training_loop(
+[rank8]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2394, in _inner_training_loop
+[rank8]:     deepspeed_load_checkpoint(
+[rank8]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 495, in deepspeed_load_checkpoint
+[rank8]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank8]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2935, in load_checkpoint
+[rank8]:     success = self._load_zero_checkpoint(load_dir, tag, load_optimizer_states=load_optimizer_states)
+[rank8]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3114, in _load_zero_checkpoint
+[rank8]:     raise ZeRORuntimeException("The checkpoint being loaded used a DP " \
+[rank8]: deepspeed.runtime.zero.utils.ZeRORuntimeException: The checkpoint being loaded used a DP world size of 8 but the current world size is 64. Automatic adjustment of ZeRO's optimizer state partitioning with a new world size is not currently supported.
+[rank15]: Traceback (most recent call last):
+[rank15]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train_mem.py", line 8, in <module>
+[rank15]:     train()
+[rank15]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train.py", line 1793, in train
+[rank15]:     trainer.train(resume_from_checkpoint=True)
+[rank15]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank15]:     return inner_training_loop(
+[rank15]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2394, in _inner_training_loop
+[rank15]:     deepspeed_load_checkpoint(
+[rank15]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 495, in deepspeed_load_checkpoint
+[rank15]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank15]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2935, in load_checkpoint
+[rank15]:     success = self._load_zero_checkpoint(load_dir, tag, load_optimizer_states=load_optimizer_states)
+[rank15]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3114, in _load_zero_checkpoint
+[rank15]:     raise ZeRORuntimeException("The checkpoint being loaded used a DP " \
+[rank15]: deepspeed.runtime.zero.utils.ZeRORuntimeException: The checkpoint being loaded used a DP world size of 8 but the current world size is 64. Automatic adjustment of ZeRO's optimizer state partitioning with a new world size is not currently supported.
+[rank10]: Traceback (most recent call last):
+[rank10]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train_mem.py", line 8, in <module>
+[rank10]:     train()
+[rank10]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train.py", line 1793, in train
+[rank10]:     trainer.train(resume_from_checkpoint=True)
+[rank10]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank10]:     return inner_training_loop(
+[rank10]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2394, in _inner_training_loop
+[rank10]:     deepspeed_load_checkpoint(
+[rank10]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 495, in deepspeed_load_checkpoint
+[rank10]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank10]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2935, in load_checkpoint
+[rank10]:     success = self._load_zero_checkpoint(load_dir, tag, load_optimizer_states=load_optimizer_states)
+[rank10]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3114, in _load_zero_checkpoint
+[rank10]:     raise ZeRORuntimeException("The checkpoint being loaded used a DP " \
+[rank10]: deepspeed.runtime.zero.utils.ZeRORuntimeException: The checkpoint being loaded used a DP world size of 8 but the current world size is 64. Automatic adjustment of ZeRO's optimizer state partitioning with a new world size is not currently supported.
+[rank9]: Traceback (most recent call last):
+[rank9]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train_mem.py", line 8, in <module>
+[rank9]:     train()
+[rank9]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train.py", line 1793, in train
+[rank9]:     trainer.train(resume_from_checkpoint=True)
+[rank9]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank9]:     return inner_training_loop(
+[rank9]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2394, in _inner_training_loop
+[rank9]:     deepspeed_load_checkpoint(
+[rank9]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 495, in deepspeed_load_checkpoint
+[rank9]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank9]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2935, in load_checkpoint
+[rank9]:     success = self._load_zero_checkpoint(load_dir, tag, load_optimizer_states=load_optimizer_states)
+[rank9]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3114, in _load_zero_checkpoint
+[rank9]:     raise ZeRORuntimeException("The checkpoint being loaded used a DP " \
+[rank9]: deepspeed.runtime.zero.utils.ZeRORuntimeException: The checkpoint being loaded used a DP world size of 8 but the current world size is 64. Automatic adjustment of ZeRO's optimizer state partitioning with a new world size is not currently supported.
+[rank12]: Traceback (most recent call last):
+[rank12]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train_mem.py", line 8, in <module>
+[rank12]:     train()
+[rank12]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train.py", line 1793, in train
+[rank12]:     trainer.train(resume_from_checkpoint=True)
+[rank12]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank12]:     return inner_training_loop(
+[rank12]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2394, in _inner_training_loop
+[rank12]:     deepspeed_load_checkpoint(
+[rank12]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 495, in deepspeed_load_checkpoint
+[rank12]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank12]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2935, in load_checkpoint
+[rank12]:     success = self._load_zero_checkpoint(load_dir, tag, load_optimizer_states=load_optimizer_states)
+[rank12]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3114, in _load_zero_checkpoint
+[rank12]:     raise ZeRORuntimeException("The checkpoint being loaded used a DP " \
+[rank12]: deepspeed.runtime.zero.utils.ZeRORuntimeException: The checkpoint being loaded used a DP world size of 8 but the current world size is 64. Automatic adjustment of ZeRO's optimizer state partitioning with a new world size is not currently supported.
+[rank8]:[W604 02:08:39.671411512 ProcessGroupNCCL.cpp:1496] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W0604 02:08:42.964000 156271 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 156302 closing signal SIGTERM
+W0604 02:08:42.968000 156271 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 156304 closing signal SIGTERM
+W0604 02:08:42.969000 156271 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 156306 closing signal SIGTERM
+W0604 02:08:42.969000 156271 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 156307 closing signal SIGTERM
+W0604 02:08:42.970000 156271 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 156308 closing signal SIGTERM
+W0604 02:08:42.970000 156271 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 156309 closing signal SIGTERM
+W0604 02:08:42.973000 156271 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 156311 closing signal SIGTERM
+E0604 02:08:45.769000 156271 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 6 (pid: 156310) of binary: /mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/bin/python
+Traceback (most recent call last):
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+llava/train/train_mem.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-06-04_02:08:42
+  host      : SH-IDC1-10-140-24-111
+  rank      : 14 (local_rank: 6)
+  exitcode  : 1 (pid: 156310)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+================================
+===================================================
+g/NativeResLLaVA_mineru/llava/train/train_mem.py", line 8, in <module>
+[rank0]:     train()
+[rank0]:   File "/mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/llava/train/train.py", line 1793, in train
+[rank0]:     trainer.train(resume_from_checkpoint=True)
+[rank0]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2245, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/trainer.py", line 2394, in _inner_training_loop
+[rank0]:     deepspeed_load_checkpoint(
+[rank0]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/transformers/integrations/deepspeed.py", line 495, in deepspeed_load_checkpoint
+[rank0]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank0]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2935, in load_checkpoint
+[rank0]:     success = self._load_zero_checkpoint(load_dir, tag, load_optimizer_states=load_optimizer_states)
+[rank0]:   File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 3114, in _load_zero_checkpoint
+[rank0]:     raise ZeRORuntimeException("The checkpoint being loaded used a DP " \
+[rank0]: deepspeed.runtime.zero.utils.ZeRORuntimeException: The checkpoint being loaded used a DP world size of 8 but the current world size is 64. Automatic adjustment of ZeRO's optimizer state partitioning with a new world size is not currently supported.
+W0604 02:08:38.207000 167243 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 167474 closing signal SIGTERM
+W0604 02:08:38.211000 167243 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 167475 closing signal SIGTERM
+W0604 02:08:38.212000 167243 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 167477 closing signal SIGTERM
+W0604 02:08:38.212000 167243 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 167478 closing signal SIGTERM
+W0604 02:08:38.213000 167243 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 167480 closing signal SIGTERM
+W0604 02:08:38.213000 167243 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 167481 closing signal SIGTERM
+W0604 02:08:38.214000 167243 site-packages/torch/distributed/elastic/multiprocessing/api.py:897] Sending process 167482 closing signal SIGTERM
+E0604 02:08:40.532000 167243 site-packages/torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 2 (pid: 167476) of binary: /mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/bin/python
+Traceback (most recent call last):
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/mnt/petrelfs/niujunbo/miniconda3/envs/qwen2_5_vl_Z_next/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+llava/train/train_mem.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-06-04_02:08:38
+  host      : SH-IDC1-10-140-24-106
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 167476)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
