@@ -23,4 +23,5 @@ bash scripts/train_ocr.sh/stage2.sh
 ## Data
 
 playground/datasets/stage1.yaml
+
 playground/datasets/stage2.yaml
