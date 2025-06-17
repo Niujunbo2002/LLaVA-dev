@@ -81,7 +81,7 @@ class LlavaMetaModel:
             else:
                 vision_resampler = self.vision_resampler
                 vision_tower = self.vision_tower
-            vision_tower.load_model()
+                # vision_tower.load_model()
 
             # In case it is frozen by LoRA
             for p in self.vision_resampler.parameters():

@@ -1,0 +1,100 @@
+datasets:
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/Vary_PDF_CN-300k_new.json
+  #   sampling_strategy: "first:80%"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/Vary_PDF_EN-300k_new.json
+  #   sampling_strategy: "first:80%"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/DocumentOCR-CN-1000k_new.json
+  #   sampling_strategy: "first:40%"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/DocumentOCR-EN-1000k_new.json
+  #   sampling_strategy: "first:40%"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/DocumentOCR-CN-Paragraph-500k_new.json
+  #   sampling_strategy: "first:20%"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/DocumentOCR-EN-Paragraph-500k_new.json
+  #   sampling_strategy: "first:20%"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/SceneOCR-Laion2b-IOU-Filtered-Full-37k_new.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/SceneOCR-WuKong-IOU-Filtered-Full-39k_new.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/SceneOCR-Laion2b-IOU-Filtered-Crop-69k_new.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/SceneOCR-WuKong-IOU-Filtered-Crop-110k_new.json
+  #   sampling_strategy: "first:5%"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/SceneOCR-Laion2b-IOU-Full-600k_new.json
+  #   sampling_strategy: "first:5%"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/SceneOCR-WuKong-IOU-Full-600k_new.json
+  #   sampling_strategy: "first:5%"
+  # - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/SceneOCR-Laion2b-IOU-Crop-500k_new.json
+  #   sampling_strategy: "first:6%"
+  - json_path: /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/SceneOCR-WuKong-IOU-Crop-500k_new.json
+    sampling_strategy: "first:6%"
+
+  # doc2x_document_ocr #<Mineru-Image>\nDocument OCR:
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_doc-en_box-type-md_500k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_doc-zh_box-type-md_500k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_exam-en_box-type-md_10k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_exam-zh_box-type-md_240k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_3col-en_box-type-md_50k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_3col-zh_box-type-md_40k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_formula-en_box-type-md_190k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_formula-zh_box-type-md_170k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_table-en_box-type-md_80k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_table-en_box-type-md_80k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_table-en_box-type-md_80k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_table-en_box-type-md_80k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/document/doc2x/mineru2_table-zh_box-type-md_350k.json
+  #   sampling_strategy: "all"
+
+  # # notes <Mineru-Image>\nDocument OCR:
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/notes_without_bbox/mineru2_notes-distortion_box-type-md_20k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/Document_Parsing/notes_without_bbox/mineru2_notes-pdf_box-type-md_60k.json
+  #   sampling_strategy: "all"
+
+  # # scene-ocr
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_scene-crop-en_8k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_scene-crop-zh_10k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_scene-full-en_20k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_scene-full-zh_20k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_scene-synthdog-en_10k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_scene-synthdog-en-noise_5k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_scene-synthdog-zh_10k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_scene-synthdog-zh-noise_5k.json
+  #   sampling_strategy: "all"
+  # # doc-ocr
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_doc-en_30k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_doc-para-en_10k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_doc-para-zh_10k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_doc-synthdog-en_10k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_doc-synthdog-mixed_10k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_doc-synthdog-zh_10k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_doc-zh_30k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_vary-pdf-en_15k.json
+  #   sampling_strategy: "all"
+  # - json_path: /mnt/hwfile/doc_parse/lz/0520_data/General_OCR/mineru2_vary-pdf-zh_15k.json
+  #   sampling_strategy: "all"

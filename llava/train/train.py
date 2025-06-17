@@ -26,6 +26,10 @@ from PIL import Image, ImageFile
 from packaging import version
 import numpy as np
 
+from packaging import version
+import numpy as np
+from petrel_client.client import Client
+import io
 import time
 import random
 import yaml
@@ -168,24 +172,6 @@ class TrainingArguments(transformers.TrainingArguments):
     gradient_checkpointing: bool = field(default=True)
     verbose_logging: bool = field(default=False)
     attn_implementation: str = field(default="flash_attention_2", metadata={"help": "Use transformers attention implementation."})
-
-
-# @dataclass
-# class EvaluationArguments:
-#     eval_num_processes: int = field(default=1)
-#     task_names: str = field(default=None)
-#     model: str = field(default="llava")
-#     model_args: Optional[str] = field(default=None)
-#     num_fewshot: Optional[int] = field(default=None)
-#     batch_size: int = field(default=1)
-#     device: Optional[str] = field(default=None)
-#     limit: Optional[int] = field(default=None)
-#     check_integrity: Optional[bool] = field(default=False)
-#     show_task_to_terminal: Optional[bool] = field(default=False)
-#     log_samples: Optional[bool] = field(default=True)
-#     gen_kwargs: Optional[str] = field(default="")
-#     log_samples_suffix: Optional[str] = field(default="")
-#     output_path: Optional[str] = field(default="./logs/")
 
 
 def maybe_zero_3(param, ignore_status=False, name=None):
@@ -955,12 +941,34 @@ def preprocess(sources: Sequence[str], tokenizer: transformers.PreTrainedTokeniz
 
     return dict(input_ids=input_ids, labels=targets)
 
+def proxy_off():
+        os.environ['http_proxy'] = ''
+        os.environ['HTTP_PROXY'] = ''
+        rank0_print("Proxy_off")
 
 class LazySupervisedDataset(Dataset):
+
+    def read_image(self, image_path,image_id=None):
+        if "s3" in image_path:
+            if not image_path.startswith("mineru:"):
+                image_path = "mineru:" + image_path
+            try:
+                image_bytes = self.client.get(image_path)
+                image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+            except Exception as e:
+                image = Image.open(image_id).convert("RGB")
+                print(f"image from image_id {image_path} loaded success")
+        else:
+            image = Image.open(image_path).convert("RGB")
+        return image
+
     def __init__(self, data_path: str, tokenizer: transformers.PreTrainedTokenizer, data_args: DataArguments):
         super(LazySupervisedDataset, self).__init__()
         self.tokenizer = tokenizer
         self.list_data_dict = []
+        proxy_off()
+        self.client = Client()
+        rank0_print("Successfully connected to S3.")
 
         # Handle multiple JSON files specified in the data_path
         if "{" in data_path and "}" in data_path:
@@ -1145,17 +1153,12 @@ class LazySupervisedDataset(Dataset):
         if isinstance(i, int):
             sources = [sources]
         assert len(sources) == 1, "Don't know why it is wrapped to a list"  # FIXME
-
         if "image" in sources[0]:
             image_file = self.list_data_dict[i]["image"]
+            image_id = self.list_data_dict[i].get("id", None)
             image_folder = self.data_args.image_folder
             if packing:#使用qwen的vit
-                img_path= os.path.join(image_folder, image_file)
-                if processor.resize_image_size is not None:
-                    # img_path=Image.open(img_path).convert("RGB").resize((processor.resize_image_size, processor.resize_image_size), Image.BICUBIC)
-                    img_path=Image.open(img_path).convert("RGB").resize((processor.resize_image_size, processor.resize_image_size))
-                    
-                # images = [Image.open(image_file).convert("RGB").resize((self.processor.resize_image_size, self.processor.resize_image_size), Image.BICUBIC) for image_file in images]
+                image_qwen = self.read_image(image_file,image_id)
             else:
                 if type(image_file) is list:#!多图的处理逻辑, 后续要改
                     image = [self.process_image(f) for f in image_file]
@@ -1240,7 +1243,7 @@ class LazySupervisedDataset(Dataset):
         # image exist in the data
         if "image" in self.list_data_dict[i]:
             if packing:
-                data_dict['image'] = [(img_path,'image')]
+                data_dict['image'] = [(image_qwen,'image')]
             else:
                 data_dict['image'] = image #加入image
         elif "video" in self.list_data_dict[i]:

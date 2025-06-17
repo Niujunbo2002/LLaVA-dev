@@ -1,855 +1,0 @@
-OpenCLIP not installed
-OpenCLIP not installed
-OpenCLIP not installedOpenCLIP not installed
-
-OpenCLIP not installed
-OpenCLIP not installed
-OpenCLIP not installed
-OpenCLIP not installed
-[2025-06-03 08:05:49,318] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 08:05:49,394] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 08:05:49,400] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 08:05:49,400] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 08:05:49,400] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 08:05:49,533] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 08:05:49,538] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 08:05:49,538] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 08:06:00,212] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 08:06:00,214] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 08:06:00,224] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 08:06:00,232] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 08:06:00,349] [INFO] [comm.py:658:init_distributed] cdb=None
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-[2025-06-03 08:06:00,678] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 08:06:00,722] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 08:06:00,766] [INFO] [comm.py:658:init_distributed] cdb=None
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-[92mLoading QwenViT ...[0m
-[92mLoading QwenViT ...[0m
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-[92mLoading QwenViT ...[0m
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mQwenViT loaded successfully![0m
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-代理被关闭
-代理被关闭代理被关闭
-
-代理被关闭
-代理被关闭
-代理被关闭
-代理被关闭
-代理被关闭
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Loading extension module fused_adam...Loading extension module fused_adam...
-
-Loading extension module fused_adam...
-Loading extension module fused_adam...
-Loading extension module fused_adam...Loading extension module fused_adam...
-
-Loading extension module fused_adam...
-Loading extension module fused_adam...
-Time to load fused_adam op: 0.7102210521697998 secondsTime to load fused_adam op: 0.7103972434997559 secondsTime to load fused_adam op: 0.712160587310791 seconds
-
-Time to load fused_adam op: 0.7100589275360107 seconds
-
-Time to load fused_adam op: 0.7089014053344727 seconds
-Time to load fused_adam op: 0.7099173069000244 seconds
-Time to load fused_adam op: 0.7080574035644531 seconds
-Time to load fused_adam op: 0.7128887176513672 secondshuhuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-Token indices sequence length is longer than the specified maximum sequence length for this model (17731 > 14000). Running this sequence through the model will result in indexing errors
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-hhuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-Token indices sequence length is longer than the specified maximum sequence length for this model (15520 > 14000). Running this sequence through the model will result in indexing errors
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environmentToken indices sequence length is longer than the specified maximum sequence length for this model (16079 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15145 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14263 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14245 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14828 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15515 > 14000). Running this sequence through the model will result in indexing errors
-nce length is longer than the specified maximum sequence length for this model (14181 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequeToken indices sequence length is longer than the specified maximum sequence length for this model (14717 > 14000). Running this sequence through the model will result Token indices sequence length is longer than the specified maximum sequence length for this model (16022 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequeToken indices sequence length is longer than the specified maximum sequence length for this model (14477 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15992 > 14000). Running this sequence through the model will result in indexing errors
-nce length is longer than the specified maximum sequence length for this model (15149 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14145 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15357 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14056 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequeToken indices sequence length is longer than the specified maximum sequence length for this model (15346 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15337 > 14000). Running this sequence through the model will result in indexing errors
-nce length is longer than the specified maximum sequence length for this model (15531 > 14000). Running this sequence through the model will result in indexing errors
-in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14641 > 14000). Running this sequence through the model will result in indexing errors
-ken indices sequence length is longer than the specified maximum sequence length for this model (14091 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (17210 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14359 > 14000). Running this sequence through the model will result in indexing errors
-, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-wandb: Currently logged in as: zyh2022200727 (zyh2022200727-china) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
-wandb: Tracking run with wandb version 0.19.9
-wandb: Run data is saved locally in /mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/wandb/run-20250603_081121-v9grrsbp
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run nativeres-llava-_mnt_hwfile_mllm_niujunbo_model-image_Qwen_Qwen2-VL-2B-Instruct-_mnt_hwfile_mllm_niujunbo_model-image_Qwen_Qwen2-0.5B-Instruct-power-data-stage2-v3-64GPU
-wandb: ⭐️ View project at https://wandb.ai/zyh2022200727-china/huggingface
-wandb: 🚀 View run at https://wandb.ai/zyh2022200727-china/huggingface/runs/v9grrsbp
-  0%|          | 0/102585 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-Token indices sequence length is longer than the specified maximum sequence length for this model (18365 > 14000). Running this sequence through the model will result in indexing errors
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-Token indices sequence length is longer than the specified maximum sequence length for this model (14009 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (17547 > 14000). Running this sequence through the model will result in indexing errors
-Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 7409 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14910 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14523 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15635 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15809 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 1/102585 [01:01<1759:00:05, 61.73s/it]                                                       {'loss': 1.4223, 'grad_norm': 5.110235214233398, 'learning_rate': 6.49772579597141e-09, 'epoch': 0.0}
-  0%|          | 1/102585 [01:04<1759:00:05, 61.73s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3755 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (16781 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15940 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 2/102585 [01:12<905:17:03, 31.77s/it]                                                       {'loss': 1.5078, 'grad_norm': 4.860132217407227, 'learning_rate': 1.299545159194282e-08, 'epoch': 0.0}
-  0%|          | 2/102585 [01:12<905:17:03, 31.77s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3894 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (20207 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14002 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 3/102585 [01:22<617:38:53, 21.68s/it]                                                      {'loss': 1.3779, 'grad_norm': 4.6999945640563965, 'learning_rate': 1.949317738791423e-08, 'epoch': 0.0}
-  0%|          | 3/102585 [01:22<617:38:53, 21.68s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4699 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (18703 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 4/102585 [01:31<478:21:28, 16.79s/it]                                                      {'loss': 1.2581, 'grad_norm': 4.76633358001709, 'learning_rate': 2.599090318388564e-08, 'epoch': 0.0}
-  0%|          | 4/102585 [01:31<478:21:28, 16.79s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3741 ***********************
-  0%|          | 5/102585 [01:41<407:39:10, 14.31s/it]                                                      {'loss': 1.6767, 'grad_norm': 4.895757675170898, 'learning_rate': 3.248862897985705e-08, 'epoch': 0.0}
-  0%|          | 5/102585 [01:41<407:39:10, 14.31s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4190 ***********************
-  0%|          | 6/102585 [01:54<396:57:43, 13.93s/it]                                                      {'loss': 1.4851, 'grad_norm': 4.136012077331543, 'learning_rate': 3.898635477582846e-08, 'epoch': 0.0}
-  0%|          | 6/102585 [01:54<396:57:43, 13.93s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5423 ***********************
-  0%|          | 7/102585 [02:04<359:37:19, 12.62s/it]                                                      {'loss': 1.5544, 'grad_norm': 5.167479991912842, 'learning_rate': 4.548408057179987e-08, 'epoch': 0.0}
-  0%|          | 7/102585 [02:04<359:37:19, 12.62s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4842 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (16407 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 8/102585 [02:13<330:26:34, 11.60s/it]                                                      {'loss': 1.4274, 'grad_norm': 4.983686923980713, 'learning_rate': 5.198180636777128e-08, 'epoch': 0.0}
-  0%|          | 8/102585 [02:13<330:26:34, 11.60s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 9/102585 [02:23<315:14:09, 11.06s/it]                                                      {'loss': 1.5598, 'grad_norm': 4.954651832580566, 'learning_rate': 5.847953216374269e-08, 'epoch': 0.0}
-  0%|          | 9/102585 [02:23<315:14:09, 11.06s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 10/102585 [02:33<301:29:52, 10.58s/it]                                                       {'loss': 1.4751, 'grad_norm': 4.6992692947387695, 'learning_rate': 6.49772579597141e-08, 'epoch': 0.0}
-  0%|          | 10/102585 [02:33<301:29:52, 10.58s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3848 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14407 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 11/102585 [02:42<290:03:31, 10.18s/it]                                                       {'loss': 1.3141, 'grad_norm': 4.1485724449157715, 'learning_rate': 7.147498375568551e-08, 'epoch': 0.0}
-  0%|          | 11/102585 [02:42<290:03:31, 10.18s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2830 ***********************
-  0%|          | 12/102585 [02:51<279:32:19,  9.81s/it]                                                       {'loss': 1.4655, 'grad_norm': 5.193828105926514, 'learning_rate': 7.797270955165692e-08, 'epoch': 0.0}
-  0%|          | 12/102585 [02:51<279:32:19,  9.81s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3622 ***********************
-  0%|          | 13/102585 [03:00<272:29:11,  9.56s/it]                                                       {'loss': 1.4989, 'grad_norm': 5.3427042961120605, 'learning_rate': 8.447043534762833e-08, 'epoch': 0.0}
-  0%|          | 13/102585 [03:00<272:29:11,  9.56s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4340 ***********************
-  0%|          | 14/102585 [03:09<265:41:26,  9.33s/it]                                                       {'loss': 1.4872, 'grad_norm': 4.839609146118164, 'learning_rate': 9.096816114359974e-08, 'epoch': 0.0}
-  0%|          | 14/102585 [03:09<265:41:26,  9.33s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 15/102585 [03:21<292:27:42, 10.26s/it]                                                       {'loss': 1.5039, 'grad_norm': 5.0748724937438965, 'learning_rate': 9.746588693957116e-08, 'epoch': 0.0}
-  0%|          | 15/102585 [03:21<292:27:42, 10.26s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4305 ***********************
-  0%|          | 16/102585 [03:31<285:18:21, 10.01s/it]                                                       {'loss': 1.5173, 'grad_norm': 4.640074253082275, 'learning_rate': 1.0396361273554257e-07, 'epoch': 0.0}
-  0%|          | 16/102585 [03:31<285:18:21, 10.01s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5723 ***********************
-  0%|          | 17/102585 [03:39<274:09:17,  9.62s/it]                                                       {'loss': 1.4147, 'grad_norm': 4.67059326171875, 'learning_rate': 1.1046133853151398e-07, 'epoch': 0.0}
-  0%|          | 17/102585 [03:39<274:09:17,  9.62s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2612 ***********************
-  0%|          | 18/102585 [03:52<296:35:35, 10.41s/it]                                                       {'loss': 1.7908, 'grad_norm': 4.6204304695129395, 'learning_rate': 1.1695906432748539e-07, 'epoch': 0.0}
-  0%|          | 18/102585 [03:52<296:35:35, 10.41s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2868 ***********************
-  0%|          | 19/102585 [04:00<280:32:08,  9.85s/it]                                                       {'loss': 1.7063, 'grad_norm': 4.560877323150635, 'learning_rate': 1.234567901234568e-07, 'epoch': 0.0}
-  0%|          | 19/102585 [04:00<280:32:08,  9.85s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2971 ***********************
-  0%|          | 20/102585 [04:09<267:31:13,  9.39s/it]                                                       {'loss': 1.3514, 'grad_norm': 4.988598823547363, 'learning_rate': 1.299545159194282e-07, 'epoch': 0.0}
-  0%|          | 20/102585 [04:09<267:31:13,  9.39s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 21/102585 [04:16<252:37:46,  8.87s/it]                                                       {'loss': 1.5059, 'grad_norm': 4.901097774505615, 'learning_rate': 1.3645224171539962e-07, 'epoch': 0.0}
-  0%|          | 21/102585 [04:16<252:37:46,  8.87s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3245 ***********************
-  0%|          | 22/102585 [04:28<280:07:17,  9.83s/it]                                                       {'loss': 1.488, 'grad_norm': 4.548835754394531, 'learning_rate': 1.4294996751137103e-07, 'epoch': 0.0}
-  0%|          | 22/102585 [04:28<280:07:17,  9.83s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5058 ***********************
-  0%|          | 23/102585 [04:41<301:58:53, 10.60s/it]                                                       {'loss': 1.5562, 'grad_norm': 4.85220193862915, 'learning_rate': 1.4944769330734244e-07, 'epoch': 0.0}
-  0%|          | 23/102585 [04:41<301:58:53, 10.60s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 7179 ***********************
-  0%|          | 24/102585 [04:48<276:52:42,  9.72s/it]                                                       {'loss': 1.1447, 'grad_norm': 4.007725238800049, 'learning_rate': 1.5594541910331385e-07, 'epoch': 0.0}
-  0%|          | 24/102585 [04:48<276:52:42,  9.72s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4561 ***********************
-  0%|          | 25/102585 [04:56<261:09:09,  9.17s/it]                                                       {'loss': 1.4514, 'grad_norm': 5.03688383102417, 'learning_rate': 1.6244314489928526e-07, 'epoch': 0.0}
-  0%|          | 25/102585 [04:56<261:09:09,  9.17s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2852 ***********************
-  0%|          | 26/102585 [05:05<260:44:22,  9.15s/it]                                                       {'loss': 1.496, 'grad_norm': 5.296804428100586, 'learning_rate': 1.6894087069525667e-07, 'epoch': 0.0}
-  0%|          | 26/102585 [05:05<260:44:22,  9.15s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3305 ***********************
-  0%|          | 27/102585 [05:14<257:19:22,  9.03s/it]                                                       {'loss': 1.3936, 'grad_norm': 4.775476455688477, 'learning_rate': 1.7543859649122808e-07, 'epoch': 0.0}
-  0%|          | 27/102585 [05:14<257:19:22,  9.03s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2835 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (15629 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 28/102585 [05:22<245:29:37,  8.62s/it]                                                       {'loss': 1.5591, 'grad_norm': 5.430676460266113, 'learning_rate': 1.819363222871995e-07, 'epoch': 0.0}
-  0%|          | 28/102585 [05:22<245:29:37,  8.62s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4296 ***********************
-  0%|          | 29/102585 [05:34<274:59:20,  9.65s/it]                                                       {'loss': 1.3808, 'grad_norm': 4.5717902183532715, 'learning_rate': 1.884340480831709e-07, 'epoch': 0.0}
-  0%|          | 29/102585 [05:34<274:59:20,  9.65s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 977 ***********************
-  0%|          | 30/102585 [05:41<257:09:53,  9.03s/it]                                                       {'loss': 1.3968, 'grad_norm': 5.017513751983643, 'learning_rate': 1.949317738791423e-07, 'epoch': 0.0}
-  0%|          | 30/102585 [05:41<257:09:53,  9.03s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3740 ***********************
-  0%|          | 31/102585 [05:49<246:36:58,  8.66s/it]                                                       {'loss': 1.3616, 'grad_norm': 4.790907859802246, 'learning_rate': 2.0142949967511372e-07, 'epoch': 0.0}
-  0%|          | 31/102585 [05:49<246:36:58,  8.66s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5249 ***********************
-  0%|          | 32/102585 [06:02<278:54:30,  9.79s/it]                                                       {'loss': 1.4927, 'grad_norm': 4.346202850341797, 'learning_rate': 2.0792722547108513e-07, 'epoch': 0.0}
-  0%|          | 32/102585 [06:02<278:54:30,  9.79s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3337 ***********************
-  0%|          | 33/102585 [06:14<297:43:12, 10.45s/it]                                                       {'loss': 1.583, 'grad_norm': 5.635045528411865, 'learning_rate': 2.1442495126705654e-07, 'epoch': 0.0}
-  0%|          | 33/102585 [06:14<297:43:12, 10.45s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3732 ***********************
-  0%|          | 34/102585 [06:25<308:34:30, 10.83s/it]                                                       {'loss': 1.4329, 'grad_norm': 4.569597244262695, 'learning_rate': 2.2092267706302795e-07, 'epoch': 0.0}
-  0%|          | 34/102585 [06:25<308:34:30, 10.83s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3062 ***********************
-  0%|          | 35/102585 [06:35<299:14:06, 10.50s/it]                                                       {'loss': 1.5478, 'grad_norm': 4.597426414489746, 'learning_rate': 2.2742040285899936e-07, 'epoch': 0.0}
-  0%|          | 35/102585 [06:35<299:14:06, 10.50s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 7225 ***********************
-  0%|          | 36/102585 [06:43<276:27:02,  9.70s/it]                                                       {'loss': 1.4215, 'grad_norm': 4.709371566772461, 'learning_rate': 2.3391812865497077e-07, 'epoch': 0.0}
-  0%|          | 36/102585 [06:43<276:27:02,  9.70s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 10697 ***********************
-  0%|          | 37/102585 [06:55<299:34:36, 10.52s/it]                                                       {'loss': 1.4129, 'grad_norm': 4.297580718994141, 'learning_rate': 2.4041585445094216e-07, 'epoch': 0.0}
-  0%|          | 37/102585 [06:55<299:34:36, 10.52s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5334 ***********************
-  0%|          | 38/102585 [07:07<311:11:00, 10.92s/it]                                                       {'loss': 1.4345, 'grad_norm': 4.290529727935791, 'learning_rate': 2.469135802469136e-07, 'epoch': 0.0}
-  0%|          | 38/102585 [07:07<311:11:00, 10.92s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 100 ***********************
-  0%|          | 39/102585 [07:19<319:13:21, 11.21s/it]                                                       {'loss': 1.3576, 'grad_norm': 4.524694919586182, 'learning_rate': 2.53411306042885e-07, 'epoch': 0.0}
-  0%|          | 39/102585 [07:19<319:13:21, 11.21s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1872 ***********************
-  0%|          | 40/102585 [07:28<300:18:43, 10.54s/it]                                                       {'loss': 1.4407, 'grad_norm': 5.418515205383301, 'learning_rate': 2.599090318388564e-07, 'epoch': 0.0}
-  0%|          | 40/102585 [07:28<300:18:43, 10.54s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 12548 ***********************
-  0%|          | 41/102585 [07:40<312:30:18, 10.97s/it]                                                       {'loss': 1.403, 'grad_norm': 4.925166606903076, 'learning_rate': 2.664067576348278e-07, 'epoch': 0.0}
-  0%|          | 41/102585 [07:40<312:30:18, 10.97s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3198 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14950 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 42/102585 [07:48<283:53:41,  9.97s/it]                                                       {'loss': 1.3403, 'grad_norm': 4.971382141113281, 'learning_rate': 2.7290448343079923e-07, 'epoch': 0.0}
-  0%|          | 42/102585 [07:48<283:53:41,  9.97s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1843 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14313 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 43/102585 [07:56<271:54:16,  9.55s/it]                                                       {'loss': 1.3273, 'grad_norm': 4.5997796058654785, 'learning_rate': 2.794022092267706e-07, 'epoch': 0.0}
-  0%|          | 43/102585 [07:56<271:54:16,  9.55s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4743 ***********************
-  0%|          | 44/102585 [08:04<256:26:03,  9.00s/it]                                                       {'loss': 1.2456, 'grad_norm': 4.35397481918335, 'learning_rate': 2.8589993502274206e-07, 'epoch': 0.0}
-  0%|          | 44/102585 [08:04<256:26:03,  9.00s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3083 ***********************
-  0%|          | 45/102585 [08:11<242:15:11,  8.51s/it]                                                       {'loss': 1.2405, 'grad_norm': 4.651163101196289, 'learning_rate': 2.9239766081871344e-07, 'epoch': 0.0}
-  0%|          | 45/102585 [08:11<242:15:11,  8.51s/it]Rank 0:  num_images_all:1
-Rank 0:  **************** max_len: 3569 ***********************
-  0%|          | 46/102585 [08:19<237:03:42,  8.32s/it]                                                       {'loss': 1.3735, 'grad_norm': 4.3244757652282715, 'learning_rate': 2.988953866146849e-07, 'epoch': 0.0}
-  0%|          | 46/102585 [08:19<237:03:42,  8.32s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4452 ***********************
-  0%|          | 47/102585 [08:28<238:50:31,  8.39s/it]                                                       {'loss': 1.2105, 'grad_norm': 4.499360084533691, 'learning_rate': 3.0539311241065626e-07, 'epoch': 0.0}
-  0%|          | 47/102585 [08:28<238:50:31,  8.39s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3380 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14829 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 48/102585 [08:40<269:29:56,  9.46s/it]                                                       {'loss': 1.4702, 'grad_norm': 4.611406326293945, 'learning_rate': 3.118908382066277e-07, 'epoch': 0.0}
-  0%|          | 48/102585 [08:40<269:29:56,  9.46s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 49/102585 [08:52<298:25:05, 10.48s/it]                                                       {'loss': 1.5695, 'grad_norm': 4.729876518249512, 'learning_rate': 3.183885640025991e-07, 'epoch': 0.0}
-  0%|          | 49/102585 [08:52<298:25:05, 10.48s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2913 ***********************
-  0%|          | 50/102585 [09:05<311:53:06, 10.95s/it]                                                       {'loss': 1.3941, 'grad_norm': 4.997259140014648, 'learning_rate': 3.248862897985705e-07, 'epoch': 0.0}
-  0%|          | 50/102585 [09:05<311:53:06, 10.95s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 51/102585 [09:12<284:00:46,  9.97s/it]                                                       {'loss': 1.4308, 'grad_norm': 3.9167113304138184, 'learning_rate': 3.313840155945419e-07, 'epoch': 0.0}
-  0%|          | 51/102585 [09:12<284:00:46,  9.97s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3978 ***********************
-  0%|          | 52/102585 [09:20<264:32:31,  9.29s/it]                                                       {'loss': 1.267, 'grad_norm': 4.178516864776611, 'learning_rate': 3.3788174139051334e-07, 'epoch': 0.0}
-  0%|          | 52/102585 [09:20<264:32:31,  9.29s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 53/102585 [09:28<257:23:28,  9.04s/it]                                                       {'loss': 1.5766, 'grad_norm': 4.320530414581299, 'learning_rate': 3.443794671864847e-07, 'epoch': 0.0}
-  0%|          | 53/102585 [09:28<257:23:28,  9.04s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4952 ***********************
-  0%|          | 54/102585 [09:36<246:06:48,  8.64s/it]                                                       {'loss': 1.2582, 'grad_norm': 4.119456768035889, 'learning_rate': 3.5087719298245616e-07, 'epoch': 0.0}
-  0%|          | 54/102585 [09:36<246:06:48,  8.64s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 826 ***********************
-  0%|          | 55/102585 [09:44<238:40:19,  8.38s/it]                                                       {'loss': 1.275, 'grad_norm': 4.2363691329956055, 'learning_rate': 3.5737491877842754e-07, 'epoch': 0.0}
-  0%|          | 55/102585 [09:44<238:40:19,  8.38s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2594 ***********************
-  0%|          | 56/102585 [09:56<268:53:45,  9.44s/it]                                                       {'loss': 1.4078, 'grad_norm': 4.142913341522217, 'learning_rate': 3.63872644574399e-07, 'epoch': 0.0}
-  0%|          | 56/102585 [09:56<268:53:45,  9.44s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4733 ***********************
-  0%|          | 57/102585 [10:04<258:49:11,  9.09s/it]                                                       {'loss': 1.5355, 'grad_norm': 4.866647720336914, 'learning_rate': 3.7037037037037036e-07, 'epoch': 0.0}
-  0%|          | 57/102585 [10:04<258:49:11,  9.09s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4190 ***********************
-  0%|          | 58/102585 [10:16<279:11:00,  9.80s/it]                                                       {'loss': 1.6126, 'grad_norm': 4.3935723304748535, 'learning_rate': 3.768680961663418e-07, 'epoch': 0.0}
-  0%|          | 58/102585 [10:16<279:11:00,  9.80s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3636 ***********************
-  0%|          | 59/102585 [10:27<294:30:35, 10.34s/it]                                                       {'loss': 1.4542, 'grad_norm': 4.575489521026611, 'learning_rate': 3.833658219623132e-07, 'epoch': 0.0}
-  0%|          | 59/102585 [10:27<294:30:35, 10.34s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4205 ***********************

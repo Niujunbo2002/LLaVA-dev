@@ -1,190 +1,0 @@
-OpenCLIP not installed
-[2025-05-31 15:54:08,110] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-05-31 15:54:31,533] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-05-31 15:54:31,533] [INFO] [comm.py:689:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
-Rank 0:  Overwriting config with {'use_pos_skipping': False, 'pos_skipping_range': 4096, 'mm_spatial_pool_mode': 'bilinear'}
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-Rank 0:  Prompt version: qwen_1_5
-Rank 0:  Using mm_tunable_parts: mm_vision_tower,mm_mlp_adapter,mm_language_model
-Rank 0:  Total parameters: ~1161.48 MB)
-Rank 0:  Trainable parameters: ~1161.48 MB)
-代理被关闭
-Rank 0:  Loading /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/DocumentOCR-CN-1000k_new.json with all sampling strategy
-Rank 0:  Loaded 974331 samples from /mnt/petrelfs/niujunbo/doc_parse/llava/dataset/DocumentOCR-CN-1000k_new.json
-Rank 0:  Loaded 974331 samples from /mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/scripts/train/stage1_debug.yaml
-Rank 0:  Formatting inputs...Skip in lazy mode
-Rank 0:  Setting NCCL timeout to INF to avoid running errors.
-Detected kernel version 3.10.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Detected CUDA files, patching ldflags
-Emitting ninja build file /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124/fused_adam/build.ninja...
-Building extension module fused_adam...
-Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
-ninja: no work to do.
-Loading extension module fused_adam...
-Time to load fused_adam op: 1.3392221927642822 seconds
-wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
-wandb: Currently logged in as: zyh2022200727 (zyh2022200727-china) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
-wandb: Tracking run with wandb version 0.19.9
-wandb: Run data is saved locally in /mnt/petrelfs/niujunbo/zhengyuanhong/NativeResLLaVA_mineru/wandb/run-20250531_155918-batla3vs
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run /mnt/hwfile/doc_parse/niujunbo/llava/checkpoints/nativeres-llava-Qwen2-0.5B-Instruct-ft-v2
-wandb: ⭐️ View project at https://wandb.ai/zyh2022200727-china/huggingface
-wandb: 🚀 View run at https://wandb.ai/zyh2022200727-china/huggingface/runs/batla3vs
-  0%|          | 0/487166 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3164 ***********************
-  0%|          | 1/487166 [02:56<23848:44:54, 176.23s/it]                                                         {'loss': 1.8037, 'grad_norm': 27.011648178100586, 'learning_rate': 6.842285323297981e-08, 'epoch': 0.0}
-  0%|          | 1/487166 [02:56<23848:44:54, 176.23s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1802 ***********************
-  0%|          | 2/487166 [02:57<9901:04:39, 73.17s/it]                                                         {'loss': 1.7072, 'grad_norm': 35.265384674072266, 'learning_rate': 1.3684570646595963e-07, 'epoch': 0.0}
-  0%|          | 2/487166 [02:57<9901:04:39, 73.17s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1928 ***********************
-  0%|          | 3/487166 [02:58<5459:47:49, 40.35s/it]                                                       {'loss': 3.3864, 'grad_norm': 41.11570358276367, 'learning_rate': 2.0526855969893945e-07, 'epoch': 0.0}
-  0%|          | 3/487166 [02:58<5459:47:49, 40.35s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2766 ***********************
-  0%|          | 4/487166 [02:59<3378:43:23, 24.97s/it]                                                       {'loss': 2.1352, 'grad_norm': 69.78390502929688, 'learning_rate': 2.7369141293191925e-07, 'epoch': 0.0}
-  0%|          | 4/487166 [02:59<3378:43:23, 24.97s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3106 ***********************
-  0%|          | 5/487166 [03:01<2218:22:40, 16.39s/it]                                                       {'loss': 1.7805, 'grad_norm': 37.86175537109375, 'learning_rate': 3.4211426616489905e-07, 'epoch': 0.0}
-  0%|          | 5/487166 [03:01<2218:22:40, 16.39s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 693 ***********************
-  0%|          | 6/487166 [03:01<1486:13:19, 10.98s/it]                                                       {'loss': 2.2903, 'grad_norm': 67.99224090576172, 'learning_rate': 4.105371193978789e-07, 'epoch': 0.0}
-  0%|          | 6/487166 [03:01<1486:13:19, 10.98s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2063 ***********************
-  0%|          | 7/487166 [03:02<1060:37:40,  7.84s/it]                                                       {'loss': 1.6934, 'grad_norm': 50.051876068115234, 'learning_rate': 4.789599726308588e-07, 'epoch': 0.0}
-  0%|          | 7/487166 [03:02<1060:37:40,  7.84s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2606 ***********************
-  0%|          | 8/487166 [03:04<784:00:16,  5.79s/it]                                                       {'loss': 1.9476, 'grad_norm': 54.5050048828125, 'learning_rate': 5.473828258638385e-07, 'epoch': 0.0}
-  0%|          | 8/487166 [03:04<784:00:16,  5.79s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3481 ***********************
-  0%|          | 9/487166 [03:06<621:11:32,  4.59s/it]                                                      {'loss': 1.8868, 'grad_norm': 55.353248596191406, 'learning_rate': 6.158056790968184e-07, 'epoch': 0.0}
-  0%|          | 9/487166 [03:06<621:11:32,  4.59s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1960 ***********************
-  0%|          | 10/487166 [03:07<469:45:58,  3.47s/it]                                                       {'loss': 2.1853, 'grad_norm': 46.94072341918945, 'learning_rate': 6.842285323297981e-07, 'epoch': 0.0}
-  0%|          | 10/487166 [03:07<469:45:58,  3.47s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3826 ***********************
-  0%|          | 11/487166 [03:09<401:12:07,  2.96s/it]                                                       {'loss': 1.5792, 'grad_norm': 22.49262237548828, 'learning_rate': 7.526513855627781e-07, 'epoch': 0.0}
-  0%|          | 11/487166 [03:09<401:12:07,  2.96s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2943 ***********************
-  0%|          | 12/487166 [03:10<348:30:15,  2.58s/it]                                                       {'loss': 2.3853, 'grad_norm': 55.08483123779297, 'learning_rate': 8.210742387957578e-07, 'epoch': 0.0}
-  0%|          | 12/487166 [03:10<348:30:15,  2.58s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3068 ***********************
-  0%|          | 13/487166 [03:12<301:31:44,  2.23s/it]                                                       {'loss': 1.4239, 'grad_norm': 43.84701919555664, 'learning_rate': 8.894970920287376e-07, 'epoch': 0.0}
-  0%|          | 13/487166 [03:12<301:31:44,  2.23s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2842 ***********************
-  0%|          | 14/487166 [03:14<301:07:56,  2.23s/it]                                                       {'loss': 1.325, 'grad_norm': 41.454368591308594, 'learning_rate': 9.579199452617175e-07, 'epoch': 0.0}
-  0%|          | 14/487166 [03:14<301:07:56,  2.23s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2924 ***********************
-  0%|          | 15/487166 [03:16<279:15:02,  2.06s/it]                                                       {'loss': 1.6008, 'grad_norm': 34.196075439453125, 'learning_rate': 1.0263427984946972e-06, 'epoch': 0.0}
-  0%|          | 15/487166 [03:16<279:15:02,  2.06s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3020 ***********************
-  0%|          | 16/487166 [03:18<289:25:02,  2.14s/it]                                                       {'loss': 1.1975, 'grad_norm': 48.198116302490234, 'learning_rate': 1.094765651727677e-06, 'epoch': 0.0}
-  0%|          | 16/487166 [03:18<289:25:02,  2.14s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4286 ***********************
-  0%|          | 17/487166 [03:21<314:41:36,  2.33s/it]                                                       {'loss': 1.1571, 'grad_norm': 28.56314468383789, 'learning_rate': 1.163188504960657e-06, 'epoch': 0.0}
-  0%|          | 17/487166 [03:21<314:41:36,  2.33s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1878 ***********************
-  0%|          | 18/487166 [03:22<266:20:45,  1.97s/it]                                                       {'loss': 1.196, 'grad_norm': 34.429019927978516, 'learning_rate': 1.2316113581936367e-06, 'epoch': 0.0}
-  0%|          | 18/487166 [03:22<266:20:45,  1.97s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3324 ***********************
-  0%|          | 19/487166 [03:24<278:46:12,  2.06s/it]                                                       {'loss': 1.3182, 'grad_norm': 20.10000991821289, 'learning_rate': 1.3000342114266166e-06, 'epoch': 0.0}
-  0%|          | 19/487166 [03:24<278:46:12,  2.06s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1900 ***********************
-  0%|          | 20/487166 [03:25<228:26:44,  1.69s/it]                                                       {'loss': 2.0066, 'grad_norm': 44.75164031982422, 'learning_rate': 1.3684570646595962e-06, 'epoch': 0.0}
-  0%|          | 20/487166 [03:25<228:26:44,  1.69s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3435 ***********************
-  0%|          | 21/487166 [03:27<242:32:03,  1.79s/it]                                                       {'loss': 1.5672, 'grad_norm': 33.40731430053711, 'learning_rate': 1.436879917892576e-06, 'epoch': 0.0}
-  0%|          | 21/487166 [03:27<242:32:03,  1.79s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 638 ***********************
-  0%|          | 22/487166 [03:28<192:55:37,  1.43s/it]                                                       {'loss': 1.7569, 'grad_norm': 43.78771209716797, 'learning_rate': 1.5053027711255561e-06, 'epoch': 0.0}
-  0%|          | 22/487166 [03:28<192:55:37,  1.43s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2996 ***********************
-  0%|          | 23/487166 [03:29<211:05:54,  1.56s/it]                                                       {'loss': 1.0032, 'grad_norm': 20.787809371948242, 'learning_rate': 1.5737256243585358e-06, 'epoch': 0.0}
-  0%|          | 23/487166 [03:29<211:05:54,  1.56s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 637 ***********************
-  0%|          | 24/487166 [03:30<167:15:45,  1.24s/it]                                                       {'loss': 1.6455, 'grad_norm': 44.673675537109375, 'learning_rate': 1.6421484775915156e-06, 'epoch': 0.0}
-  0%|          | 24/487166 [03:30<167:15:45,  1.24s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2119 ***********************
-  0%|          | 25/487166 [03:31<169:26:17,  1.25s/it]                                                       {'loss': 1.1688, 'grad_norm': 22.146697998046875, 'learning_rate': 1.7105713308244953e-06, 'epoch': 0.0}
-  0%|          | 25/487166 [03:31<169:26:17,  1.25s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1837 ***********************
-  0%|          | 26/487166 [03:32<162:36:23,  1.20s/it]                                                       {'loss': 1.9249, 'grad_norm': 28.439929962158203, 'learning_rate': 1.7789941840574751e-06, 'epoch': 0.0}
-  0%|          | 26/487166 [03:32<162:36:23,  1.20s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2459 ***********************
-  0%|          | 27/487166 [03:33<156:26:27,  1.16s/it]                                                       {'loss': 1.0862, 'grad_norm': 21.28376579284668, 'learning_rate': 1.8474170372904552e-06, 'epoch': 0.0}
-  0%|          | 27/487166 [03:33<156:26:27,  1.16s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1569 ***********************
-  0%|          | 28/487166 [03:34<150:08:05,  1.11s/it]                                                       {'loss': 1.3462, 'grad_norm': 23.3786563873291, 'learning_rate': 1.915839890523435e-06, 'epoch': 0.0}
-  0%|          | 28/487166 [03:34<150:08:05,  1.11s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3505 ***********************
-  0%|          | 29/487166 [03:36<174:23:54,  1.29s/it]                                                       {'loss': 1.2868, 'grad_norm': 22.015182495117188, 'learning_rate': 1.9842627437564147e-06, 'epoch': 0.0}
-  0%|          | 29/487166 [03:36<174:23:54,  1.29s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3206 ***********************
-  0%|          | 30/487166 [03:38<192:55:50,  1.43s/it]                                                       {'loss': 0.9713, 'grad_norm': 16.254154205322266, 'learning_rate': 2.0526855969893943e-06, 'epoch': 0.0}
-  0%|          | 30/487166 [03:38<192:55:50,  1.43s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2659 ***********************
-  0%|          | 31/487166 [03:39<179:48:27,  1.33s/it]                                                       {'loss': 1.3146, 'grad_norm': 24.712995529174805, 'learning_rate': 2.1211084502223744e-06, 'epoch': 0.0}
-  0%|          | 31/487166 [03:39<179:48:27,  1.33s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 634 ***********************
-  0%|          | 32/487166 [03:39<142:44:01,  1.05s/it]                                                       {'loss': 1.6832, 'grad_norm': 39.32522964477539, 'learning_rate': 2.189531303455354e-06, 'epoch': 0.0}
-  0%|          | 32/487166 [03:39<142:44:01,  1.05s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3376 ***********************
-  0%|          | 33/487166 [03:41<175:41:46,  1.30s/it]                                                       {'loss': 0.9497, 'grad_norm': 16.310312271118164, 'learning_rate': 2.2579541566883337e-06, 'epoch': 0.0}
-  0%|          | 33/487166 [03:41<175:41:46,  1.30s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3316 ***********************
-  0%|          | 34/487166 [03:43<180:13:16,  1.33s/it]                                                       {'loss': 1.2093, 'grad_norm': 26.985219955444336, 'learning_rate': 2.326377009921314e-06, 'epoch': 0.0}
-  0%|          | 34/487166 [03:43<180:13:16,  1.33s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2012 ***********************
-  0%|          | 35/487166 [03:44<169:24:30,  1.25s/it]                                                       {'loss': 1.3266, 'grad_norm': 19.689788818359375, 'learning_rate': 2.3947998631542938e-06, 'epoch': 0.0}
-  0%|          | 35/487166 [03:44<169:24:30,  1.25s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1984 ***********************
-  0%|          | 36/487166 [03:44<153:03:09,  1.13s/it]                                                       {'loss': 1.1378, 'grad_norm': 17.958463668823242, 'learning_rate': 2.4632227163872734e-06, 'epoch': 0.0}
-  0%|          | 36/487166 [03:44<153:03:09,  1.13s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1655 ***********************
-  0%|          | 37/487166 [03:45<138:42:56,  1.03s/it]                                                       {'loss': 1.6721, 'grad_norm': 24.232297897338867, 'learning_rate': 2.531645569620253e-06, 'epoch': 0.0}
-  0%|          | 37/487166 [03:45<138:42:56,  1.03s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2612 ***********************
-  0%|          | 38/487166 [03:46<143:11:36,  1.06s/it]                                                       {'loss': 1.6395, 'grad_norm': 40.66301727294922, 'learning_rate': 2.600068422853233e-06, 'epoch': 0.0}
-  0%|          | 38/487166 [03:46<143:11:36,  1.06s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2776 ***********************

@@ -70,7 +70,7 @@ export PROMPT_VERSION="qwen_2"
 
 # Naming & logging
 export BASE_RUN_NAME="nativeres-llava-${LLM_VERSION_CLEAN}-qwenvit_2_5-pt"
-export MID_RUN_NAME="NativeRes-${LLM_VERSION_CLEAN}-qwen2_5_vit-ft"
+export MID_RUN_NAME="NativeRes-LlaVA-${LLM_VERSION_CLEAN}-qwen2_5_vit-ft"
 echo "BASE_RUN_NAME: ${BASE_RUN_NAME}"
 echo "MID_RUN_NAME: ${MID_RUN_NAME}"
 

@@ -78,7 +78,7 @@ export SCRIPT_NAME=$(basename "$SCRIPT_PATH")
 
 export DATE=$(date +%m-%d)
 
-export BASE_RUN_NAME="NativeRes-${LLM_VERSION_CLEAN}-qwen2_5_vit-pt"
+export BASE_RUN_NAME="NativeRes-LLaVA-${LLM_VERSION_CLEAN}-qwen2_5_vit-pt"
 
 echo "BASE_RUN_NAME: ${BASE_RUN_NAME}"
 

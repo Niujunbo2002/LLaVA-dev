@@ -1,1555 +1,0 @@
-OpenCLIP not installed
-OpenCLIP not installed
-OpenCLIP not installed
-OpenCLIP not installed
-OpenCLIP not installed
-OpenCLIP not installed
-OpenCLIP not installed
-OpenCLIP not installed
-[2025-06-03 23:03:21,262] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 23:03:21,262] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 23:03:21,535] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 23:03:21,537] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 23:03:21,539] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 23:03:21,567] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 23:03:21,568] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 23:03:21,571] [INFO] [real_accelerator.py:222:get_accelerator] Setting ds_accelerator to cuda (auto detect)
-[2025-06-03 23:03:35,220] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 23:03:35,407] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 23:03:35,408] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 23:03:35,426] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 23:03:35,432] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 23:03:35,433] [INFO] [comm.py:658:init_distributed] cdb=None
-[2025-06-03 23:03:35,465] [INFO] [comm.py:658:init_distributed] cdb=None
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `us[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a futurYou are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-[92mLoading QwenViT ...[0m
-[92mLoading QwenViT ...[0m
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-[92mLoading QwenViT ...[0m
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
-[92mLoading QwenViT ...[0m
-[92mQwenViT loaded successfully![0m
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was s[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mQwenViT loaded successfully![0m
-Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 2048 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-代理被关闭
-代[92mMIN_PIXELS: 4 * 28 * 28 
-MAX_PIXELS: 7290 * 28 * 28[0m
-代理被关闭
-代理被关闭
-代理被关闭
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-s3 Client 创建成功
-SH-IDC1-10-140-24-133:107811:107811 [4] NCCL INFO cudaDriverVersion 12000
-SH-IDC1-10-140-24-133:107811:107811 [4] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107811:107811 [4] NCCL INFO Bootstrap : Using bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107811:107811 [4] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
-SH-IDC1-10-140-24-133:107811:107811 [4] NCCL INFO NET/Plugin: Plugin load returned 2 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-net.so
-SH-IDC1-10-140-24-133:107811:107811 [4] NCCL INFO NET/Plugin: Using internal network plugin.
-SH-IDC1-10-140-24-133:107811:107811 [4] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-133:107811:118717 [4] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
-SH-IDC1-10-140-24-133:107811:118717 [4] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107811:118717 [4] NCCL INFO NCCL_IB_HCA set to mlx5_0
-SH-IDC1-10-140-24-133:107811:118717 [4] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [RO]; OOB bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107811:118717 [4] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-133:107811:118717 [4] NCCL INFO Using network IB
-SH-IDC1-10-140-24-133:107808:107808 [1] NCCL INFO cudaDriverVersion 12000
-SH-IDC1-10-140-24-133:107808:107808 [1] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107808:107808 [1] NCCL INFO Bootstrap : Using bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107808:107808 [1] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
-SH-IDC1-10-140-24-133:107808:107808 [1] NCCL INFO NET/Plugin: Plugin load returned 2 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-net.so
-SH-IDC1-10-140-24-133:107808:107808 [1] NCCL INFO NET/Plugin: Using internal network plugin.
-SH-IDC1-10-140-24-133:107808:107808 [1] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-133:107808:118719 [1] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
-SH-IDC1-10-140-24-133:107808:118719 [1] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107808:118719 [1] NCCL INFO NCCL_IB_HCA set to mlx5_0
-SH-IDC1-10-140-24-133:107810:107810 [3] NCCL INFO cudaDriverVersion 12000
-SH-IDC1-10-140-24-133:107810:107810 [3] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107810:107810 [3] NCCL INFO Bootstrap : Using bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107808:118719 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [RO]; OOB bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107808:118719 [1] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-133:107808:118719 [1] NCCL INFO Using network IB
-SH-IDC1-10-140-24-133:107810:107810 [3] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
-SH-IDC1-10-140-24-133:107810:107810 [3] NCCL INFO NET/Plugin: Plugin load returned 2 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-net.so
-SH-IDC1-10-140-24-133:107810:107810 [3] NCCL INFO NET/Plugin: Using internal network plugin.
-SH-IDC1-10-140-24-133:107810:107810 [3] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-133:107810:118723 [3] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
-SH-IDC1-10-140-24-133:107810:118723 [3] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107810:118723 [3] NCCL INFO NCCL_IB_HCA set to mlx5_0
-SH-IDC1-10-140-24-133:107810:118723 [3] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [RO]; OOB bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107810:118723 [3] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-133:107810:118723 [3] NCCL INFO Using network IB
-SH-IDC1-10-140-24-133:107812:107812 [5] NCCL INFO cudaDriverVersion 12000
-SH-IDC1-10-140-24-133:107812:107812 [5] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107812:107812 [5] NCCL INFO Bootstrap : Using bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107812:107812 [5] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
-SH-IDC1-10-140-24-133:107812:107812 [5] NCCL INFO NET/Plugin: Plugin load returned 2 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-net.so
-SH-IDC1-10-140-24-133:107812:107812 [5] NCCL INFO NET/Plugin: Using internal network plugin.
-SH-IDC1-10-140-24-133:107812:107812 [5] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-133:107812:118727 [5] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
-SH-IDC1-10-140-24-133:107814:107814 [7] NCCL INFO cudaDriverVersion 12000
-SH-IDC1-10-140-24-133:107812:118727 [5] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107814:107814 [7] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107812:118727 [5] NCCL INFO NCCL_IB_HCA set to mlx5_0
-SH-IDC1-10-140-24-133:107814:107814 [7] NCCL INFO Bootstrap : Using bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107814:107814 [7] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
-SH-IDC1-10-140-24-133:107814:107814 [7] NCCL INFO NET/Plugin: Plugin load returned 2 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-net.so
-SH-IDC1-10-140-24-133:107814:107814 [7] NCCL INFO NET/Plugin: Using internal network plugin.
-SH-IDC1-10-140-24-133:107814:107814 [7] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-133:107814:118729 [7] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
-SH-IDC1-10-140-24-133:107814:118729 [7] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107814:118729 [7] NCCL INFO NCCL_IB_HCA set to mlx5_0
-SH-IDC1-10-140-24-133:107812:118727 [5] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [RO]; OOB bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107812:118727 [5] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-133:107812:118727 [5] NCCL INFO Using network IB
-SH-IDC1-10-140-24-133:107814:118729 [7] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [RO]; OOB bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107814:118729 [7] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-133:107814:118729 [7] NCCL INFO Using network IB
-SH-IDC1-10-140-24-133:107807:107807 [0] NCCL INFO cudaDriverVersion 12000
-SH-IDC1-10-140-24-133:107807:107807 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107807:107807 [0] NCCL INFO Bootstrap : Using bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107807:107807 [0] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
-SH-IDC1-10-140-24-133:107807:107807 [0] NCCL INFO NET/Plugin: Plugin load returned 2 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-net.so
-SH-IDC1-10-140-24-133:107807:107807 [0] NCCL INFO NET/Plugin: Using internal network plugin.
-SH-IDC1-10-140-24-133:107807:107807 [0] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-133:107807:118731 [0] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
-SH-IDC1-10-140-24-133:107807:118731 [0] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107807:118731 [0] NCCL INFO NCCL_IB_HCA set to mlx5_0
-SH-IDC1-10-140-24-133:107807:118731 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [RO]; OOB bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107807:118731 [0] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-133:107807:118731 [0] NCCL INFO Using network IB
-SH-IDC1-10-140-24-133:107813:107813 [6] NCCL INFO cudaDriverVersion 12000
-SH-IDC1-10-140-24-133:107813:107813 [6] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107813:107813 [6] NCCL INFO Bootstrap : Using bond0:10.140.28.133<0>
-SH-IDC1-10-140-24-133:107813:107813 [6] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
-SH-IDC1-10-140-24-133:107813:107813 [6] NCCL INFO NET/Plugin: Plugin load returned 2 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-net.so
-SH-IDC1-10-140-24-133:107813:107813 [6] NCCL INFO NET/Plugin: Using internal network plugin.
-SH-IDC1-10-140-24-133:107813:107813 [6] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-133:107813:118733 [6] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
-SH-IDC1-10-140-24-133:107813:118733 [6] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-133:107813:118733 [6] NCCL INFO NCCL_IB_HCA set to mlx5_0
-SH-IDC1-10-140-24-133:107813:118733 [6] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [RO]; SH-IDC1-10-140-24-111:31936:31936 [5] NCCL INFO cudaDriverVersion 12000
-SH-IDC1-10-140-24-111:31936:31936 [5] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-10-140-24-111:31936:31936 [5] NCCL INFO Bootstrap : Using bond0:10.140.28.111<0>
-SH-IDC1-10-140-24-111:31936:31936 [5] NCCL INFO NET/Plugin: No plugin found (libnccl-net.so)
-SH-IDC1-10-140-24-111:31936:31936 [5] NCCL INFO NET/Plugin: Plugin load returned 2 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-net.so
-SH-IDC1-10-140-24-111:31936:31936 [5] NCCL INFO NET/Plugin: Using internal network plugin.
-SH-IDC1-10-140-24-111:31936:31936 [5] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO NCCL_IB_DISABLE set by environment to 0.
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO NCCL_SOCKET_IFNAME set by environment to bond0
-SH-IDC1-SH-IDC1-10-140-24-88:3102:9785 [1] NCCL INFO ncclCommInitRank comm 0x7fc666e6db30 rank 17 nranks 64 cudaDev 1 nvmlDev 1 busId 2c000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-88:3101:9647 [0] NCCL INFO ncclCommInitRank comm 0x7efb3efef5d0 rank 16 nranks 64 cudaDev 0 nvmlDev 0 busId 26000 commId 0xf565ec130961ce70SH-IDC1-10-140-24-135:50676:60070 [0] NCCL INFO ncclCommInitRank comm 0x7f45defc5e60 rank 56 nranks 64 cudaDev 0 nvmlDev 0 busId 26000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-135:50677:60093 SH-IDC1-10-140-24-117:174368:181543 [0] NCCL INFO ncclCommInitRank comm 0x7fbbf2eb24d0 rank 40 nranks 64 cudaDev 0 nvmlDev 0 busId 26000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-117:174369:181544 [1] NCCL INFO ncclCommInitRank comm 0x7f8862eabd30 rank 41 nranks 64 cudaDev 1 nvmlDev 1 busId 2c000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-117:174370:181549 [2] NCCL INFO ncclCommInitRank comm 0x7efc4aeb5a70 rank 42 nranks 64 cudaDev 2 nvmlDev 2 busId 65000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-117:174372:181561 [4] NCCL INFO ncclCommInitRank comm 0x7f02a6fde1e0 rank 44 nranks 64 cudaDev 4 nvmlDev 4 busId a3000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-117:174373:181551 [5] NCCL INFO ncclCommInitRank comm 0x7f9b26e6db30 rank 45 nranks 64 cudaDev 5 nvmlDev 5 busId a8000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-117:174371:181563 [3] NCCL INFO ncclCommInitRank comm 0x7f0ca6e6db30 rank 43 nranks 64 cudaDev 3 nvmlDev 3 busId 6a000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-117:174375:181555 [7] NCCL INFO ncclCommInitRank comm 0x7f1912e6db30 rank 47 nranks 64 cudaDev 7 nvmlDev 7 busId e7000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-117:174374:181552 [6] NCCL INFO ncclCommInitRank comm 0x7f1006feacc0 rank 46 nranks 64 cudaDev 6 nvmlDev 6 busId e1000 commId 0xf565ec130961ce70 - Init START
-SH-IDC1-10-140-24-133:107809:118737 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff
-SH-IDC1-10-140-24-133:107809:118737 [2] NCCL INFO NVLS multicast support is not available on dev 2
-SH-IDC1-10-140-24-133:107812:118727 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-133:107812:118727 [5] NCCL INFO NVLS multicast support is not available on dev 5
-SH-IDC1-10-140-24-133:107813:118733 [6] NCCL INFO Setting affinity for GPU 6 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-133:107813:118733 [6] NCCL INFO NVLS multicast support is not available on dev 6
-SH-IDC1-10-140-24-133:107807:118731 [0] NCCL INFO Setting affinity for GPU 0 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff
-SH-IDC1-10-140-24-133:107807:118731 [0] NCCL INFO NVLS multicast support is not available on dev 0
-SH-IDC1-10-140-24-133:107814:118729 [7] NCCL INFO Setting affinity for GPU 7 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-133:107814:118729 [7] NCCL INFO NVLS multicast support is not avaiSH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO NVLS multicast support is not available on dev 2
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO Setting affinity for GPU 7 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO NVLS multicast support is not available on dev 7
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO comm 0x7fd29ee96bd0 rank 39 nRanks 64 nNodes 8 localRanks 8 localRank 7 MNNVL 0
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO comm 0x7fa9e6eaa8c0 rank 38 nRanks 64 nNodes 8 localRanks 8 localRank 6 MNNVL 0
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO comm 0x7f7c80f195c0 rank 34 nRanks 64 nNodes 8 localRanks 8 localRank 2 MNNVL 0
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO comm 0x7f7c5aea8d00 rank 37 nRanks 64 nNodes 8 localRanks 8 localRank 5 MNNVL 0
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO comm 0x7f927ee7ac40 rank 35 nRanks 64 nNodes 8 localRanks 8 localRank 3 MNNVL 0
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO comm 0x7fc26b007a00 rank 36 nRanks 64 nNodes 8 localRanks 8 localRank 4 MNNVL 0
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO Trees [0] 39/-1/-1->38->37 [1] 39/-1/-1->38->37
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO Trees [0] -1/-1/-1->39->38 [1] -1/-1/-1->39->38
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO Trees [0] 38/-1/-1->37->36 [1] 38/-1/-1->37->36
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO Trees [0] 35/-1/-1->34->33 [1] 35/-1/-1->34->33
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO Trees [0] 36/-1/-1->35->34 [1] 36/-1/-1->35->34
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO Trees [0] 37/-1/-1->36->35 [1] 37/-1/-1->36->35
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO comm 0x7f8e16ebe8f0 rank 33 nRanks 64 nNodes 8 localRanks 8 localRank 1 MNNVL 0
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Trees [0] 34/16/-1->33->32 [1] 34/-1/-1->33->32
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO comm 0x7f640ee91340 rank 32 nRanks 64 nNodes 8 localRanks 8 localRank 0 MNNVL 0
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Trees [0] 33/48/-1->32->0 [1] 33/-1/-1->32->40
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO Channel 00/0 : 37[5] -> 36[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO Channel 00/0 : 34[2] -> 33[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO Channel 01/0 : 37[5] -> 36[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO Channel 01/0 : 34[2] -> 33[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Channel 00/0 : 33[1] -> 40[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Channel 01/0 : 33[1] -> 40[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 00/0 : 25[1] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 01/0 : 25[1] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 00/0 : 32[0] -> 39[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 01/0 : 32[0] -> 39[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO Channel 00/0 : 39[7] -> 38[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO Channel 01/0 : 39[7] -> 38[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO Channel 00/0 : 35[3] -> 34[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO Channel 01/0 : 35[3] -> 34[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO Channel 00/0 : 38[6] -> 37[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO Channel 00/0 : 36[4] -> 35[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO Channel 01/0 : 38[6] -> 37[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO Channel 01/0 : 36[4] -> 35[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:40078 [0] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 00/0 : 32[0] -> 33[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 01/0 : 32[0] -> 33[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Channel 00/0 : 33[1] -> 34[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Channel 01/0 : 33[1] -> 34[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 01/0 : 32[0] -> 40[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 00/0 : 32[0] -> 48[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO Channel 00/0 : 34[2] -> 35[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO Channel 00/0 : 35[3] -> 36[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO Channel 01/0 : 34[2] -> 35[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO Channel 00/0 : 36[4] -> 37[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO Channel 01/0 : 35[3] -> 36[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO Channel 00/0 : 37[5] -> 38[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Channel 00/0 : 16[0] -> 33[1] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO Channel 00/0 : 38[6] -> 39[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO Channel 01/0 : 36[4] -> 37[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO Channel 01/0 : 37[5] -> 38[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO Channel 01/0 : 38[6] -> 39[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Channel 00/0 : 33[1] -> 16[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Channel 00/0 : 33[1] -> 32[0] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Channel 01/0 : 33[1] -> 32[0] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 00/0 : 0[0] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 00/0 : 32[0] -> 0[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 00/0 : 48[0] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Channel 01/0 : 40[0] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31932:40076 [1] NCCL INFO NCCL_IB_GID_INDEX set by environment to 3.
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO TUNER/Plugin: Plugin load returned 11 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-tuner.so
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO TUNER/Plugin: Plugin load returned 11 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-tuner.so
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO TUNER/Plugin: Plugin load returned 11 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-tuner.so
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO TUNER/Plugin: Using internal tuner plugin.
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO TUNER/Plugin: Using internal tuner plugin.
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO TUNER/Plugin: Using internal tuner plugin.
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO TUNER/Plugin: Plugin load returned 11 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-tuner.so
-SH-IDC1-10-140-24-111:31937:39870 [6] NCCL INFO ncclCommInitRank comm 0x7fa9e6eaa8c0 rank 38 nranks 64 cudaDev 6 nvmlDev 6 busId e1000 commId 0xf565ec130961ce70 - Init COMPLETE
-SH-IDC1-10-140-24-111:31936:40061 [5] NCCL INFO ncclCommInitRank comm 0x7f7c5aea8d00 rank 37 nranks 64 cudaDev 5 nvmlDev 5 busId a8000 commId 0xf565ec130961ce70 - Init COMPLETE
-SH-IDC1-10-140-24-111:31938:39834 [7] NCCL INFO ncclCommInitRank comm 0x7fd29ee96bd0 rank 39 nranks 64 cudaDev 7 nvmlDev 7 busId e7000 commId 0xf565ec130961ce70 - Init COMPLETE
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO TUNER/Plugin: Using internal tuner plugin.
-SH-IDC1-10-140-24-111:31935:39851 [4] NCCL INFO ncclCommInitRank comm 0x7fc26b007a00 rank 36 nranks 64 cudaDev 4 nvmlDev 4 busId a3000 commId 0xf565ec130961ce70 - Init COMPLETE
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO TUNER/Plugin: Plugin load returned 11 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-tuner.so
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO TUNER/Plugin: Plugin load returned 11 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-tuner.so
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO TUNER/Plugin: Using internal tuner plugin.
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO TUNER/Plugin: Using internal tuner plugin.
-SH-IDC1-10-140-24-111:31933:39839 [2] NCCL INFO ncclCommInitRank comm 0x7f7c80f195c0 rank 34 nranks 64 cudaDev 2 nvmlDev 2 busId 65000 commId 0xf565ec130961ce70 - Init COMPLETE
-SH-IDC1-10-140-24-111:31931:39849 [0] NCCL INFO ncclCommInitRank comm 0x7f640ee91340 rank 32 nranks 64 cudaDev 0 nvmlDev 0 busId 26000 commId 0xf565ec130961ce70 - Init COMPLETE
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO TUNER/Plugin: Plugin load returned 11 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-tuner.so
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO TUNER/Plugin: Using internal tuner plugin.
-SH-IDC1-10-140-24-111:31932:39843 [1] NCCL INFO ncclCommInitRank comm 0x7f8e16ebe8f0 rank 33 nranks 64 cudaDev 1 nvmlDev 1 busId 2c000 commId 0xf565ec130961ce70 - Init COMPLETE
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO TUNER/Plugin: Plugin load returned 11 : libnccl-net.so: cannot open shared object file: No such file or directory : when loading libnccl-tuner.so
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO TUNER/Plugin: Using internal tuner plugin.
-SH-IDC1-10-140-24-111:31934:39838 [3] NCCL INFO ncclCommInitRank comm 0x7f927ee7ac40 rank 35 nranks 64 cudaDev 3 nvmlDev 3 busId 6a000 commId 0xf565ec130961ce70 - Init COMPLETE
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu124 as PyTorch extensions root...
-Using /mnt/petrelfs/niujunbo/.cache/torch_extensions/py310_cu12huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current prohuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Ahuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the image from image_id mineru:s3://doc-parse-huawei/mineru2/distortion/0430/shadow/HME_Dataset_v4/train/mathwritting_synthetic_9481daf3e707f45b.png loaded success
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can eithehuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlochuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can eithehuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-Token indices sequence length is longer than the specified maximum sequence length for this model (14992 > 14000). Running this sequence thrhuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-Token indices sequence length is longer than the specified maximum sequence length for this model (19842 > 14000). Running this sequence through the model will result in indexing errors
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fohuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment varToken indices sequence length is longer than the specified maximum sequence length for this model (14927 > 14000). Running this sequence through the model will result in indexing errors
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-Token indices sequence length is longer than the specified maximum sequence length for this model (14556 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (18643 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14374 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (16409 > 14000). Running this sequenToken indices sequence length is longer than the speSH-IDC1-10-140-24-88:3107:3107 [6] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-88:3107:31368 [6] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-88:3107:31368 [6] NCCL INFO Using network IB
-SH-IDC1-10-140-24-88:3101:3101 [0] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-88:3104:3104 [3] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-88:3106:3106 [5] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-88:3105:3105 [4] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-88:3103:3103 [2] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-88:3104:31370 [3] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-88:3104:31370 [3] NCCL INFO Using network IB
-SH-IDC1-10-140-24-88:3101:31369 [0] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-8SH-IDC1-10-140-24-135:50683:50683 [7] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-135:50680:50680 [4] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-135:50676:50676 [0] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-135:50678:50678 [2] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-135:50683:81228 [7] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-135:50683:81228 [7] NCCL INFO Using network IB
-SH-IDC1-10-140-24-135:50680:81229 [4] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-135:50680:81229 [4] NCCL INFO Using network IB
-SH-IDC1-10-140-24-135:50676:81230 [0] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-135:50676:81230 [0] NCCL INFO Using network IB
-SH-IDC1-10-140-24-135:50678:81231 [2] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-135:50678:81231 [2] NCCL INFO Using network IB
-SH-IDC1-10-140-24-135:50682:50682 [6] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-135:50682:81232 [6] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-135:50682:81232 [6] NCCL INFO Using network IB
-SH-IDC1-10-140-24-135:50681:50681 [5] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-135:50681:81233 [5] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-135:50681:81233 [5] NCCL INFO Using network IB
-SH-IDC1-10-140-24-135:50677:50677 [1] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-135:50677:81234 [1] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-135:50677:81234 [1] NCCL INFO Using network IB
-SH-IDC1-10-140-24-135:50679:50679 [3] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-135:50679:81235 [3] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-135:50679:81235 [3] NCCL INFO Using network IB
-SH-IDC1-10-140-24-135:50677:81234 [1] NCCL INFO ncclCommInitRank comm 0x7f13ff5319c0 rank 57 nranks 64 cudaDev 1 nvmlDev 1 busId 2c000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-135:50683:81228 [7] NCCL INFO ncclCommInitRank comm 0x7f1155d60d00 rank 63 nranks 64 cudaDev 7 nvmlDev 7 busId e7000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-135:50676:81230 [0] NCCL INFO ncclCommInitRank comm 0x7f4047f4e730 rank 56 nranks 64 cudaDev 0 nvmlDev 0 busId 26000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-135:50680:81229 [4] NCCL INFO ncclCommInitRank comm 0x7f37e4381390 rank 60 nranks 64 cudaDev 4 nvmlDev 4 busId a3000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-135:50682:81232 [6] NCCL INFO ncclCommInitRank comm 0x7f1e473430c0 rank 62 nranks 64 cudaDev 6 nvmlDev 6 busId e1000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-135:50678:81231 [2] NCCL INFO ncclCommInitRank comm 0x7efbbb321140 rank 58 nranks 64 cudaDev 2 nvmlDev 2 busId 65000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-135:50681:81233 [5] NCCL INFO ncclCommInitRank comm 0x7f32afd1f140 rank 61 nranks 64 cudaDev 5 nvmlDev 5 busId a8000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-135:50679:81235 [3] NCCL INFO ncclCommInitRank comm 0x7efeb6000c80 rank 59 nranks 64 cudaDev 3 nvmlDev 3 busId 6a000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-135:50681:81233 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,ffffffffSH-IDC1-10-140-24-133:107813:139556 [6] NCCL INFO Setting affinity for GPU 6 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-133:107813:139556 [6] NCCL INFO NVLS multicast support is not available on dev 6
-SH-IDC1-10-140-24-133:107807:139555 [0] NCCL INFO Setting affinity for GPU 0 to ffffffff,ffffffff,00000000,00000000,ffffffSH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO NVLS multicast support is not available on dev 5
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO Setting affinity for GPU 7 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO NVLS multicast support is not available on dev 7
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Setting affinity for GPU 0 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO NVLS multicast support is not available on dev 0
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO comm 0x7f5e74fec3b0 rank 32 nRanks 64 nNodes 8 localRanks 8 localRank 0 MNNVL 0
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO comm 0x7fcd5b5c7460 rank 39 nRanks 64 nNodes 8 localRanks 8 localRank 7 MNNVL 0
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO comm 0x7fa493cb3740 rank 38 nRanks 64 nNodes 8 localRanks 8 localRank 6 MNNVL 0
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO comm 0x7fbd3e9c2f40 rank 36 nRanks 64 nNodes 8 localRanks 8 localRank 4 MNNVL 0
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO comm 0x7f8d49c4f7e0 rank 35 nRanks 64 nNodes 8 localRanks 8 localRank 3 MNNVL 0
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO comm 0x7f773e6f89e0 rank 34 nRanks 64 nNodes 8 localRanks 8 localRank 2 MNNVL 0
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO comm 0x7f88ddcc5e00 rank 33 nRanks 64 nNodes 8 localRanks 8 localRank 1 MNNVL 0
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO comm 0x7f771ffbf600 rank 37 nRanks 64 nNodes 8 localRanks 8 localRank 5 MNNVL 0
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Trees [0] 33/48/-1->32->0 [1] 33/-1/-1->32->40
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO Trees [0] 35/-1/-1->34->33 [1] 35/-1/-1->34->33
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO Trees [0] 39/-1/-1->38->37 [1] 39/-1/-1->38->37
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO Trees [0] 37/-1/-1->36->35 [1] 37/-1/-1->36->35
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO Trees [0] 36/-1/-1->35->34 [1] 36/-1/-1->35->34
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Trees [0] 34/16/-1->33->32 [1] 34/-1/-1->33->32
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO Trees [0] 38/-1/-1->37->36 [1] 38/-1/-1->37->36
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO Trees [0] -1/-1/-1->39->38 [1] -1/-1/-1->39->38
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO Channel 00/0 : 34[2] -> 33[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO Channel 00/0 : 38[6] -> 37[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO Channel 01/0 : 34[2] -> 33[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO Channel 01/0 : 38[6] -> 37[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO Channel 00/0 : 37[5] -> 36[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Channel 00/0 : 33[1] -> 40[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Channel 01/0 : 33[1] -> 40[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 00/0 : 25[1] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO Channel 01/0 : 37[5] -> 36[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 01/0 : 25[1] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 00/0 : 32[0] -> 39[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO Channel 00/0 : 35[3] -> 34[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 01/0 : 32[0] -> 39[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO Channel 01/0 : 35[3] -> 34[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO Channel 00/0 : 36[4] -> 35[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO Channel 01/0 : 36[4] -> 35[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO Channel 00/0 : 39[7] -> 38[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO Channel 01/0 : 39[7] -> 38[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Channel 00/0 : 33[1] -> 34[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Channel 01/0 : 33[1] -> 34[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 00/0 : 32[0] -> 33[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 01/0 : 32[0] -> 33[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 01/0 : 32[0] -> 40[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO Channel 00/0 : 37[5] -> 38[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO Channel 00/0 : 38[6] -> 39[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO Channel 01/0 : 37[5] -> 38[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO Channel 01/0 : 38[6] -> 39[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 00/0 : 32[0] -> 48[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO Channel 00/0 : 35[3] -> 36[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO Channel 00/0 : 34[2] -> 35[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO Channel 00/0 : 36[4] -> 37[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO Channel 01/0 : 36[4] -> 37[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO Channel 01/0 : 34[2] -> 35[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO Channel 01/0 : 35[3] -> 36[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Channel 00/0 : 16[0] -> 33[1] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31937:62732 [6] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 00/0 : 0[0] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 00/0 : 32[0] -> 0[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Channel 00/0 : 33[1] -> 16[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Channel 00/0 : 33[1] -> 32[0] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Channel 01/0 : 33[1] -> 32[0] via P2P/CUMEM/read
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 00/0 : 48[0] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Channel 01/0 : 40[0] -> 32[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-111:31932:62728 [1] NCCL INFO ncclCommInitRank comm 0x7f88ddcc5e00 rank 33 nranks 64 cudaDev 1 nvmlDev 1 busId 2c000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-111:31934:62733 [3] NCCL INFO ncclCommInitRank comm 0x7f8d49c4f7e0 rank 35 nranks 64 cudaDev 3 nvmlDev 3 busId 6a000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-111:31938:62730 [7] NCCL INFO ncclCommInitRank comm 0x7fcd5b5c7460 rank 39 nranks 64 cudaDev 7 nvmlDev 7 busId e7000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-111:31936:62731 [5] NCCL INFO ncclCommInitRank comm 0x7f771ffbf600 rank 37 nranks 64 cudaDev 5 nvmlDev 5 busId a8000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-111:31933:62726 [2] NCCL INFO ncclCommInitRank comm 0x7f773e6f89e0 rank 34 nranks 64 cudaDev 2 nvmlDev 2 busId 65000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-111:31935:62729 [4] NCCL INFO ncclCommInitRank comm 0x7fbd3e9c2f40 rank 36 nranks 64 cudaDev 4 nvmlDev 4 busId a3000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-111:31931:62727 [0] NCCL INFO ncclCommInitRank comm 0x7f5e74fec3b0 rank 32 nranks 64 cudaDev 0 nvmlDev 0 busId 26000 commId 0xb1c1be50d9e68605 - IniToken indices sequence length is longer than the specified maximum sequence length for this model (17910 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14963 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14345 > 14000). Running this sequence through the model will result in indexing errors
-Toimage from image_id mineru:s3://doc-parse-huawei/mineru2/distortion/0430/shadow/HME_Dataset_v4/train/mathwritting_synthetic_016e07d1af4e3b3f.png loaded success
-image from image_id mineru:s3://doc-parse-huawei/mineru2/distortion/0430/shadow/HME_Dataset_v4/train/mathwritting_synthetic_ac7ad0ef037c1baa.png loaded success
-ToToken indices sequence length is longer than theToken indices sequence length is longer than the specified maximum sequence length for this model (15864 > 14000). Running this sequence tToken indices sequence length is longer than the specified maximum sequence length for this model (14378 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (16140 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14490 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (19857 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14018 > 14000). Running this sequence through the model will result in indexing errorToken indices sequence length is longer than the specified maximum sequence length for this model (14102 > 14000). Running this sequence through the model will result in indexing errors
-ToToken indices sequence length is longer than the specified maximum sequence length for this model (14910 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14448 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15518 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (17007 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (16095 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (16315 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14617 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (20017 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (16428 > 14000). Running thiToken indices sequence length is longer than the specified mToken indices sequence length is longer than the specified maximum sequence length for thisToken indices sequence length is longer than the specified maximum sequence length for this model (16080 > 14000). Running this sequence througToken indices sequence length is longer than the specified maximum sequence length for this model (14352 > 14000). Running this sequence through the model will result in indexing errors
-h the model will result in indexing errors
-ndexing errors
-image from image_id mineru:s3://doc-parse-huawei/mineru2/distortion/0430/shadow/HME_Dataset_v4/train/mathwritting_synthetic_3b337b721fbdb730.png loaded success
-equence length is longer than the specified maximum sequence length for this model (14212 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14928 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15850 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15446 > 14000). Running this sequence through the model will result in indexing errors
-image from image_id mineru:s3://doc-parse-huawei/mineru2/distortion/0430/shadow/HME_Dataset_v4/train/mathwritting_synthetic_dce63a4a7243b8b0.png loaded success
-Token indices sequence length is longer than the specified maximum sequence length for this model (15029 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14664 > 14000). Running this sequence through the model will result in indexing errors
-th is longer than the specified maximum sequence length for this model (15909 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (14778 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (20046 > 14000). Running this sequence through the model will result in indexing errors
-Token indices sequence length is longer than the specified maximum sequence length for this model (15477 > 14000). Running this sequence through the model will result in indexing errors
- deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-Token indices sequence length is longer than the specified maximum sequence length for this model (18876 > 14000). Running this sequence through the model will result in indexing errors
-Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 997 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14697 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 1/101178 [01:02<1761:56:12, 62.69s/it]SH-IDC1-10-140-24-26:230405:230405 [0] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-26:230411:230411 [5] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-26:230412:230412 [6] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-26:230410:230410 [4] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-26:230407:230407 [1] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Using network IB
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Using network IB
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Using network IB
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Using network IB
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Using network IB
-SH-IDC1-10-140-24-26:230408:230408 [2] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Using network IB
-SH-IDC1-10-140-24-26:230413:230413 [7] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO Using network IB
-SH-IDC1-10-140-24-26:230409:230409 [3] NCCL INFO Comm config Blocking set to 1
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Using non-device net plugin version 0
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Using network IB
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO ncclCommInitRank comm 0x7f17a42a2b90 rank 6 nranks 64 cudaDev 6 nvmlDev 6 busId e1000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO ncclCommInitRank comm 0x7f932a870a90 rank 7 nranks 64 cudaDev 7 nvmlDev 7 busId e7000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO ncclCommInitRank comm 0x7f7041bc0f30 rank 4 nranks 64 cudaDev 4 nvmlDev 4 busId a3000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO ncclCommInitRank comm 0x7f9a2e3abdf0 rank 5 nranks 64 cudaDev 5 nvmlDev 5 busId a8000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO ncclCommInitRank comm 0x7fdfadc97b90 rank 3 nranks 64 cudaDev 3 nvmlDev 3 busId 6a000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO ncclCommInitRank comm 0x7f9bd69dbc80 rank 2 nranks 64 cudaDev 2 nvmlDev 2 busId 65000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO ncclCommInitRank comm 0x7fa172924c40 rank 1 nranks 64 cudaDev 1 nvmlDev 1 busId 2c000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO ncclCommInitRank comm 0x7fc3cd4702b0 rank 0 nranks 64 cudaDev 0 nvmlDev 0 busId 26000 commId 0xb1c1be50d9e68605 - Init START
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Setting affinity for GPU 2 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO NVLS multicast support is not available on dev 2
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Setting affinity for GPU 1 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO NVLS multicast support is not available on dev 1
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Setting affinity for GPU 3 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO NVLS multicast support is not available on dev 3
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO Setting affinity for GPU 7 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO NVLS multicast support is not available on dev 7
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Setting affinity for GPU 6 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO NVLS multicast support is not available on dev 6
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Setting affinity for GPU 4 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO NVLS multicast support is not available on dev 4
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Setting affinity for GPU 0 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO NVLS multicast support is not available on dev 0
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Setting affinity for GPU 5 to ffffffff,ffffffff,00000000,00000000,ffffffff,ffffffff,00000000,00000000
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO NVLS multicast support is not available on dev 5
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO comm 0x7fc3cd4702b0 rank 0 nRanks 64 nNodes 8 localRanks 8 localRank 0 MNNVL 0
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO comm 0x7f9a2e3abdf0 rank 5 nRanks 64 nNodes 8 localRanks 8 localRank 5 MNNVL 0
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO comm 0x7fa172924c40 rank 1 nRanks 64 nNodes 8 localRanks 8 localRank 1 MNNVL 0
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO comm 0x7f9bd69dbc80 rank 2 nRanks 64 nNodes 8 localRanks 8 localRank 2 MNNVL 0
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO comm 0x7f7041bc0f30 rank 4 nRanks 64 nNodes 8 localRanks 8 localRank 4 MNNVL 0
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO comm 0x7fdfadc97b90 rank 3 nRanks 64 nNodes 8 localRanks 8 localRank 3 MNNVL 0
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO comm 0x7f17a42a2b90 rank 6 nRanks 64 nNodes 8 localRanks 8 localRank 6 MNNVL 0
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 00/02 :    0   7   6   5   4   3   2   1   8  15  14  13  12  11  10   9  16  23  22  21
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/-1/-1->1->0
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 01/02 :    0   7   6   5   4   3   2   1   8  15  14  13  12  11  10   9  16  23  22  21
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/-1/-1->5->4
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Trees [0] 1/32/-1->0->-1 [1] 1/-1/-1->0->8
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO comm 0x7f932a870a90 rank 7 nRanks 64 nNodes 8 localRanks 8 localRank 7 MNNVL 0
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] -1/-1/-1->7->6
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO P2P Chunksize set to 131072
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Channel 00/0 : 5[5] -> 4[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Channel 00/0 : 6[6] -> 5[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Channel 01/0 : 5[5] -> 4[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Channel 01/0 : 6[6] -> 5[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Channel 00/0 : 1[1] -> 8[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Channel 01/0 : 1[1] -> 8[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 00/0 : 57[1] -> 0[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 01/0 : 57[1] -> 0[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 00/0 : 0[0] -> 7[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 01/0 : 0[0] -> 7[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO Channel 00/0 : 7[7] -> 6[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO Channel 01/0 : 7[7] -> 6[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Channel 00/0 : 2[2] -> 1[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Channel 01/0 : 2[2] -> 1[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Channel 00/0 : 4[4] -> 3[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Channel 01/0 : 4[4] -> 3[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Channel 01/0 : 1[1] -> 2[2] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 01/0 : 0[0] -> 8[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Connected all rings
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Channel 00/0 : 5[5] -> 6[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Channel 01/0 : 5[5] -> 6[6] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Channel 01/0 : 1[1] -> 0[0] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/CUMEM/read
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 00/0 : 32[0] -> 0[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 00/0 : 0[0] -> 32[0] [send] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Channel 01/0 : 8[0] -> 0[0] [receive] via NET/IB/0/GDRDMA
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-Token indices sequence length is longer than the specified maximum sequence length for this model (21521 > 14000). Running this sequence through the model will result in indexing errors
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO Connected all trees
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO threadThresholds 8/8/64 | 512/8/64 | 512 | 512
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO 2 coll channels, 2 collnet channels, 0 nvls channels, 2 p2p channels, 1 p2p channels per peer
-SH-IDC1-10-140-24-26:230408:261263 [2] NCCL INFO ncclCommInitRank comm 0x7f9bd69dbc80 rank 2 nranks 64 cudaDev 2 nvmlDev 2 busId 65000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-26:230407:261262 [1] NCCL INFO ncclCommInitRank comm 0x7fa172924c40 rank 1 nranks 64 cudaDev 1 nvmlDev 1 busId 2c000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-26:230412:261259 [6] NCCL INFO ncclCommInitRank comm 0x7f17a42a2b90 rank 6 nranks 64 cudaDev 6 nvmlDev 6 busId e1000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-26:230409:261265 [3] NCCL INFO ncclCommInitRank comm 0x7fdfadc97b90 rank 3 nranks 64 cudaDev 3 nvmlDev 3 busId 6a000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-26:230411:261260 [5] NCCL INFO ncclCommInitRank comm 0x7f9a2e3abdf0 rank 5 nranks 64 cudaDev 5 nvmlDev 5 busId a8000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-26:230410:261261 [4] NCCL INFO ncclCommInitRank comm 0x7f7041bc0f30 rank 4 nranks 64 cudaDev 4 nvmlDev 4 busId a3000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-26:230405:261258 [0] NCCL INFO ncclCommInitRank comm 0x7fc3cd4702b0 rank 0 nranks 64 cudaDev 0 nvmlDev 0 busId 26000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-SH-IDC1-10-140-24-26:230413:261264 [7] NCCL INFO ncclCommInitRank comm 0x7f932a870a90 rank 7 nranks 64 cudaDev 7 nvmlDev 7 busId e7000 commId 0xb1c1be50d9e68605 - Init COMPLETE
-                                                       {'loss': 1.5484, 'grad_norm': 5.486396312713623, 'learning_rate': 6.587615283267458e-09, 'epoch': 0.0}
-  0%|          | 1/101178 [01:05<1761:56:12, 62.69s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3162 ***********************
-  0%|          | 2/101178 [01:14<927:38:48, 33.01s/it]                                                       {'loss': 1.6911, 'grad_norm': 5.518625259399414, 'learning_rate': 1.3175230566534916e-08, 'epoch': 0.0}
-  0%|          | 2/101178 [01:15<927:38:48, 33.01s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3438 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (15327 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 3/101178 [01:28<672:12:37, 23.92s/it]                                                      {'loss': 1.4741, 'grad_norm': 5.2768168449401855, 'learning_rate': 1.976284584980237e-08, 'epoch': 0.0}
-  0%|          | 3/101178 [01:28<672:12:37, 23.92s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1801 ***********************
-  0%|          | 4/101178 [01:39<530:24:28, 18.87s/it]                                                      {'loss': 1.5317, 'grad_norm': 4.812870979309082, 'learning_rate': 2.635046113306983e-08, 'epoch': 0.0}
-  0%|          | 4/101178 [01:39<530:24:28, 18.87s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3875 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14420 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 5/101178 [01:48<437:24:46, 15.56s/it]                                                      {'loss': 1.262, 'grad_norm': 4.864263534545898, 'learning_rate': 3.2938076416337285e-08, 'epoch': 0.0}
-  0%|          | 5/101178 [01:48<437:24:46, 15.56s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 7078 ***********************
-  0%|          | 6/101178 [01:58<380:56:47, 13.56s/it]                                                      {'loss': 1.481, 'grad_norm': 5.081881523132324, 'learning_rate': 3.952569169960474e-08, 'epoch': 0.0}
-  0%|          | 6/101178 [01:58<380:56:47, 13.56s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4226 ***********************
-  0%|          | 7/101178 [02:08<350:25:39, 12.47s/it]                                                      {'loss': 1.4195, 'grad_norm': 4.894819736480713, 'learning_rate': 4.6113306982872206e-08, 'epoch': 0.0}
-  0%|          | 7/101178 [02:08<350:25:39, 12.47s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4681 ***********************
-  0%|          | 8/101178 [02:19<334:00:16, 11.89s/it]                                                      {'loss': 1.5981, 'grad_norm': 5.133898735046387, 'learning_rate': 5.270092226613966e-08, 'epoch': 0.0}
-  0%|          | 8/101178 [02:19<334:00:16, 11.89s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4636 ***********************
-  0%|          | 9/101178 [02:27<303:49:44, 10.81s/it]                                                      {'loss': 1.1916, 'grad_norm': 4.787294864654541, 'learning_rate': 5.928853754940711e-08, 'epoch': 0.0}
-  0%|          | 9/101178 [02:27<303:49:44, 10.81s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2122 ***********************
-  0%|          | 10/101178 [02:37<296:49:44, 10.56s/it]                                                       {'loss': 1.1972, 'grad_norm': 4.884284973144531, 'learning_rate': 6.587615283267457e-08, 'epoch': 0.0}
-  0%|          | 10/101178 [02:37<296:49:44, 10.56s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2299 ***********************
-  0%|          | 11/101178 [02:50<317:05:56, 11.28s/it]                                                       {'loss': 1.5081, 'grad_norm': 5.016467571258545, 'learning_rate': 7.246376811594204e-08, 'epoch': 0.0}
-  0%|          | 11/101178 [02:50<317:05:56, 11.28s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3268 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (17550 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 12/101178 [02:59<298:46:59, 10.63s/it]                                                       {'loss': 1.5477, 'grad_norm': 4.954675674438477, 'learning_rate': 7.905138339920948e-08, 'epoch': 0.0}
-  0%|          | 12/101178 [02:59<298:46:59, 10.63s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1962 ***********************
-  0%|          | 13/101178 [03:08<285:36:30, 10.16s/it]                                                       {'loss': 1.5314, 'grad_norm': 5.135341167449951, 'learning_rate': 8.563899868247694e-08, 'epoch': 0.0}
-  0%|          | 13/101178 [03:08<285:36:30, 10.16s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3449 ***********************
-  0%|          | 14/101178 [03:18<279:26:02,  9.94s/it]                                                       {'loss': 1.4694, 'grad_norm': 4.773103713989258, 'learning_rate': 9.222661396574441e-08, 'epoch': 0.0}
-  0%|          | 14/101178 [03:18<279:26:02,  9.94s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4545 ***********************
-  0%|          | 15/101178 [03:31<305:21:59, 10.87s/it]                                                       {'loss': 1.466, 'grad_norm': 4.592989444732666, 'learning_rate': 9.881422924901187e-08, 'epoch': 0.0}
-  0%|          | 15/101178 [03:31<305:21:59, 10.87s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1800 ***********************
-  0%|          | 16/101178 [03:42<305:25:51, 10.87s/it]                                                       {'loss': 1.6214, 'grad_norm': 4.841405868530273, 'learning_rate': 1.0540184453227933e-07, 'epoch': 0.0}
-  0%|          | 16/101178 [03:42<305:25:51, 10.87s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4371 ***********************
-  0%|          | 17/101178 [03:50<286:00:42, 10.18s/it]                                                       {'loss': 1.4155, 'grad_norm': 5.150008201599121, 'learning_rate': 1.1198945981554678e-07, 'epoch': 0.0}
-  0%|          | 17/101178 [03:50<286:00:42, 10.18s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 366 ***********************
-  0%|          | 18/101178 [03:59<270:08:05,  9.61s/it]                                                       {'loss': 1.4395, 'grad_norm': 4.690862655639648, 'learning_rate': 1.1857707509881423e-07, 'epoch': 0.0}
-  0%|          | 18/101178 [03:59<270:08:05,  9.61s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 449 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14849 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 19/101178 [04:08<263:41:26,  9.38s/it]                                                       {'loss': 1.4078, 'grad_norm': 4.7003960609436035, 'learning_rate': 1.251646903820817e-07, 'epoch': 0.0}
-  0%|          | 19/101178 [04:08<263:41:26,  9.38s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3193 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (23654 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 20/101178 [04:18<271:57:58,  9.68s/it]                                                       {'loss': 1.4817, 'grad_norm': 4.949372291564941, 'learning_rate': 1.3175230566534914e-07, 'epoch': 0.0}
-  0%|          | 20/101178 [04:18<271:57:58,  9.68s/it]Token indices sequence length is longer than the specified maximum sequence length for this model (14377 > 14000). Running this sequence through the model will result in indexing errors
-Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 21/101178 [04:27<268:13:52,  9.55s/it]                                                       {'loss': 1.6168, 'grad_norm': 5.3326897621154785, 'learning_rate': 1.383399209486166e-07, 'epoch': 0.0}
-  0%|          | 21/101178 [04:27<268:13:52,  9.55s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4492 ***********************
-  0%|          | 22/101178 [04:37<266:55:12,  9.50s/it]                                                       {'loss': 1.5016, 'grad_norm': 5.088663578033447, 'learning_rate': 1.4492753623188408e-07, 'epoch': 0.0}
-  0%|          | 22/101178 [04:37<266:55:12,  9.50s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3189 ***********************
-  0%|          | 23/101178 [04:49<288:32:56, 10.27s/it]                                                       {'loss': 1.513, 'grad_norm': 4.869442462921143, 'learning_rate': 1.5151515151515152e-07, 'epoch': 0.0}
-  0%|          | 23/101178 [04:49<288:32:56, 10.27s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3460 ***********************
-  0%|          | 24/101178 [04:59<289:09:26, 10.29s/it]                                                       {'loss': 1.454, 'grad_norm': 5.024903774261475, 'learning_rate': 1.5810276679841897e-07, 'epoch': 0.0}
-  0%|          | 24/101178 [04:59<289:09:26, 10.29s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3316 ***********************
-  0%|          | 25/101178 [05:07<266:48:40,  9.50s/it]                                                       {'loss': 1.5973, 'grad_norm': 5.650515556335449, 'learning_rate': 1.6469038208168646e-07, 'epoch': 0.0}
-  0%|          | 25/101178 [05:07<266:48:40,  9.50s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5882 ***********************
-  0%|          | 26/101178 [05:15<258:03:25,  9.18s/it]                                                       {'loss': 1.6165, 'grad_norm': 5.143133640289307, 'learning_rate': 1.7127799736495388e-07, 'epoch': 0.0}
-  0%|          | 26/101178 [05:15<258:03:25,  9.18s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3807 ***********************
-  0%|          | 27/101178 [05:27<283:02:53, 10.07s/it]                                                       {'loss': 1.3898, 'grad_norm': 4.515970706939697, 'learning_rate': 1.7786561264822138e-07, 'epoch': 0.0}
-  0%|          | 27/101178 [05:27<283:02:53, 10.07s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4140 ***********************
-  0%|          | 28/101178 [05:39<299:24:09, 10.66s/it]                                                       {'loss': 1.6144, 'grad_norm': 4.661755084991455, 'learning_rate': 1.8445322793148882e-07, 'epoch': 0.0}
-  0%|          | 28/101178 [05:39<299:24:09, 10.66s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 29/101178 [05:51<311:09:41, 11.07s/it]                                                       {'loss': 1.6382, 'grad_norm': 4.816147804260254, 'learning_rate': 1.9104084321475627e-07, 'epoch': 0.0}
-  0%|          | 29/101178 [05:51<311:09:41, 11.07s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3837 ***********************
-  0%|          | 30/101178 [06:03<320:20:23, 11.40s/it]                                                       {'loss': 1.4066, 'grad_norm': 5.05290412902832, 'learning_rate': 1.9762845849802374e-07, 'epoch': 0.0}
-  0%|          | 30/101178 [06:03<320:20:23, 11.40s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3016 ***********************
-  0%|          | 31/101178 [06:16<327:57:04, 11.67s/it]                                                       {'loss': 1.4067, 'grad_norm': 4.742596626281738, 'learning_rate': 2.0421607378129118e-07, 'epoch': 0.0}
-  0%|          | 31/101178 [06:16<327:57:04, 11.67s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 9602 ***********************
-  0%|          | 32/101178 [06:23<294:04:55, 10.47s/it]                                                       {'loss': 1.5244, 'grad_norm': 4.768905162811279, 'learning_rate': 2.1080368906455865e-07, 'epoch': 0.0}
-  0%|          | 32/101178 [06:23<294:04:55, 10.47s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 907 ***********************
-  0%|          | 33/101178 [06:35<307:57:15, 10.96s/it]                                                       {'loss': 1.4568, 'grad_norm': 4.474883556365967, 'learning_rate': 2.173913043478261e-07, 'epoch': 0.0}
-  0%|          | 33/101178 [06:35<307:57:15, 10.96s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 891 ***********************
-  0%|          | 34/101178 [06:43<281:07:27, 10.01s/it]                                                       {'loss': 1.3485, 'grad_norm': 5.34639310836792, 'learning_rate': 2.2397891963109356e-07, 'epoch': 0.0}
-  0%|          | 34/101178 [06:43<281:07:27, 10.01s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 6468 ***********************
-  0%|          | 35/101178 [06:53<275:55:03,  9.82s/it]                                                       {'loss': 1.3957, 'grad_norm': 5.065540313720703, 'learning_rate': 2.30566534914361e-07, 'epoch': 0.0}
-  0%|          | 35/101178 [06:53<275:55:03,  9.82s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4438 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (18336 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 36/101178 [07:02<269:08:47,  9.58s/it]                                                       {'loss': 1.1445, 'grad_norm': 4.433609962463379, 'learning_rate': 2.3715415019762845e-07, 'epoch': 0.0}
-  0%|          | 36/101178 [07:02<269:08:47,  9.58s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 9210 ***********************
-  0%|          | 37/101178 [07:11<263:56:35,  9.39s/it]                                                       {'loss': 1.5636, 'grad_norm': 4.654387950897217, 'learning_rate': 2.4374176548089595e-07, 'epoch': 0.0}
-  0%|          | 37/101178 [07:11<263:56:35,  9.39s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3262 ***********************
-  0%|          | 38/101178 [07:20<264:29:30,  9.41s/it]                                                       {'loss': 1.3655, 'grad_norm': 4.6973161697387695, 'learning_rate': 2.503293807641634e-07, 'epoch': 0.0}
-  0%|          | 38/101178 [07:20<264:29:30,  9.41s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 39/101178 [07:29<260:21:57,  9.27s/it]                                                       {'loss': 1.473, 'grad_norm': 4.783860206604004, 'learning_rate': 2.5691699604743084e-07, 'epoch': 0.0}
-  0%|          | 39/101178 [07:29<260:21:57,  9.27s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 40/101178 [07:38<261:03:11,  9.29s/it]                                                       {'loss': 1.3318, 'grad_norm': 5.298741340637207, 'learning_rate': 2.635046113306983e-07, 'epoch': 0.0}
-  0%|          | 40/101178 [07:38<261:03:11,  9.29s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 754 ***********************
-  0%|          | 41/101178 [07:46<247:49:16,  8.82s/it]                                                       {'loss': 1.5301, 'grad_norm': 5.145021915435791, 'learning_rate': 2.700922266139658e-07, 'epoch': 0.0}
-  0%|          | 41/101178 [07:46<247:49:16,  8.82s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4288 ***********************
-  0%|          | 42/101178 [07:58<274:37:07,  9.78s/it]                                                       {'loss': 1.5492, 'grad_norm': 4.843479156494141, 'learning_rate': 2.766798418972332e-07, 'epoch': 0.0}
-  0%|          | 42/101178 [07:58<274:37:07,  9.78s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 43/101178 [08:07<271:14:13,  9.65s/it]                                                       {'loss': 1.5849, 'grad_norm': 4.567446708679199, 'learning_rate': 2.8326745718050066e-07, 'epoch': 0.0}
-  0%|          | 43/101178 [08:07<271:14:13,  9.65s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 7358 ***********************
-  0%|          | 44/101178 [08:21<303:19:53, 10.80s/it]                                                       {'loss': 1.3184, 'grad_norm': 4.124978542327881, 'learning_rate': 2.8985507246376816e-07, 'epoch': 0.0}
-  0%|          | 44/101178 [08:21<303:19:53, 10.80s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 45/101178 [08:33<313:30:52, 11.16s/it]                                                       {'loss': 1.6999, 'grad_norm': 4.619350433349609, 'learning_rate': 2.964426877470356e-07, 'epoch': 0.0}
-  0%|          | 45/101178 [08:33<313:30:52, 11.16s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2024 ***********************
-  0%|          | 46/101178 [08:43<302:14:57, 10.76s/it]                                                       {'loss': 1.4662, 'grad_norm': 4.75903844833374, 'learning_rate': 3.0303030303030305e-07, 'epoch': 0.0}
-  0%|          | 46/101178 [08:43<302:14:57, 10.76s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4704 ***********************
-  0%|          | 47/101178 [08:51<283:18:18, 10.08s/it]                                                       {'loss': 1.3953, 'grad_norm': 4.323615550994873, 'learning_rate': 3.096179183135705e-07, 'epoch': 0.0}
-  0%|          | 47/101178 [08:51<283:18:18, 10.08s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 957 ***********************
-  0%|          | 48/101178 [08:59<263:56:30,  9.40s/it]                                                       {'loss': 1.3742, 'grad_norm': 4.755202770233154, 'learning_rate': 3.1620553359683794e-07, 'epoch': 0.0}
-  0%|          | 48/101178 [08:59<263:56:30,  9.40s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4030 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14289 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 49/101178 [09:11<288:58:12, 10.29s/it]                                                       {'loss': 1.5508, 'grad_norm': 4.9225873947143555, 'learning_rate': 3.227931488801055e-07, 'epoch': 0.0}
-  0%|          | 49/101178 [09:11<288:58:12, 10.29s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3486 ***********************
-  0%|          | 50/101178 [09:20<273:12:19,  9.73s/it]                                                       {'loss': 1.2472, 'grad_norm': 3.974820613861084, 'learning_rate': 3.2938076416337293e-07, 'epoch': 0.0}
-  0%|          | 50/101178 [09:20<273:12:19,  9.73s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5652 ***********************
-  0%|          | 51/101178 [09:28<256:27:51,  9.13s/it]                                                       {'loss': 1.6103, 'grad_norm': 4.510144233703613, 'learning_rate': 3.3596837944664037e-07, 'epoch': 0.0}
-  0%|          | 51/101178 [09:28<256:27:51,  9.13s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3668 ***********************
-  0%|          | 52/101178 [09:39<272:09:34,  9.69s/it]                                                       {'loss': 1.261, 'grad_norm': 3.84553599357605, 'learning_rate': 3.4255599472990776e-07, 'epoch': 0.0}
-  0%|          | 52/101178 [09:39<272:09:34,  9.69s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2032 ***********************
-  0%|          | 53/101178 [09:46<256:45:50,  9.14s/it]                                                       {'loss': 1.4491, 'grad_norm': 4.841665267944336, 'learning_rate': 3.491436100131752e-07, 'epoch': 0.0}
-  0%|          | 53/101178 [09:46<256:45:50,  9.14s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3045 ***********************
-  0%|          | 54/101178 [09:58<278:52:11,  9.93s/it]                                                       {'loss': 1.2001, 'grad_norm': 4.572854042053223, 'learning_rate': 3.5573122529644276e-07, 'epoch': 0.0}
-  0%|          | 54/101178 [09:58<278:52:11,  9.93s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3680 ***********************
-  0%|          | 55/101178 [10:07<265:49:50,  9.46s/it]                                                       {'loss': 1.3748, 'grad_norm': 4.576363563537598, 'learning_rate': 3.623188405797102e-07, 'epoch': 0.0}
-  0%|          | 55/101178 [10:07<265:49:50,  9.46s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2482 ***********************
-  0%|          | 56/101178 [10:15<253:51:15,  9.04s/it]                                                       {'loss': 1.6256, 'grad_norm': 4.783313274383545, 'learning_rate': 3.6890645586297765e-07, 'epoch': 0.0}
-  0%|          | 56/101178 [10:15<253:51:15,  9.04s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3541 ***********************
-  0%|          | 57/101178 [10:22<243:27:47,  8.67s/it]                                                       {'loss': 1.1455, 'grad_norm': 4.2456464767456055, 'learning_rate': 3.754940711462451e-07, 'epoch': 0.0}
-  0%|          | 57/101178 [10:22<243:27:47,  8.67s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4257 ***********************
-  0%|          | 58/101178 [10:34<268:23:23,  9.56s/it]                                                       {'loss': 1.4493, 'grad_norm': 5.0252838134765625, 'learning_rate': 3.8208168642951253e-07, 'epoch': 0.0}
-  0%|          | 58/101178 [10:34<268:23:23,  9.56s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2505 ***********************
-  0%|          | 59/101178 [10:42<258:32:03,  9.20s/it]                                                       {'loss': 1.3677, 'grad_norm': 4.203664779663086, 'learning_rate': 3.8866930171278003e-07, 'epoch': 0.0}
-  0%|          | 59/101178 [10:42<258:32:03,  9.20s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3637 ***********************
-  0%|          | 60/101178 [10:54<278:39:17,  9.92s/it]                                                       {'loss': 1.5945, 'grad_norm': 3.9211714267730713, 'learning_rate': 3.9525691699604747e-07, 'epoch': 0.0}
-  0%|          | 60/101178 [10:54<278:39:17,  9.92s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3320 ***********************
-  0%|          | 61/101178 [11:06<295:57:04, 10.54s/it]                                                       {'loss': 1.4371, 'grad_norm': 4.475911617279053, 'learning_rate': 4.018445322793149e-07, 'epoch': 0.0}
-  0%|          | 61/101178 [11:06<295:57:04, 10.54s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2730 ***********************
-  0%|          | 62/101178 [11:14<272:37:00,  9.71s/it]                                                       {'loss': 1.5346, 'grad_norm': 4.700550079345703, 'learning_rate': 4.0843214756258236e-07, 'epoch': 0.0}
-  0%|          | 62/101178 [11:14<272:37:00,  9.71s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 7115 ***********************
-  0%|          | 63/101178 [11:26<292:30:22, 10.41s/it]                                                       {'loss': 1.3024, 'grad_norm': 3.8338165283203125, 'learning_rate': 4.1501976284584986e-07, 'epoch': 0.0}
-  0%|          | 63/101178 [11:26<292:30:22, 10.41s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 6368 ***********************
-  0%|          | 64/101178 [11:38<306:46:00, 10.92s/it]                                                       {'loss': 1.7078, 'grad_norm': 4.084936141967773, 'learning_rate': 4.216073781291173e-07, 'epoch': 0.0}
-  0%|          | 64/101178 [11:38<306:46:00, 10.92s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 760 ***********************
-  0%|          | 65/101178 [11:49<305:28:55, 10.88s/it]                                                       {'loss': 1.344, 'grad_norm': 4.438767433166504, 'learning_rate': 4.2819499341238474e-07, 'epoch': 0.0}
-  0%|          | 65/101178 [11:49<305:28:55, 10.88s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4420 ***********************
-  0%|          | 66/101178 [12:01<315:48:32, 11.24s/it]                                                       {'loss': 1.3429, 'grad_norm': 3.993584156036377, 'learning_rate': 4.347826086956522e-07, 'epoch': 0.0}
-  0%|          | 66/101178 [12:01<315:48:32, 11.24s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4799 ***********************
-  0%|          | 67/101178 [12:08<285:43:59, 10.17s/it]                                                       {'loss': 1.482, 'grad_norm': 4.042487144470215, 'learning_rate': 4.4137022397891963e-07, 'epoch': 0.0}
-  0%|          | 67/101178 [12:08<285:43:59, 10.17s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 9097 ***********************
-  0%|          | 68/101178 [12:16<264:51:18,  9.43s/it]                                                       {'loss': 1.482, 'grad_norm': 4.373803615570068, 'learning_rate': 4.4795783926218713e-07, 'epoch': 0.0}
-  0%|          | 68/101178 [12:16<264:51:18,  9.43s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 6798 ***********************
-  0%|          | 69/101178 [12:24<251:36:38,  8.96s/it]                                                       {'loss': 1.53, 'grad_norm': 4.188291072845459, 'learning_rate': 4.5454545454545457e-07, 'epoch': 0.0}
-  0%|          | 69/101178 [12:24<251:36:38,  8.96s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 70/101178 [12:34<259:05:12,  9.22s/it]                                                       {'loss': 1.4205, 'grad_norm': 3.8740427494049072, 'learning_rate': 4.61133069828722e-07, 'epoch': 0.0}
-  0%|          | 70/101178 [12:34<259:05:12,  9.22s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 6180 ***********************
-  0%|          | 71/101178 [12:42<252:33:39,  8.99s/it]                                                       {'loss': 1.1497, 'grad_norm': 3.105051279067993, 'learning_rate': 4.6772068511198946e-07, 'epoch': 0.0}
-  0%|          | 71/101178 [12:42<252:33:39,  8.99s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5164 ***********************
-  0%|          | 72/101178 [12:54<277:57:51,  9.90s/it]                                                       {'loss': 1.2236, 'grad_norm': 3.1256561279296875, 'learning_rate': 4.743083003952569e-07, 'epoch': 0.0}
-  0%|          | 72/101178 [12:54<277:57:51,  9.90s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3795 ***********************
-  0%|          | 73/101178 [13:02<261:00:35,  9.29s/it]                                                       {'loss': 1.402, 'grad_norm': 3.2786614894866943, 'learning_rate': 4.808959156785245e-07, 'epoch': 0.0}
-  0%|          | 73/101178 [13:02<261:00:35,  9.29s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4651 ***********************
-  0%|          | 74/101178 [13:14<282:46:45, 10.07s/it]                                                       {'loss': 1.2086, 'grad_norm': 2.917405128479004, 'learning_rate': 4.874835309617919e-07, 'epoch': 0.0}
-  0%|          | 74/101178 [13:14<282:46:45, 10.07s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 712 ***********************
-  0%|          | 75/101178 [13:23<275:52:33,  9.82s/it]                                                       {'loss': 1.1069, 'grad_norm': 3.0502054691314697, 'learning_rate': 4.940711462450593e-07, 'epoch': 0.0}
-  0%|          | 75/101178 [13:23<275:52:33,  9.82s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4279 ***********************
-  0%|          | 76/101178 [13:32<263:05:13,  9.37s/it]                                                       {'loss': 1.4852, 'grad_norm': 3.203911781311035, 'learning_rate': 5.006587615283268e-07, 'epoch': 0.0}
-  0%|          | 76/101178 [13:32<263:05:13,  9.37s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2139 ***********************
-  0%|          | 77/101178 [13:44<284:56:10, 10.15s/it]                                                       {'loss': 1.1658, 'grad_norm': 3.2753677368164062, 'learning_rate': 5.072463768115942e-07, 'epoch': 0.0}
-  0%|          | 77/101178 [13:44<284:56:10, 10.15s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3578 ***********************
-  0%|          | 78/101178 [13:51<264:41:22,  9.43s/it]                                                       {'loss': 1.3474, 'grad_norm': 3.045945405960083, 'learning_rate': 5.138339920948617e-07, 'epoch': 0.0}
-  0%|          | 78/101178 [13:51<264:41:22,  9.43s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3053 ***********************
-  0%|          | 79/101178 [14:04<287:37:29, 10.24s/it]                                                       {'loss': 1.279, 'grad_norm': 3.2099616527557373, 'learning_rate': 5.204216073781291e-07, 'epoch': 0.0}
-  0%|          | 79/101178 [14:04<287:37:29, 10.24s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3121 ***********************
-  0%|          | 80/101178 [14:12<273:59:53,  9.76s/it]                                                       {'loss': 1.1391, 'grad_norm': 3.2426373958587646, 'learning_rate': 5.270092226613966e-07, 'epoch': 0.0}
-  0%|          | 80/101178 [14:12<273:59:53,  9.76s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3594 ***********************
-  0%|          | 81/101178 [14:20<254:28:49,  9.06s/it]                                                       {'loss': 1.3107, 'grad_norm': 3.194528341293335, 'learning_rate': 5.33596837944664e-07, 'epoch': 0.0}
-  0%|          | 81/101178 [14:20<254:28:49,  9.06s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4340 ***********************
-  0%|          | 82/101178 [14:29<255:21:54,  9.09s/it]                                                       {'loss': 1.5501, 'grad_norm': 3.402104377746582, 'learning_rate': 5.401844532279316e-07, 'epoch': 0.0}
-  0%|          | 82/101178 [14:29<255:21:54,  9.09s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2430 ***********************
-  0%|          | 83/101178 [14:40<270:15:11,  9.62s/it]                                                       {'loss': 1.2328, 'grad_norm': 2.943087577819824, 'learning_rate': 5.46772068511199e-07, 'epoch': 0.0}
-  0%|          | 83/101178 [14:40<270:15:11,  9.62s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1800 ***********************
-  0%|          | 84/101178 [14:47<249:31:43,  8.89s/it]                                                       {'loss': 1.2831, 'grad_norm': 2.9253158569335938, 'learning_rate': 5.533596837944664e-07, 'epoch': 0.0}
-  0%|          | 84/101178 [14:47<249:31:43,  8.89s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 13769 ***********************
-  0%|          | 85/101178 [14:54<238:54:11,  8.51s/it]                                                       {'loss': 1.2489, 'grad_norm': 2.8270184993743896, 'learning_rate': 5.599472990777339e-07, 'epoch': 0.0}
-  0%|          | 85/101178 [14:54<238:54:11,  8.51s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4452 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (16363 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 86/101178 [15:02<232:17:24,  8.27s/it]                                                       {'loss': 1.2134, 'grad_norm': 3.033376932144165, 'learning_rate': 5.665349143610013e-07, 'epoch': 0.0}
-  0%|          | 86/101178 [15:02<232:17:24,  8.27s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3259 ***********************
-  0%|          | 87/101178 [15:14<261:36:25,  9.32s/it]                                                       {'loss': 1.3203, 'grad_norm': 2.863151788711548, 'learning_rate': 5.731225296442689e-07, 'epoch': 0.0}
-  0%|          | 87/101178 [15:14<261:36:25,  9.32s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4007 ***********************
-  0%|          | 88/101178 [15:26<284:19:09, 10.13s/it]                                                       {'loss': 1.2794, 'grad_norm': 3.159249782562256, 'learning_rate': 5.797101449275363e-07, 'epoch': 0.0}
-  0%|          | 88/101178 [15:26<284:19:09, 10.13s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3296 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (15727 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 89/101178 [15:34<267:23:44,  9.52s/it]                                                       {'loss': 1.2503, 'grad_norm': 3.233541250228882, 'learning_rate': 5.862977602108038e-07, 'epoch': 0.0}
-  0%|          | 89/101178 [15:34<267:23:44,  9.52s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4587 ***********************
-  0%|          | 90/101178 [15:42<252:29:58,  8.99s/it]                                                       {'loss': 1.1848, 'grad_norm': 2.828645706176758, 'learning_rate': 5.928853754940712e-07, 'epoch': 0.0}
-  0%|          | 90/101178 [15:42<252:29:58,  8.99s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2257 ***********************
-  0%|          | 91/101178 [15:54<280:54:19, 10.00s/it]                                                       {'loss': 1.2155, 'grad_norm': 2.693023920059204, 'learning_rate': 5.994729907773387e-07, 'epoch': 0.0}
-  0%|          | 91/101178 [15:54<280:54:19, 10.00s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4175 ***********************
-  0%|          | 92/101178 [16:02<262:17:46,  9.34s/it]                                                       {'loss': 1.1391, 'grad_norm': 2.8459930419921875, 'learning_rate': 6.060606060606061e-07, 'epoch': 0.0}
-  0%|          | 92/101178 [16:02<262:17:46,  9.34s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2603 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (16788 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 93/101178 [16:10<248:55:28,  8.87s/it]                                                       {'loss': 1.2577, 'grad_norm': 2.7657408714294434, 'learning_rate': 6.126482213438735e-07, 'epoch': 0.0}
-  0%|          | 93/101178 [16:10<248:55:28,  8.87s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4433 ***********************
-  0%|          | 94/101178 [16:22<275:22:22,  9.81s/it]                                                       {'loss': 1.0882, 'grad_norm': 2.732565402984619, 'learning_rate': 6.19235836627141e-07, 'epoch': 0.0}
-  0%|          | 94/101178 [16:22<275:22:22,  9.81s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3306 ***********************
-  0%|          | 95/101178 [16:31<273:39:24,  9.75s/it]                                                       {'loss': 1.1702, 'grad_norm': 2.6042416095733643, 'learning_rate': 6.258234519104085e-07, 'epoch': 0.0}
-  0%|          | 95/101178 [16:31<273:39:24,  9.75s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3815 ***********************
-  0%|          | 96/101178 [16:39<258:51:54,  9.22s/it]                                                       {'loss': 1.3125, 'grad_norm': 2.8126461505889893, 'learning_rate': 6.324110671936759e-07, 'epoch': 0.0}
-  0%|          | 96/101178 [16:39<258:51:54,  9.22s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3938 ***********************
-  0%|          | 97/101178 [16:48<252:52:34,  9.01s/it]                                                       {'loss': 1.1978, 'grad_norm': 2.347191095352173, 'learning_rate': 6.389986824769434e-07, 'epoch': 0.0}
-  0%|          | 97/101178 [16:48<252:52:34,  9.01s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 878 ***********************
-  0%|          | 98/101178 [17:00<278:37:48,  9.92s/it]                                                       {'loss': 1.1112, 'grad_norm': 1.9677345752716064, 'learning_rate': 6.45586297760211e-07, 'epoch': 0.0}
-  0%|          | 98/101178 [17:00<278:37:48,  9.92s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4205 ***********************
-  0%|          | 99/101178 [17:12<295:48:35, 10.54s/it]                                                       {'loss': 1.1141, 'grad_norm': 2.078263521194458, 'learning_rate': 6.521739130434783e-07, 'epoch': 0.0}
-  0%|          | 99/101178 [17:12<295:48:35, 10.54s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3412 ***********************
-  0%|          | 100/101178 [17:21<287:23:22, 10.24s/it]                                                        {'loss': 1.1867, 'grad_norm': 2.2659707069396973, 'learning_rate': 6.587615283267459e-07, 'epoch': 0.0}
-  0%|          | 100/101178 [17:21<287:23:22, 10.24s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5847 ***********************
-  0%|          | 101/101178 [17:29<267:09:16,  9.52s/it]                                                        {'loss': 1.0338, 'grad_norm': 2.088196277618408, 'learning_rate': 6.653491436100132e-07, 'epoch': 0.0}
-  0%|          | 101/101178 [17:29<267:09:16,  9.52s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4254 ***********************
-  0%|          | 102/101178 [17:37<254:48:26,  9.08s/it]                                                        {'loss': 1.1853, 'grad_norm': 2.099701404571533, 'learning_rate': 6.719367588932807e-07, 'epoch': 0.0}
-  0%|          | 102/101178 [17:37<254:48:26,  9.08s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3080 ***********************
-  0%|          | 103/101178 [17:45<247:09:19,  8.80s/it]                                                        {'loss': 1.1198, 'grad_norm': 1.9007102251052856, 'learning_rate': 6.785243741765482e-07, 'epoch': 0.0}
-  0%|          | 103/101178 [17:45<247:09:19,  8.80s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3259 ***********************
-  0%|          | 104/101178 [17:54<243:48:04,  8.68s/it]                                                        {'loss': 1.1221, 'grad_norm': 2.245173454284668, 'learning_rate': 6.851119894598155e-07, 'epoch': 0.0}
-  0%|          | 104/101178 [17:54<243:48:04,  8.68s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4783 ***********************
-  0%|          | 105/101178 [18:01<235:20:36,  8.38s/it]                                                        {'loss': 1.077, 'grad_norm': 1.9060863256454468, 'learning_rate': 6.916996047430831e-07, 'epoch': 0.0}
-  0%|          | 105/101178 [18:01<235:20:36,  8.38s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4843 ***********************
-  0%|          | 106/101178 [18:09<232:10:51,  8.27s/it]                                                        {'loss': 1.04, 'grad_norm': 1.8900933265686035, 'learning_rate': 6.982872200263504e-07, 'epoch': 0.0}
-  0%|          | 106/101178 [18:09<232:10:51,  8.27s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4227 ***********************
-  0%|          | 107/101178 [18:18<233:31:37,  8.32s/it]                                                        {'loss': 1.1079, 'grad_norm': 2.0296823978424072, 'learning_rate': 7.04874835309618e-07, 'epoch': 0.0}
-  0%|          | 107/101178 [18:18<233:31:37,  8.32s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3933 ***********************
-  0%|          | 108/101178 [18:26<228:47:56,  8.15s/it]                                                        {'loss': 1.0383, 'grad_norm': 1.8378838300704956, 'learning_rate': 7.114624505928855e-07, 'epoch': 0.0}
-  0%|          | 108/101178 [18:26<228:47:56,  8.15s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3475 ***********************
-  0%|          | 109/101178 [18:38<261:40:29,  9.32s/it]                                                        {'loss': 1.0598, 'grad_norm': 1.832956314086914, 'learning_rate': 7.180500658761529e-07, 'epoch': 0.0}
-  0%|          | 109/101178 [18:38<261:40:29,  9.32s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5005 ***********************
-  0%|          | 110/101178 [18:46<256:46:52,  9.15s/it]                                                        {'loss': 1.1513, 'grad_norm': 2.104886293411255, 'learning_rate': 7.246376811594204e-07, 'epoch': 0.0}
-  0%|          | 110/101178 [18:46<256:46:52,  9.15s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3098 ***********************
-  0%|          | 111/101178 [18:55<251:27:18,  8.96s/it]                                                        {'loss': 1.1218, 'grad_norm': 1.8877582550048828, 'learning_rate': 7.312252964426877e-07, 'epoch': 0.0}
-  0%|          | 111/101178 [18:55<251:27:18,  8.96s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2437 ***********************
-  0%|          | 112/101178 [19:03<240:58:40,  8.58s/it]                                                        {'loss': 0.9814, 'grad_norm': 1.7484468221664429, 'learning_rate': 7.378129117259553e-07, 'epoch': 0.0}
-  0%|          | 112/101178 [19:03<240:58:40,  8.58s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3481 ***********************
-  0%|          | 113/101178 [19:12<245:01:40,  8.73s/it]                                                        {'loss': 1.1314, 'grad_norm': 1.9416735172271729, 'learning_rate': 7.444005270092227e-07, 'epoch': 0.0}
-  0%|          | 113/101178 [19:12<245:01:40,  8.73s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 9391 ***********************
-  0%|          | 114/101178 [19:24<274:15:00,  9.77s/it]                                                        {'loss': 1.1835, 'grad_norm': 1.990097999572754, 'learning_rate': 7.509881422924902e-07, 'epoch': 0.0}
-  0%|          | 114/101178 [19:24<274:15:00,  9.77s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4770 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14472 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 115/101178 [19:32<256:12:54,  9.13s/it]                                                        {'loss': 1.0183, 'grad_norm': 1.6887459754943848, 'learning_rate': 7.575757575757576e-07, 'epoch': 0.0}
-  0%|          | 115/101178 [19:32<256:12:54,  9.13s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 116/101178 [19:39<245:08:50,  8.73s/it]                                                        {'loss': 1.1914, 'grad_norm': 1.9766069650650024, 'learning_rate': 7.641633728590251e-07, 'epoch': 0.0}
-  0%|          | 116/101178 [19:39<245:08:50,  8.73s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 791 ***********************
-  0%|          | 117/101178 [19:47<236:24:08,  8.42s/it]                                                        {'loss': 1.1764, 'grad_norm': 1.7176499366760254, 'learning_rate': 7.707509881422925e-07, 'epoch': 0.0}
-  0%|          | 117/101178 [19:47<236:24:08,  8.42s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3488 ***********************
-  0%|          | 118/101178 [19:59<265:48:03,  9.47s/it]                                                        {'loss': 0.8767, 'grad_norm': 1.6299996376037598, 'learning_rate': 7.773386034255601e-07, 'epoch': 0.0}
-  0%|          | 118/101178 [19:59<265:48:03,  9.47s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2821 ***********************
-  0%|          | 119/101178 [20:11<287:33:27, 10.24s/it]                                                        {'loss': 0.9544, 'grad_norm': 1.694257378578186, 'learning_rate': 7.839262187088274e-07, 'epoch': 0.0}
-  0%|          | 119/101178 [20:11<287:33:27, 10.24s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 120/101178 [20:19<266:08:49,  9.48s/it]                                                        {'loss': 1.0944, 'grad_norm': 1.742013692855835, 'learning_rate': 7.905138339920949e-07, 'epoch': 0.0}
-  0%|          | 120/101178 [20:19<266:08:49,  9.48s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3347 ***********************
-  0%|          | 121/101178 [20:30<277:52:39,  9.90s/it]                                                        {'loss': 0.9963, 'grad_norm': 1.6994805335998535, 'learning_rate': 7.971014492753623e-07, 'epoch': 0.0}
-  0%|          | 121/101178 [20:30<277:52:39,  9.90s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3485 ***********************
-  0%|          | 122/101178 [20:39<274:27:24,  9.78s/it]                                                        {'loss': 1.2625, 'grad_norm': 1.7347157001495361, 'learning_rate': 8.036890645586298e-07, 'epoch': 0.0}
-  0%|          | 122/101178 [20:39<274:27:24,  9.78s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4454 ***********************
-  0%|          | 123/101178 [20:47<260:04:04,  9.26s/it]                                                        {'loss': 0.9335, 'grad_norm': 1.5235979557037354, 'learning_rate': 8.102766798418974e-07, 'epoch': 0.0}
-  0%|          | 123/101178 [20:47<260:04:04,  9.26s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4170 ***********************
-  0%|          | 124/101178 [20:55<248:48:04,  8.86s/it]                                                        {'loss': 1.1298, 'grad_norm': 1.7208199501037598, 'learning_rate': 8.168642951251647e-07, 'epoch': 0.0}
-  0%|          | 124/101178 [20:55<248:48:04,  8.86s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4565 ***********************
-  0%|          | 125/101178 [21:07<275:46:38,  9.82s/it]                                                        {'loss': 1.2274, 'grad_norm': 1.6650891304016113, 'learning_rate': 8.234519104084323e-07, 'epoch': 0.0}
-  0%|          | 125/101178 [21:07<275:46:38,  9.82s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 7180 ***********************
-  0%|          | 126/101178 [21:19<294:23:41, 10.49s/it]                                                        {'loss': 1.0937, 'grad_norm': 1.6492066383361816, 'learning_rate': 8.300395256916997e-07, 'epoch': 0.0}
-  0%|          | 126/101178 [21:19<294:23:41, 10.49s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2549 ***********************
-  0%|          | 127/101178 [21:31<307:53:25, 10.97s/it]                                                        {'loss': 1.0344, 'grad_norm': 1.900862693786621, 'learning_rate': 8.366271409749672e-07, 'epoch': 0.0}
-  0%|          | 127/101178 [21:31<307:53:25, 10.97s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 128/101178 [21:40<285:43:59, 10.18s/it]                                                        {'loss': 1.0876, 'grad_norm': 1.5366908311843872, 'learning_rate': 8.432147562582346e-07, 'epoch': 0.0}
-  0%|          | 128/101178 [21:40<285:43:59, 10.18s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4589 ***********************
-  0%|          | 129/101178 [21:48<274:19:02,  9.77s/it]                                                        {'loss': 1.0886, 'grad_norm': 1.4589059352874756, 'learning_rate': 8.49802371541502e-07, 'epoch': 0.0}
-  0%|          | 129/101178 [21:48<274:19:02,  9.77s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3379 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (15592 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 130/101178 [21:56<256:06:17,  9.12s/it]                                                        {'loss': 0.9178, 'grad_norm': 1.3596076965332031, 'learning_rate': 8.563899868247695e-07, 'epoch': 0.0}
-  0%|          | 130/101178 [21:56<256:06:17,  9.12s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4677 ***********************
-  0%|          | 131/101178 [22:04<242:45:59,  8.65s/it]                                                        {'loss': 0.9596, 'grad_norm': 1.3441439867019653, 'learning_rate': 8.62977602108037e-07, 'epoch': 0.0}
-  0%|          | 131/101178 [22:04<242:45:59,  8.65s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 6051 ***********************
-  0%|          | 132/101178 [22:16<271:22:23,  9.67s/it]                                                        {'loss': 1.0303, 'grad_norm': 1.3271573781967163, 'learning_rate': 8.695652173913044e-07, 'epoch': 0.0}
-  0%|          | 132/101178 [22:16<271:22:23,  9.67s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4656 ***********************
-  0%|          | 133/101178 [22:24<261:38:11,  9.32s/it]                                                        {'loss': 0.805, 'grad_norm': 1.2039539813995361, 'learning_rate': 8.761528326745719e-07, 'epoch': 0.0}
-  0%|          | 133/101178 [22:24<261:38:11,  9.32s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2923 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14352 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 134/101178 [22:34<262:41:02,  9.36s/it]                                                        {'loss': 1.0056, 'grad_norm': 1.599990725517273, 'learning_rate': 8.827404479578393e-07, 'epoch': 0.0}
-  0%|          | 134/101178 [22:34<262:41:02,  9.36s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 7237 ***********************
-  0%|          | 135/101178 [22:43<262:09:39,  9.34s/it]                                                        {'loss': 0.9729, 'grad_norm': 1.2705135345458984, 'learning_rate': 8.893280632411068e-07, 'epoch': 0.0}
-  0%|          | 135/101178 [22:43<262:09:39,  9.34s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3576 ***********************
-  0%|          | 136/101178 [22:51<249:14:48,  8.88s/it]                                                        {'loss': 0.8874, 'grad_norm': 1.1928744316101074, 'learning_rate': 8.959156785243743e-07, 'epoch': 0.0}
-  0%|          | 136/101178 [22:51<249:14:48,  8.88s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3543 ***********************
-  0%|          | 137/101178 [22:58<239:28:45,  8.53s/it]                                                        {'loss': 0.96, 'grad_norm': 1.3593202829360962, 'learning_rate': 9.025032938076417e-07, 'epoch': 0.0}
-  0%|          | 137/101178 [22:58<239:28:45,  8.53s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2546 ***********************
-  0%|          | 138/101178 [23:07<239:28:30,  8.53s/it]                                                        {'loss': 0.9498, 'grad_norm': 1.368658423423767, 'learning_rate': 9.090909090909091e-07, 'epoch': 0.0}
-  0%|          | 138/101178 [23:07<239:28:30,  8.53s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3916 ***********************
-  0%|          | 139/101178 [23:19<268:53:34,  9.58s/it]                                                        {'loss': 0.9454, 'grad_norm': 1.225537657737732, 'learning_rate': 9.156785243741766e-07, 'epoch': 0.0}
-  0%|          | 139/101178 [23:19<268:53:34,  9.58s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3474 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14777 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 140/101178 [23:27<258:18:26,  9.20s/it]                                                        {'loss': 0.7702, 'grad_norm': 1.0315362215042114, 'learning_rate': 9.22266139657444e-07, 'epoch': 0.0}
-  0%|          | 140/101178 [23:27<258:18:26,  9.20s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4246 ***********************
-  0%|          | 141/101178 [23:35<246:17:38,  8.78s/it]                                                        {'loss': 1.0868, 'grad_norm': 1.2807886600494385, 'learning_rate': 9.288537549407116e-07, 'epoch': 0.0}
-  0%|          | 141/101178 [23:35<246:17:38,  8.78s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 142/101178 [23:43<237:29:30,  8.46s/it]                                                        {'loss': 0.9147, 'grad_norm': 1.1776745319366455, 'learning_rate': 9.354413702239789e-07, 'epoch': 0.0}
-  0%|          | 142/101178 [23:43<237:29:30,  8.46s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 143/101178 [23:52<244:11:27,  8.70s/it]                                                        {'loss': 0.7634, 'grad_norm': 0.9509273171424866, 'learning_rate': 9.420289855072465e-07, 'epoch': 0.0}
-  0%|          | 143/101178 [23:52<244:11:27,  8.70s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3351 ***********************
-  0%|          | 144/101178 [24:00<239:18:17,  8.53s/it]                                                        {'loss': 0.6726, 'grad_norm': 1.017269492149353, 'learning_rate': 9.486166007905138e-07, 'epoch': 0.0}
-  0%|          | 144/101178 [24:00<239:18:17,  8.53s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3548 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (16142 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 145/101178 [24:08<232:19:22,  8.28s/it]                                                        {'loss': 0.7412, 'grad_norm': 0.9849302172660828, 'learning_rate': 9.552042160737815e-07, 'epoch': 0.0}
-  0%|          | 145/101178 [24:08<232:19:22,  8.28s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3324 ***********************
-  0%|          | 146/101178 [24:16<227:59:33,  8.12s/it]                                                        {'loss': 1.1089, 'grad_norm': 1.2518125772476196, 'learning_rate': 9.61791831357049e-07, 'epoch': 0.0}
-  0%|          | 146/101178 [24:16<227:59:33,  8.12s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3546 ***********************
-  0%|          | 147/101178 [24:27<258:11:32,  9.20s/it]                                                        {'loss': 0.6671, 'grad_norm': 1.1616259813308716, 'learning_rate': 9.683794466403161e-07, 'epoch': 0.0}
-  0%|          | 147/101178 [24:27<258:11:32,  9.20s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4327 ***********************
-  0%|          | 148/101178 [24:35<245:25:02,  8.74s/it]                                                        {'loss': 0.8913, 'grad_norm': 1.0907584428787231, 'learning_rate': 9.749670619235838e-07, 'epoch': 0.0}
-  0%|          | 148/101178 [24:35<245:25:02,  8.74s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3535 ***********************
-  0%|          | 149/101178 [24:44<250:33:13,  8.93s/it]                                                        {'loss': 0.9092, 'grad_norm': 1.0878808498382568, 'learning_rate': 9.81554677206851e-07, 'epoch': 0.0}
-  0%|          | 149/101178 [24:44<250:33:13,  8.93s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4312 ***********************
-  0%|          | 150/101178 [24:56<276:43:38,  9.86s/it]                                                        {'loss': 0.9352, 'grad_norm': 1.205703616142273, 'learning_rate': 9.881422924901187e-07, 'epoch': 0.0}
-  0%|          | 150/101178 [24:56<276:43:38,  9.86s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3897 ***********************
-  0%|          | 151/101178 [25:04<258:32:36,  9.21s/it]                                                        {'loss': 0.7739, 'grad_norm': 1.0378087759017944, 'learning_rate': 9.947299077733861e-07, 'epoch': 0.0}
-  0%|          | 151/101178 [25:04<258:32:36,  9.21s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4310 ***********************
-  0%|          | 152/101178 [25:12<245:31:35,  8.75s/it]                                                        {'loss': 0.8184, 'grad_norm': 1.1042472124099731, 'learning_rate': 1.0013175230566536e-06, 'epoch': 0.0}
-  0%|          | 152/101178 [25:12<245:31:35,  8.75s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2918 ***********************
-  0%|          | 153/101178 [25:20<236:46:32,  8.44s/it]                                                        {'loss': 0.6006, 'grad_norm': 0.8580288290977478, 'learning_rate': 1.007905138339921e-06, 'epoch': 0.0}
-  0%|          | 153/101178 [25:20<236:46:32,  8.44s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5529 ***********************
-  0%|          | 154/101178 [25:27<229:05:41,  8.16s/it]                                                        {'loss': 0.8025, 'grad_norm': 1.0684312582015991, 'learning_rate': 1.0144927536231885e-06, 'epoch': 0.0}
-  0%|          | 154/101178 [25:27<229:05:41,  8.16s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 952 ***********************
-  0%|          | 155/101178 [25:39<258:03:11,  9.20s/it]                                                        {'loss': 0.91, 'grad_norm': 1.1246154308319092, 'learning_rate': 1.021080368906456e-06, 'epoch': 0.0}
-  0%|          | 155/101178 [25:39<258:03:11,  9.20s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (15205 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 156/101178 [25:48<257:11:41,  9.17s/it]                                                        {'loss': 0.6498, 'grad_norm': 0.9245403409004211, 'learning_rate': 1.0276679841897233e-06, 'epoch': 0.0}
-  0%|          | 156/101178 [25:48<257:11:41,  9.17s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2893 ***********************
-  0%|          | 157/101178 [26:00<281:27:57, 10.03s/it]                                                        {'loss': 0.6665, 'grad_norm': 0.8658462762832642, 'learning_rate': 1.0342555994729908e-06, 'epoch': 0.0}
-  0%|          | 157/101178 [26:00<281:27:57, 10.03s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3024 ***********************
-  0%|          | 158/101178 [26:08<262:17:36,  9.35s/it]                                                        {'loss': 0.9457, 'grad_norm': 1.205926775932312, 'learning_rate': 1.0408432147562582e-06, 'epoch': 0.0}
-  0%|          | 158/101178 [26:08<262:17:36,  9.35s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3582 ***********************
-  0%|          | 159/101178 [26:15<248:00:54,  8.84s/it]                                                        {'loss': 0.6898, 'grad_norm': 0.8483161330223083, 'learning_rate': 1.0474308300395259e-06, 'epoch': 0.0}
-  0%|          | 159/101178 [26:15<248:00:54,  8.84s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4530 ***********************
-  0%|          | 160/101178 [26:27<274:54:00,  9.80s/it]                                                        {'loss': 0.6393, 'grad_norm': 0.9230366349220276, 'learning_rate': 1.0540184453227931e-06, 'epoch': 0.0}
-  0%|          | 160/101178 [26:27<274:54:00,  9.80s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3159 ***********************
-  0%|          | 161/101178 [26:35<257:15:12,  9.17s/it]                                                        {'loss': 0.6983, 'grad_norm': 0.8740499019622803, 'learning_rate': 1.0606060606060608e-06, 'epoch': 0.0}
-  0%|          | 161/101178 [26:35<257:15:12,  9.17s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 162/101178 [26:43<246:10:08,  8.77s/it]                                                        {'loss': 0.8734, 'grad_norm': 1.0952950716018677, 'learning_rate': 1.067193675889328e-06, 'epoch': 0.0}
-  0%|          | 162/101178 [26:43<246:10:08,  8.77s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3819 ***********************
-  0%|          | 163/101178 [26:55<271:26:34,  9.67s/it]                                                        {'loss': 0.9007, 'grad_norm': 1.2068758010864258, 'learning_rate': 1.0737812911725957e-06, 'epoch': 0.0}
-  0%|          | 163/101178 [26:55<271:26:34,  9.67s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4499 ***********************
-  0%|          | 164/101178 [27:04<268:06:48,  9.56s/it]                                                        {'loss': 0.7289, 'grad_norm': 0.8438438177108765, 'learning_rate': 1.0803689064558631e-06, 'epoch': 0.0}
-  0%|          | 164/101178 [27:04<268:06:48,  9.56s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 5882 ***********************
-  0%|          | 165/101178 [27:13<264:35:53,  9.43s/it]                                                        {'loss': 0.5721, 'grad_norm': 0.8307135105133057, 'learning_rate': 1.0869565217391306e-06, 'epoch': 0.0}
-  0%|          | 165/101178 [27:13<264:35:53,  9.43s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4655 ***********************
-  0%|          | 166/101178 [27:21<249:57:13,  8.91s/it]                                                        {'loss': 0.6197, 'grad_norm': 0.9262728095054626, 'learning_rate': 1.093544137022398e-06, 'epoch': 0.0}
-  0%|          | 166/101178 [27:21<249:57:13,  8.91s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3222 ***********************
-  0%|          | 167/101178 [27:28<239:35:46,  8.54s/it]                                                        {'loss': 0.6732, 'grad_norm': 0.7854233384132385, 'learning_rate': 1.1001317523056654e-06, 'epoch': 0.0}
-  0%|          | 167/101178 [27:28<239:35:46,  8.54s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1131 ***********************
-  0%|          | 168/101178 [27:36<234:47:26,  8.37s/it]                                                        {'loss': 0.8284, 'grad_norm': 1.0328092575073242, 'learning_rate': 1.1067193675889329e-06, 'epoch': 0.0}
-  0%|          | 168/101178 [27:36<234:47:26,  8.37s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4261 ***********************
-  0%|          | 169/101178 [27:45<236:41:08,  8.44s/it]                                                        {'loss': 0.6667, 'grad_norm': 0.8266103863716125, 'learning_rate': 1.1133069828722003e-06, 'epoch': 0.01}
-  0%|          | 169/101178 [27:45<236:41:08,  8.44s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2974 ***********************
-  0%|          | 170/101178 [27:53<230:31:10,  8.22s/it]                                                        {'loss': 0.7644, 'grad_norm': 0.9616363644599915, 'learning_rate': 1.1198945981554678e-06, 'epoch': 0.01}
-  0%|          | 170/101178 [27:53<230:31:10,  8.22s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2827 ***********************
-  0%|          | 171/101178 [28:01<233:26:22,  8.32s/it]                                                        {'loss': 0.7322, 'grad_norm': 0.9042279720306396, 'learning_rate': 1.1264822134387352e-06, 'epoch': 0.01}
-  0%|          | 171/101178 [28:01<233:26:22,  8.32s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 2755 ***********************
-  0%|          | 172/101178 [28:09<227:29:18,  8.11s/it]                                                        {'loss': 0.7172, 'grad_norm': 0.8783572912216187, 'learning_rate': 1.1330698287220027e-06, 'epoch': 0.01}
-  0%|          | 172/101178 [28:09<227:29:18,  8.11s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4602 ***********************
-  0%|          | 173/101178 [28:20<254:43:57,  9.08s/it]                                                        {'loss': 0.9408, 'grad_norm': 1.069040060043335, 'learning_rate': 1.13965744400527e-06, 'epoch': 0.01}
-  0%|          | 173/101178 [28:20<254:43:57,  9.08s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 1272 ***********************
-  0%|          | 174/101178 [28:29<251:25:47,  8.96s/it]                                                        {'loss': 0.892, 'grad_norm': 1.0791019201278687, 'learning_rate': 1.1462450592885378e-06, 'epoch': 0.01}
-  0%|          | 174/101178 [28:29<251:25:47,  8.96s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 175/101178 [28:41<275:15:46,  9.81s/it]                                                        {'loss': 0.9283, 'grad_norm': 0.9748098254203796, 'learning_rate': 1.152832674571805e-06, 'epoch': 0.01}
-  0%|          | 175/101178 [28:41<275:15:46,  9.81s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3253 ***********************
-  0%|          | 176/101178 [28:48<258:15:14,  9.20s/it]                                                        {'loss': 1.0701, 'grad_norm': 1.0895012617111206, 'learning_rate': 1.1594202898550726e-06, 'epoch': 0.01}
-  0%|          | 176/101178 [28:48<258:15:14,  9.20s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3580 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (14117 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 177/101178 [28:56<246:36:46,  8.79s/it]                                                        {'loss': 0.8337, 'grad_norm': 0.9819682836532593, 'learning_rate': 1.16600790513834e-06, 'epoch': 0.01}
-  0%|          | 177/101178 [28:56<246:36:46,  8.79s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 6888 ***********************
-  0%|          | 178/101178 [29:05<245:20:24,  8.74s/it]                                                        {'loss': 0.8624, 'grad_norm': 0.8437014222145081, 'learning_rate': 1.1725955204216075e-06, 'epoch': 0.01}
-  0%|          | 178/101178 [29:05<245:20:24,  8.74s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3293 ***********************
-  0%|          | 179/101178 [29:12<234:57:26,  8.37s/it]                                                        {'loss': 0.5847, 'grad_norm': 0.7938494086265564, 'learning_rate': 1.179183135704875e-06, 'epoch': 0.01}
-  0%|          | 179/101178 [29:12<234:57:26,  8.37s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3678 ***********************
-  0%|          | 180/101178 [29:22<243:16:34,  8.67s/it]                                                        {'loss': 0.669, 'grad_norm': 0.7736648917198181, 'learning_rate': 1.1857707509881424e-06, 'epoch': 0.01}
-  0%|          | 180/101178 [29:22<243:16:34,  8.67s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3551 ***********************
-  0%|          | 181/101178 [29:29<234:48:32,  8.37s/it]                                                        {'loss': 0.65, 'grad_norm': 0.7057952284812927, 'learning_rate': 1.1923583662714099e-06, 'epoch': 0.01}
-  0%|          | 181/101178 [29:29<234:48:32,  8.37s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3967 ***********************
-  0%|          | 182/101178 [29:38<234:34:23,  8.36s/it]                                                        {'loss': 0.6077, 'grad_norm': 0.7401901483535767, 'learning_rate': 1.1989459815546773e-06, 'epoch': 0.01}
-  0%|          | 182/101178 [29:38<234:34:23,  8.36s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 13967 ***********************
-  0%|          | 183/101178 [29:50<263:36:52,  9.40s/it]                                                        {'loss': 0.6384, 'grad_norm': 0.7528795599937439, 'learning_rate': 1.2055335968379448e-06, 'epoch': 0.01}
-  0%|          | 183/101178 [29:50<263:36:52,  9.40s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 184/101178 [29:57<250:41:54,  8.94s/it]                                                        {'loss': 0.8024, 'grad_norm': 0.7884275913238525, 'learning_rate': 1.2121212121212122e-06, 'epoch': 0.01}
-  0%|          | 184/101178 [29:57<250:41:54,  8.94s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3097 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (18388 > 14000). Running this sequence through the model will result in indexing errors
-  0%|          | 185/101178 [30:05<240:39:55,  8.58s/it]                                                        {'loss': 0.6119, 'grad_norm': 0.7106618881225586, 'learning_rate': 1.2187088274044796e-06, 'epoch': 0.01}
-  0%|          | 185/101178 [30:05<240:39:55,  8.58s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 14000 ***********************
-  0%|          | 186/101178 [30:13<234:01:04,  8.34s/it]                                                        {'loss': 0.7654, 'grad_norm': 0.7645245790481567, 'learning_rate': 1.225296442687747e-06, 'epoch': 0.01}
-  0%|          | 186/101178 [30:13<234:01:04,  8.34s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 4560 ***********************
-  0%|          | 187/101178 [30:21<228:37:27,  8.15s/it]                                                        {'loss': 0.6681, 'grad_norm': 0.9456184506416321, 'learning_rate': 1.2318840579710147e-06, 'epoch': 0.01}
-  0%|          | 187/101178 [30:21<228:37:27,  8.15s/it]Rank 0:  num_images_all:2
-Rank 0:  **************** max_len: 3750 ***********************
-Token indices sequence length is longer than the specified maximum sequence length for this model (15408 > 14000). Running this sequence through the model will result in indexing errors

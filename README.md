@@ -9,3 +9,18 @@ pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https
 pip install transformers==4.50.3
 pip install -r requirements.txt
 ```
+
+## Train
+
+Stage1:
+
+bash scripts/train_ocr.sh/stage1.sh
+
+Stage2:
+
+bash scripts/train_ocr.sh/stage2.sh
+
+## Data
+
+playground/datasets/stage1.yaml
+playground/datasets/stage2.yaml

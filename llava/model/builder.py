@@ -26,7 +26,7 @@ from llava.utils import rank0_print
 
 def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, load_4bit=False, device_map="auto", torch_dtype="float16",device="cuda", attn_implementation="flash_attention_2", min_image_tokens=4,max_image_tokens=4096,customized_config=None, overwrite_config=None, **kwargs):
     packing=True
-    if not "qwenvit" in model_path:
+    if not "qwen" in model_path:
         packing=False
         kwargs["device_map"] = device_map
     if load_8bit:
