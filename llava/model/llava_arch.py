@@ -24,7 +24,7 @@ from .multimodal_encoder.builder import build_vision_tower
 from .multimodal_resampler.builder import build_vision_resampler
 from .multimodal_projector.builder import build_vision_projector
 
-from llava.constants import IGNORE_INDEX, IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
+from llava.constants import IGNORE_INDEX, IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN, DLA_SPECIAL_TOKENS
 
 from llava.mm_utils import get_anyres_image_grid_shape
 from llava.utils import rank0_print, rank_print
@@ -81,7 +81,7 @@ class LlavaMetaModel:
             else:
                 vision_resampler = self.vision_resampler
                 vision_tower = self.vision_tower
-                # vision_tower.load_model()
+            # vision_tower.load_model()
 
             # In case it is frozen by LoRA
             for p in self.vision_resampler.parameters():
@@ -757,16 +757,22 @@ class LlavaMetaForCausalLM(ABC):
             tokenizer.add_tokens([DEFAULT_IMAGE_PATCH_TOKEN], special_tokens=True)
             self.resize_token_embeddings(len(tokenizer))
 
-        if model_args.mm_use_im_start_end:
-            num_new_tokens = tokenizer.add_tokens([DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN], special_tokens=True)
+        if model_args.mm_use_im_start_end or model_args.mm_use_box_start_end:
+            new_tokens = []
+            if model_args.mm_use_im_start_end:
+                new_tokens.extend([DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN])
+            if model_args.mm_use_box_start_end:
+                new_tokens.extend(DLA_SPECIAL_TOKENS)
+            num_new_tokens = tokenizer.add_tokens(new_tokens, special_tokens=True)
             self.resize_token_embeddings(len(tokenizer))
 
             if num_new_tokens > 0:
                 input_embeddings = self.get_input_embeddings().weight.data
                 output_embeddings = self.get_output_embeddings().weight.data
-
-                input_embeddings_avg = input_embeddings[:-num_new_tokens].mean(dim=0, keepdim=True)
-                output_embeddings_avg = output_embeddings[:-num_new_tokens].mean(dim=0, keepdim=True)
+                input_embeddings_avg = input_embeddings[:-num_new_tokens].mean(
+                    dim=0, keepdim=True)
+                output_embeddings_avg = output_embeddings[:-num_new_tokens].mean(
+                    dim=0, keepdim=True)
 
                 input_embeddings[-num_new_tokens:] = input_embeddings_avg
                 output_embeddings[-num_new_tokens:] = output_embeddings_avg

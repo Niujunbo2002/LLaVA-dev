@@ -3,16 +3,6 @@ WORKER_HEART_BEAT_INTERVAL = 15
 
 LOGDIR = "."
 
-
-# # Model Constants
-# IGNORE_INDEX = -100
-# IMAGE_TOKEN_INDEX = -200
-# DEFAULT_IMAGE_TOKEN = "<image>"
-# DEFAULT_IMAGE_PATCH_TOKEN = "<im_patch>"
-# DEFAULT_IM_START_TOKEN = "<im_start>"
-# DEFAULT_IM_END_TOKEN = "<im_end>"
-
-
 # Model Constants
 IGNORE_INDEX = -100
 IMAGE_TOKEN_INDEX = -200
@@ -21,3 +11,11 @@ DEFAULT_IMAGE_PATCH_TOKEN = "<im_patch>"
 DEFAULT_IM_START_TOKEN = "<Mineru_start>"
 DEFAULT_IM_END_TOKEN = "<Mineru_end>"
 IMAGE_PLACEHOLDER = "<image-placeholder>"
+
+BBOX_START_TOKEN = "<|box_start|>"
+BBOX_END_TOKEN = "<|box_end|>"
+REF_START_TOKEN = "<|ref_start|>"
+REF_END_TOKEN = "<|ref_end|>"
+MD_START_TOKEN = "<|md_start|>"
+MD_END_TOKEN = "<|md_end|>"
+DLA_SPECIAL_TOKENS = [BBOX_START_TOKEN, BBOX_END_TOKEN, REF_START_TOKEN, REF_END_TOKEN, MD_START_TOKEN, MD_END_TOKEN] 

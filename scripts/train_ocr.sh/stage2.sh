@@ -107,6 +107,7 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node="${NUM_GPUS}"  \
     --mm_vision_select_layer -1 \
     --mm_use_im_start_end False \
     --mm_use_im_patch_token False \
+    --mm_use_box_start_end True \
     --group_by_modality_length True \
     --bf16 True \
     --run_name ${S2_RUN_NAME} \

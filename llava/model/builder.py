@@ -227,21 +227,17 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                             setattr(llava_cfg, k, v)
                         model = LlavaQwenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, attn_implementation=attn_implementation, config=llava_cfg, **kwargs)
                     else:
-                        if "vicuna" in model_path.lower():
-                            model = LlavaLlamaForCausalLM.from_pretrained(model_path, 
-                                                                        low_cpu_mem_usage=True if not packing else False,
-                                                                        attn_implementation=attn_implementation, 
-                                                                        **kwargs)
-                        else:
-                            model = LlavaQwenForCausalLM.from_pretrained(model_path, 
-                                                                        low_cpu_mem_usage=True if not packing else False,
-                                                                        attn_implementation=attn_implementation, 
-                                                                        **kwargs)
+                        # import ipdb;ipdb.set_trace()
+                        model = LlavaQwenForCausalLM.from_pretrained(model_path, 
+                                                                     low_cpu_mem_usage=True if not packing else False,
+                                                                    #  low_cpu_mem_usage=True,#!!!!!!
+                                                                     attn_implementation=attn_implementation, 
+                                                                     **kwargs)
                         if packing:
                             model=model.to(device)
                             model.get_model().get_vision_tower().reset_image_processor(min_image_tokens, max_image_tokens)
                             image_processor = model.get_model().get_vision_tower().image_processor
-                            
+                            model = model.to(torch.bfloat16)   # 改为 bfloat16
                             # print(model.get_model().get_vision_tower().image_processor)
                             # print(f"======================")
                             # print(f"{dir(image_processor)}")
@@ -293,7 +289,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False)
                 model = AutoModelForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
 
-    rank0_print(f"Model Class: {model.__class__.__name__}")
+    # rank0_print(f"Model Class: {model.__class__.__name__}")
     image_processor = None
 
     if "llava" in model_name.lower() or is_multimodal:

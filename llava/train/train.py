@@ -105,7 +105,7 @@ class ModelArguments:
     mm_qformer_depth: Optional[int] = field(default=3)
     mm_qformer_latents: Optional[int] = field(default=32)
     mm_qformer_pretrained: Optional[str] = field(default=None)
-
+    mm_use_box_start_end: bool = field(default=False)
     rope_scaling_factor: Optional[float] = field(default=None)
     rope_scaling_type: Optional[str] = field(default=None)
 
