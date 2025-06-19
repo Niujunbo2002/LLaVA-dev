@@ -244,6 +244,7 @@ def eval_model(args):
         min_image_tokens=args.min_image_tokens,
         max_image_tokens=args.max_image_tokens,
     )
+    model = model.to(torch.bfloat16)
 
     # Load image(s)
     image_files = image_parser(args)

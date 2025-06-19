@@ -26,7 +26,7 @@ from llava.utils import rank0_print
 
 def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, load_4bit=False, device_map="auto", torch_dtype="float16",device="cuda", attn_implementation="flash_attention_2", min_image_tokens=4,max_image_tokens=4096,customized_config=None, overwrite_config=None, **kwargs):
     packing=True
-    if not "qwen" in model_path:
+    if not "qwen" in model_path.lower():
         packing=False
         kwargs["device_map"] = device_map
     if load_8bit:
@@ -50,7 +50,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
             kwargs.pop("multimodal")
     else:
         is_multimodal = False
-
+    # print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
     if "llava" in model_name.lower() or is_multimodal:
         # Load LLaVA model
         if "lora" in model_name.lower() and model_base is None:
@@ -235,9 +235,10 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                                                                      **kwargs)
                         if packing:
                             model=model.to(device)
+
                             model.get_model().get_vision_tower().reset_image_processor(min_image_tokens, max_image_tokens)
                             image_processor = model.get_model().get_vision_tower().image_processor
-                            model = model.to(torch.bfloat16)   # 改为 bfloat16
+                            # model = model.to(torch.bfloat16)   # 改为 bfloat16
                             # print(model.get_model().get_vision_tower().image_processor)
                             # print(f"======================")
                             # print(f"{dir(image_processor)}")

@@ -2,6 +2,9 @@ import os
 from transformers.models.qwen2_vl.modeling_qwen2_vl import (
     Qwen2VisionTransformerPretrainedModel,
 )
+from transformers.models.qwen2_vl.modeling_qwen2_vl import Qwen2VisionTransformerPretrainedModel
+from transformers.models.qwen2_vl.configuration_qwen2_vl import Qwen2VLVisionConfig
+
 from transformers import AutoConfig, AutoProcessor
 from safetensors.torch import load_file
 from torch import nn
@@ -38,47 +41,48 @@ class Qwen2VisionTransformerPretrainedModelForLLaVA(nn.Module):
         self.resize_image_size=getattr(args,"resize_image_size",None)
         self.load_model(self.model_path)
 
-    def load_model(self,model_path):
-        config = AutoConfig.from_pretrained(model_path)
-        visual_model = Qwen2VisionTransformerPretrainedModel._from_config(
-            config=config.vision_config,
+    def load_model(self, model_path):
+        """Load vision tower from pretrained model"""
+        config = Qwen2VLVisionConfig.from_pretrained(model_path)
+
+        self.vision_tower = Qwen2VisionTransformerPretrainedModel._from_config(
+            config=config,
             use_flash_attention_2=True,
-        )
+        ).half()
 
-        checkpoint_path = os.path.join(model_path, "model-00001-of-00002.safetensors")
-
-        
-        print(f"{GREEN}Loading QwenViT ...{RESET}")
-        
-        checkpoint = load_file(checkpoint_path)
-        visual_weights = {
-            key.replace("visual.", ""): value
-            for key, value in checkpoint.items()
-            if key.startswith("visual.")
-        }
-        visual_model.load_state_dict(visual_weights, strict=True)
-        
-        print(f"{GREEN}QwenViT loaded successfully!{RESET}")
-        self.vision_tower=visual_model
         self.vision_tower.requires_grad_(False)
         self.is_loaded = True
-        # self.image_processor = AutoProcessor.from_pretrained(model_path)
-        self.reset_image_processor(self.min_token,self.max_token)
-        self.image_processor.resize_image_size=self.resize_image_size
+
+        self.reset_image_processor(self.min_token, self.max_token)
         
     def reset_image_processor(self, min_tokens, max_tokens):
-        min_pixels=min_tokens*28*28
-        max_pixels=max_tokens*28*28
-        self.image_processor = AutoProcessor.from_pretrained(self.model_path,min_pixels=min_pixels,max_pixels=max_pixels)
-        # Simplified output format
-        print(f"{GREEN}MIN_PIXELS: {min_tokens} * 28 * 28 \nMAX_PIXELS: {max_tokens} * 28 * 28{RESET}")
+        """Initialize the image processor with token-based resolution bounds"""
+        min_pixels = min_tokens * 28 * 28
+        max_pixels = max_tokens * 28 * 28
 
+        self.image_processor = AutoProcessor.from_pretrained(
+            self.model_path,
+            min_pixels=min_pixels,
+            max_pixels=max_pixels
+        )
+        self.image_processor.resize_image_size = self.resize_image_size
+
+        print(f"{GREEN}Image token limits:\n  MIN_PIXELS: {min_tokens} * 28 * 28 = {min_pixels}\n"
+              f"  MAX_PIXELS: {max_tokens} * 28 * 28 = {max_pixels}{RESET}")
+        
     def forward(self, pixel_values, grid_thw):
         """
-        pixel_values:[all_seq_len,patch_size*patch_size*3*2]
-        image_grid_thw:[num_img,3],每个长度为3的向量为[1,h,w],1表示时间,如果为video,则会大于1.h,w为图像的高和宽(以patch为单位)
+        Forward pass to extract visual features.
+
+        Args:
+            pixel_values (Tensor): Image tensor of shape [all_seq_len, C * H * W]
+            grid_thw (Tensor): Tensor of shape [num_images, 3] where each row is [T, H, W] in patch units
+
+        Returns:
+            Tensor: Extracted image features of shape [total_tokens, hidden_size]
         """
-        return self.vision_tower(pixel_values, grid_thw=grid_thw)#[all_seq_len//4,hidden_size(1536)]
+        image_features = self.vision_tower(pixel_values, grid_thw=grid_thw)
+        return image_features
     
     @property
     def dummy_feature(self):

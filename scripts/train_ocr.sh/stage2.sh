@@ -60,8 +60,8 @@ export MODEL_MAX_LEN=4096
 export PROMPT_VERSION="qwen_2"
 
 # Model paths
-export LLM_VERSION="/mnt/petrelfs/niujunbo/niujunbo_dev/LLaVA-dev/playground/training/06-17/NativeRes-LLaVA-Qwen2-0.5B-Instruct-qwen2_5_vit-Stage1/checkpoints/NativeRes-LLaVA-Qwen2-0.5B-Instruct-qwen2_5_vit-Stage1/checkpoint-100"
-export VISION_MODEL_VERSION="/mnt/petrelfs/niujunbo/niujunbo_dev/ocr_ckpts/qwen2_5_vl-668m-patch14-native"
+export LLM_VERSION="/mnt/hwfile/doc_parse/niujunbo/MinerU2/checkpoints/Stage1/nativeres-llava-ocr-Qwen2-0.5B-Instruct-qwenvit_2-stage1-1.8M-token_4_7290"
+export VISION_MODEL_VERSION="/mnt/hwfile/doc_parse/niujunbo/MinerU2/checkpoints/NativeResViT/qwen2vit-665m-patch14-native"
 
 # Cluster settings
 export PARTITION="mineru2"
@@ -69,7 +69,7 @@ export NODES=1
 export MASTER_PORT=12349
 
 # Naming & logging
-export S2_RUN_NAME="NativeRes-LLaVA-Qwen2-0.5B-Instruct-qwen2_5_vit-Stage2"
+export S2_RUN_NAME="NativeRes-LLaVA-Qwen2-0.5B-Instruct-qwen2_vit-Stage2"
 echo "S2_RUN_NAME: ${S2_RUN_NAME}"
 
 export CKPT_PATH=${LLM_VERSION}  # Can be replaced with another checkpoint path if needed
@@ -116,6 +116,9 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node="${NUM_GPUS}"  \
     --per_device_train_batch_size ${PER_DEVICE_BS} \
     --per_device_eval_batch_size 4 \
     --gradient_accumulation_steps ${ACC_BS} \
+    --mm_use_im_start_end False \
+    --mm_use_im_patch_token False \
+    --mm_use_box_start_end True \
     --evaluation_strategy "no" \
     --save_strategy "steps" \
     --save_steps 10 \
