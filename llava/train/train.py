@@ -550,16 +550,19 @@ def preprocess_gemma(sources: List[List[Dict[str, str]]], tokenizer: transformer
 def preprocess_qwen(sources, tokenizer: transformers.PreTrainedTokenizer, has_image: bool = False, max_len=2048, system_message: str = "You are a helpful assistant.") -> Dict:
     # roles = {"human": "<|im_start|>user", "gpt": "<|im_start|>assistant"}
     roles = {"human": "user", "gpt": "assistant"}
-
+    
     # Add image tokens to tokenizer as a special tokens
     # Use a deepcopy of tokenizer so that we don't modify on the tokenizer
     tokenizer = copy.deepcopy(tokenizer)
     # When there is actually an image, we add the image tokens as a special token
     if has_image:
-        tokenizer.add_tokens(["<image>"], special_tokens=True)
+        tokenizer.add_tokens([DEFAULT_IMAGE_TOKEN], special_tokens=True)
 
-    image_token_index = tokenizer.convert_tokens_to_ids("<image>")
-    im_start, im_end = tokenizer.additional_special_tokens_ids
+    image_token_index = tokenizer.convert_tokens_to_ids(DEFAULT_IMAGE_TOKEN)
+    if len(tokenizer.additional_special_tokens_ids)==2:
+        im_start, im_end = tokenizer.additional_special_tokens_ids 
+    else:
+        im_start, im_end=tokenizer.convert_tokens_to_ids("<|im_start|>"),tokenizer.convert_tokens_to_ids("<|im_end|>")
     # unmask_tokens = ["<|im_start|>", "<|im_start|>", "\n"]
     unmask_tokens_idx =  [198, im_start, im_end]
     nl_tokens = tokenizer("\n").input_ids
@@ -1070,14 +1073,14 @@ class LazySupervisedDataset(Dataset):
         return length_list
 
     def process_image(self, image_file, overwrite_image_aspect_ratio=None):
-        image_folder = self.data_args.image_folder
         processor = self.data_args.image_processor
         # print(f"\n\nInspecting the image path, folder = {image_folder}, image={image_file}\n\n")
         try:
-            image = Image.open(os.path.join(image_folder, image_file)).convert("RGB")
+            image = self.read_image(image_file)
         except Exception as exn:
             print(f"Failed to open image {image_file}. Exception:", exn)
             raise exn
+
 
         image_size = image.size
         image_aspect_ratio = self.data_args.image_aspect_ratio
