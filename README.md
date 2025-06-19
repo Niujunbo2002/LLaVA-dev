@@ -25,3 +25,14 @@ bash scripts/train_ocr.sh/stage2.sh
 playground/datasets/stage1.yaml
 
 playground/datasets/stage2.yaml
+
+## Infer
+
+niujunbo_dev/LLaVA-dev/infer_demo.py
+
+```python
+parser.add_argument("--min_image_tokens", type=int, default=4,
+                    help="Minimum number of image tokens used for encoding the image.")
+parser.add_argument("--max_image_tokens", type=int, default=7290,
+                    help="Maximum number of image tokens allowed when encoding the image.")
+```
