@@ -53,7 +53,7 @@ class Qwen2VisionTransformerPretrainedModelForLLaVA(nn.Module):
         self.vision_tower.requires_grad_(False)
         self.is_loaded = True
 
-        self.reset_image_processor(self.min_token, self.max_token)
+        # self.reset_image_processor(self.min_token, self.max_token)
         
     def reset_image_processor(self, min_tokens, max_tokens):
         """Initialize the image processor with token-based resolution bounds"""
@@ -82,7 +82,12 @@ class Qwen2VisionTransformerPretrainedModelForLLaVA(nn.Module):
             Tensor: Extracted image features of shape [total_tokens, hidden_size]
         """
         image_features = self.vision_tower(pixel_values, grid_thw=grid_thw)
+
+        # 打印 image token 的数量
+        # print("Image token 数量:", image_features.shape[0])
+
         return image_features
+
     
     @property
     def dummy_feature(self):

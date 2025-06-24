@@ -194,7 +194,7 @@ def draw_bbox(img_path, prompt):
                # draw.text(text_position, label, fill=outline_color, font=font)
                pass # Or handle error appropriately
                
-        image.save("/mnt/petrelfs/niujunbo/niujunbo_dev/github/NativeRes-LLaVA/playground/output_with_bboxes_njb.png")
+        image.save("/mnt/petrelfs/niujunbo/niujunbo_dev/LLaVA-dev/playground/output_with_bboxes_njb.png")
         print(f"Bounding boxes drawn on {img_path} (if it was a valid image).")
     
     except FileNotFoundError:
@@ -244,6 +244,8 @@ def eval_model(args):
         min_image_tokens=args.min_image_tokens,
         max_image_tokens=args.max_image_tokens,
     )
+
+    print(tokenizer)
     model = model.to(torch.bfloat16)
 
     # Load image(s)
@@ -301,8 +303,9 @@ def eval_model(args):
             packing=packing,
             grid_thw=grid_thw,
         )
+    print(output_ids)
+    outputs = tokenizer.batch_decode(output_ids, skip_special_tokens=False)[0].strip()
 
-    outputs = tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
     print(f"{GREEN}The output is:{RESET}")
     print(f"{BLUE}{outputs}{RESET}")
 
@@ -310,17 +313,17 @@ def eval_model(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model-path", type=str, default="/mnt/petrelfs/niujunbo/niujunbo_dev/ocr_ckpts/nativeres-llava-ocr-Qwen2-0.5B-Instruct-qwenvit_2_5-stage2-v4-token_4_7290")
+    parser.add_argument("--model-path", type=str, default="/mnt/petrelfs/niujunbo/niujunbo_dev/LLaVA-dev/playground/training/06-23/NativeRes-LLaVA-Qwen2-0.5B-Instruct-qwen2_vit-Stage2/checkpoints/NativeRes-LLaVA-Qwen2-0.5B-Instruct-qwen2_vit-Stage2/checkpoint-830")
     parser.add_argument("--model-base", type=str, default=None)
     parser.add_argument("--image-file", type=str, default="/mnt/petrelfs/niujunbo/NativeRes-LLaVA/demo/page_510.png")
-    parser.add_argument("--query", type=str, default="Document Parsing:" )
+    parser.add_argument("--query", type=str, default="Document Parsing: " )
     parser.add_argument("--conv-mode", type=str, default="qwen_2") #qwen_1_5
     parser.add_argument("--sep", type=str, default=",")
     parser.add_argument("--temperature", type=float, default=0.0)
     parser.add_argument("--top_p", type=float, default=1.0)
     parser.add_argument("--num_beams", type=int, default=1)
     parser.add_argument("--min_image_tokens", type=int, default=4)
-    parser.add_argument("--max_image_tokens", type=int, default=3096)
+    parser.add_argument("--max_image_tokens", type=int, default=1024)
     parser.add_argument("--max_new_tokens", type=int, default=4096)
 
     args = parser.parse_args()

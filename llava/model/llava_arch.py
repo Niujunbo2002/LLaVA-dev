@@ -572,9 +572,9 @@ class LlavaMetaForCausalLM(ABC):
         tokenizer_model_max_length = getattr(self.config, 'tokenizer_model_max_length', None)#8192
         if isinstance(modalities, str):
             modalities = [modalities]
-            
         if images is not None:
             image_features = self.encode_images_qwen(images,grid_thw) #[all_seq_len,dim](2940,896)
+            # print(image_features.shape)
             if tokenizer_model_max_length is not None and input_ids.shape[1]==1:#防止推理的时候图像token超了
                 assert image_features.shape[0]<tokenizer_model_max_length-48,"图像的tokens数量超过了tokenizer_model_max_length-48"
         
@@ -608,9 +608,10 @@ class LlavaMetaForCausalLM(ABC):
         new_input_embeds = []
         new_labels = []
         cur_image_idx = 0
-        cur_image_idx_qwen=0#用于计算cur_input_ids_img_qwen
-        new_input_ids_qwen=[]#将图像的-200替换成qwenvit输出数量的-200
+        cur_image_idx_qwen=0 #用于计算cur_input_ids_img_qwen
+        new_input_ids_qwen=[] #将图像的-200替换成qwenvit输出数量的-200
         max_len=0
+        # import pdb; pdb.set_trace()
         for batch_idx, cur_input_ids in enumerate(input_ids):
             num_images = (cur_input_ids == IMAGE_TOKEN_INDEX).sum()#一个batch的图片的数量可能是0个,1个,或者多个
             # rank0_print(num_images)

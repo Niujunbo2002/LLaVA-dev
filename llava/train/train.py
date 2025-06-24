@@ -1309,6 +1309,7 @@ class DataCollatorForSupervisedDataset(object):
                     # Video: (N, F, C, H, W)
                 #     batch["images"] = torch.stack(images)
                 # else:
+
                 batch["images"] = images
                 batch['packing'] = False
             if "prompt" in instances[0]:
@@ -1356,7 +1357,7 @@ class DataCollatorForSupervisedDataset(object):
                 )
                 pixel_values = inputs.get("pixel_values")  # 默认返回 None
                 grid_thw = inputs.get("image_grid_thw")
-                
+
                 batch['images'] = pixel_values
                 batch['grid_thw']=grid_thw
                 batch['packing'] = True
@@ -1504,6 +1505,10 @@ def get_model(model_args, training_args, bnb_model_from_pretrained_args):
                     low_cpu_mem_usage=False,
                     **customized_kwargs,
                 )
+                try:
+                    model.get_model().get_vision_tower().reset_image_processor(model_args.mm_min_image_token, model_args.mm_max_image_token)
+                except Exception:
+                    pass
         elif "gemma" in model_args.model_name_or_path.lower():
             model = LlavaGemmaForCausalLM.from_pretrained(
                 model_args.model_name_or_path,
@@ -1529,7 +1534,7 @@ def get_model(model_args, training_args, bnb_model_from_pretrained_args):
 
 def train(attn_implementation=None):
     global local_rank
-    # import ipdb;ipdb.set_trace()
+
     parser = transformers.HfArgumentParser((ModelArguments, DataArguments, TrainingArguments))
     model_args, data_args, training_args = parser.parse_args_into_dataclasses()
     if "qwen" in model_args.vision_tower.split('/')[-1].lower():

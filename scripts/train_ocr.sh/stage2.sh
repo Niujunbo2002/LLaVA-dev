@@ -49,12 +49,12 @@ export TOKENIZERS_PARALLELISM=false
 
 # Image token length
 export MIN_IMG_TOKEN=4
-export MAX_IMG_TOKEN=4096
+export MAX_IMG_TOKEN=1024
 
 # Dataset & Model config
-export DATA_PATH="/mnt/petrelfs/niujunbo/niujunbo_dev/LLaVA-dev/playground/datasets/stage1.yaml"
+export DATA_PATH="/mnt/petrelfs/niujunbo/niujunbo_dev/LLaVA-dev/playground/datasets/stage2.yaml"
 export IMG_FOLDER="/data/niujunbo/datasets/liuhaotian/LLaVA-Pretrain/images"
-export PER_DEVICE_BS=1
+export PER_DEVICE_BS=2
 export ACC_BS=1
 export MODEL_MAX_LEN=4096
 export PROMPT_VERSION="qwen_2"
@@ -127,7 +127,7 @@ ACCELERATE_CPU_AFFINITY=1 torchrun --nproc_per_node="${NUM_GPUS}"  \
     --weight_decay 0. \
     --warmup_ratio 0.03 \
     --lr_scheduler_type "cosine" \
-    --logging_steps 50 \
+    --logging_steps 1 \
     --tf32 True \
     --model_max_length ${MODEL_MAX_LEN} \
     --gradient_checkpointing True \
