@@ -38,17 +38,25 @@ class Qwen2VisionTransformerPretrainedModelForLLaVA(nn.Module):
         self.resize_image_size=getattr(args,"resize_image_size",None)
         self.load_model(self.model_path)
 
-    def load_model(self,model_path):
+    def load_model(self, model_path):
+        """
+        加载 Qwen2VisionTransformerPretrainedModel，但丢弃 merger 部分。
+        """
         config = AutoConfig.from_pretrained(model_path)
         visual_model = Qwen2VisionTransformerPretrainedModel._from_config(
             config=config.vision_config,
-            use_flash_attention_2=True,
+            use_flash_attention_2=True, 
         )
 
-        checkpoint_path = os.path.join(model_path, "model-00001-of-00002.safetensors")
+        # 关键步骤 1: 用一个 Identity 层替换 merger
+        # Identity 层是一个占位符，它不执行任何操作，也没有任何参数
+        print(f"{GREEN}Replacing the 'merger' module...{RESET}")
+        visual_model.merger = torch.nn.Identity()
 
+        # import pdb; pdb.set_trace()
+        checkpoint_path = os.path.join(model_path, "model-00001-of-00002.safetensors")
         
-        print(f"{GREEN}Loading QwenViT ...{RESET}")
+        print(f"{GREEN}Loading QwenViT weights (excluding merger)...{RESET}")
         
         checkpoint = load_file(checkpoint_path)
         visual_weights = {
@@ -56,10 +64,23 @@ class Qwen2VisionTransformerPretrainedModelForLLaVA(nn.Module):
             for key, value in checkpoint.items()
             if key.startswith("visual.")
         }
-        visual_model.load_state_dict(visual_weights, strict=True)
         
-        print(f"{GREEN}QwenViT loaded successfully!{RESET}")
-        self.vision_tower=visual_model
+        # 关键步骤 2: 使用 strict=False 加载权重
+        # 这将加载所有匹配的键，并忽略 visual_weights 中存在但模型中已不存在的键（即 merger 的权重）
+        missing_keys, unexpected_keys = visual_model.load_state_dict(visual_weights, strict=False)
+        
+        # 打印出未加载的权重，以确认它们确实是 merger 的权重
+        print(f"{GREEN}Weights loaded. Unexpected keys (should be merger weights):{RESET}")
+        print(unexpected_keys)
+
+
+        # 确认没有丢失任何必要的权重
+        # missing_keys 应该为空
+        if missing_keys:
+            print(f"Warning: Missing keys: {missing_keys}")
+
+        print(f"{GREEN}QwenViT loaded successfully without merger!{RESET}")
+        self.vision_tower = visual_model
         self.vision_tower.requires_grad_(False)
         self.is_loaded = True
         # self.image_processor = AutoProcessor.from_pretrained(model_path)
@@ -101,7 +122,7 @@ class Qwen2VisionTransformerPretrainedModelForLLaVA(nn.Module):
 
     @property
     def hidden_size(self):
-        return self.config.hidden_size
+        return 1280
 
 
 if __name__=="__main__":
