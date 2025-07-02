@@ -52,8 +52,6 @@ class Qwen2VisionTransformerPretrainedModelForLLaVA(nn.Module):
         # Identity 层是一个占位符，它不执行任何操作，也没有任何参数
         print(f"{GREEN}Replacing the 'merger' module...{RESET}")
         visual_model.merger = torch.nn.Identity()
-
-        # import pdb; pdb.set_trace()
         checkpoint_path = os.path.join(model_path, "model-00001-of-00002.safetensors")
         
         print(f"{GREEN}Loading QwenViT weights (excluding merger)...{RESET}")

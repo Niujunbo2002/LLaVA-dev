@@ -52,20 +52,21 @@ export MAX_IMG_TOKEN=4096
 
 # LLM model (choose one)
 # export LLM_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2.5-0.5B-Instruct"
-export LLM_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2.5-0.5B-Instruct"
+export LLM_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2-0.5B-Instruct"
 # export LLM_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2-7B-Instruct"
 
 export LLM_VERSION_CLEAN="$(basename "$LLM_VERSION")"
 
 # Vision model
-export VISION_MODEL_VERSION="/mnt/petrelfs/niujunbo/niujunbo_dev/ocr_ckpts/qwen2_5_vl-668m-patch14-native"
+export VISION_MODEL_VERSION="/mnt/hwfile/mllm/niujunbo/model-image/Qwen/Qwen2-VL-2B-Instruct"
+export VISION_MODEL_VERSION_CLEAN="$(basename "$VISION_MODEL_VERSION")"
 
 # Data & Training Parameters
 export DATA_PATH="/mnt/petrelfs/niujunbo/zhengyuanhong/LLaVA/playground/data/blip_laion_cc_sbu_558k.json"
 export IMG_FOLDER="/mnt/hwfile/opendatalab/bigdata_mineru/niujunbo/dataset/llava/LLaVA-Pretrain"
 export TRAIN_PARTS="mm_mlp_adapter"
-export PER_DEVICE_BS=8
-export ACC_BS=2
+export PER_DEVICE_BS=2
+export ACC_BS=1
 export MODEL_MAX_LEN=4096
 
 ############################################
@@ -76,9 +77,9 @@ export SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 export SCRIPT_PATH=$(realpath "$0")
 export SCRIPT_NAME=$(basename "$SCRIPT_PATH")
 
-export DATE=$(date +%m-%d)
+export DATE=$(date +%m-%d-%H-%M)
 
-export BASE_RUN_NAME="NativeRes-${LLM_VERSION_CLEAN}-qwen2_5_vit-pt"
+export BASE_RUN_NAME="NativeRes-${LLM_VERSION_CLEAN}-${VISION_MODEL_VERSION_CLEAN}-pt-debug"
 
 echo "BASE_RUN_NAME: ${BASE_RUN_NAME}"
 
@@ -90,10 +91,10 @@ cp "$SCRIPT_PATH" "$SCRIPT_DIR/../../playground/training/$DATE/$BASE_RUN_NAME/$S
 ############################################
 
 export PROMPT_VERSION="plain"
-export PARTITION="mineru2"
+export PARTITION="mineru2_data"
 export NODES=1
-export CPUS=128
-export MASTER_PORT=12351
+export CPUS=16
+export MASTER_PORT=12345
 
 ############################################
 # ✅ Launch Training
@@ -101,11 +102,12 @@ export MASTER_PORT=12351
 
 srun -J debug \
     -p "$PARTITION" \
+    -x SH-IDC1-10-140-24-13 \
     --nodes="$NODES" \
     --ntasks-per-node=1 \
-    --gres=gpu:8 \
+    --gres=gpu:1 \
     bash -c 'ACCELERATE_CPU_AFFINITY=1 torchrun \
-        --nproc_per_node=8 \
+        --nproc_per_node=1 \
         --nnodes=${NODES} \
         --node_rank=${SLURM_NODEID} \
         --master_addr=$(scontrol show hostname $SLURM_NODELIST | head -n1) \
@@ -119,7 +121,7 @@ srun -J debug \
         --vision_tower ${VISION_MODEL_VERSION} \
         --mm_tunable_parts ${TRAIN_PARTS} \
         --mm_vision_select_layer -1 \
-        --mm_projector_type mlp2x_gelu \
+        --mm_projector_type patch_merger \
         --mm_use_im_start_end False \
         --mm_use_im_patch_token False \
         --bf16 True \
@@ -130,9 +132,8 @@ srun -J debug \
         --per_device_train_batch_size ${PER_DEVICE_BS} \
         --per_device_eval_batch_size 4 \
         --gradient_accumulation_steps ${ACC_BS} \
-        --evaluation_strategy "no" \
         --save_strategy "steps" \
-        --save_steps 100 \
+        --save_steps 500 \
         --save_total_limit 1 \
         --learning_rate 1e-3 \
         --weight_decay 0.0 \
