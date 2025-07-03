@@ -143,8 +143,9 @@ srun -J debug \
         --tf32 True \
         --model_max_length ${MODEL_MAX_LEN} \
         --gradient_checkpointing True \
-        --dataloader_num_workers 16 \
+        --dataloader_num_workers 1 \
         --lazy_preprocess True \
         --report_to none \
         --run_name ${BASE_RUN_NAME} \
         2>&1 | tee ${SCRIPT_DIR}/../../playground/training/${DATE}/${BASE_RUN_NAME}/train.log'
+# --attn_implementation sdpa \

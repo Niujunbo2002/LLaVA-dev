@@ -39,7 +39,7 @@ import deepspeed
 
 from transformers import AutoConfig
 from torch.utils.data import Dataset
-from llava.constants import IGNORE_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN, IMAGE_TOKEN_INDEX
+from llava.constants import IGNORE_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN, IMAGE_TOKEN_INDEX, DEFAULT_VISION_START_TOKEN, DEFAULT_VISION_END_TOKEN
 from llava.train.llava_trainer import LLaVATrainer
 from qwen_vl_utils import process_vision_info
 
@@ -397,8 +397,9 @@ def preprocess_multimodal(sources: Sequence[str], data_args: DataArguments) -> D
                 if "mmtag" in conversation_lib.default_conversation.version:
                     sentence["value"] = sentence["value"].replace(DEFAULT_IMAGE_TOKEN, "<Image>" + DEFAULT_IMAGE_TOKEN + "</Image>")
             replace_token = DEFAULT_IMAGE_TOKEN
-            if data_args.mm_use_im_start_end:
+            if data_args.mm_use_im_start_end:#用不到
                 replace_token = DEFAULT_IM_START_TOKEN + replace_token + DEFAULT_IM_END_TOKEN
+            replace_token=DEFAULT_VISION_START_TOKEN+replace_token+DEFAULT_VISION_END_TOKEN
             sentence["value"] = sentence["value"].replace(DEFAULT_IMAGE_TOKEN, replace_token)
 
             # For videoInstruct-100k noisy_data. TODO: Ask Yuanhan to clean the data instead of leaving the noise code here.
@@ -563,6 +564,7 @@ def preprocess_gemma(sources: List[List[Dict[str, str]]], tokenizer: transformer
 
 def preprocess_qwen(sources, tokenizer: transformers.PreTrainedTokenizer, has_image: bool = False, max_len=2048, system_message: str = "You are a helpful assistant.") -> Dict:
     # roles = {"human": "<|im_start|>user", "gpt": "<|im_start|>assistant"}
+    import ipdb;ipdb.set_trace()
     roles = {"human": "user", "gpt": "assistant"}
 
     # Add image tokens to tokenizer as a special tokens
@@ -895,7 +897,7 @@ def preprocess_plain(
     for source in sources:
         assert len(source) == 2
         assert DEFAULT_IMAGE_TOKEN in source[0]["value"]
-        source[0]["value"] = DEFAULT_IMAGE_TOKEN
+        source[0]["value"] = DEFAULT_VISION_START_TOKEN+DEFAULT_IMAGE_TOKEN+DEFAULT_VISION_END_TOKEN
         conversation = source[0]["value"] + source[1]["value"] + conversation_lib.default_conversation.sep
         conversations.append(conversation)
     # tokenize conversations
@@ -904,7 +906,7 @@ def preprocess_plain(
     for target, source in zip(targets, sources):
         tokenized_len = len(tokenizer_image_token(source[0]["value"], tokenizer))
         target[:tokenized_len] = IGNORE_INDEX
-
+    
     return dict(input_ids=input_ids, labels=targets)
 
 
@@ -1148,7 +1150,6 @@ class LazySupervisedDataset(Dataset):
         if isinstance(i, int):
             sources = [sources]
         assert len(sources) == 1, "Don't know why it is wrapped to a list"  # FIXME
-
         if "image" in sources[0]:
             image_file = self.list_data_dict[i]["image"]
             image_folder = self.data_args.image_folder
@@ -1368,7 +1369,11 @@ def make_supervised_data_module(tokenizer: transformers.PreTrainedTokenizer, dat
     """Make dataset and collator for supervised fine-tuning."""
     train_dataset = LazySupervisedDataset(tokenizer=tokenizer, data_path=data_args.data_path, data_args=data_args)
     data_collator = DataCollatorForSupervisedDataset(tokenizer=tokenizer,processor=data_args.image_processor)
-
+    # for i in range(len(train_dataset)):
+    #     instance = train_dataset[i]
+    #     # 你可以收集若干 instance 组成一个 batch
+    #     batch = data_collator([instance])  # 注意这里传入的是一个 list
+    #     # print(batch)
     return dict(train_dataset=train_dataset, eval_dataset=None, data_collator=data_collator)
 
 

@@ -26,21 +26,47 @@ from transformers.generation.utils import GenerateOutput
 
 # from ...constants import IGNORE_INDEX, IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 from llava.model.llava_arch import LlavaMetaModel, LlavaMetaForCausalLM
-from transformers import Qwen2Config, Qwen2Model, Qwen2ForCausalLM
+from transformers import Qwen2Config, Qwen2ForCausalLM
+from llava.model.language_model.base_model.modeling_qwen2 import Qwen2Model
+# from transformers.models.qwen2_vl.modeling_qwen2_vl import Qwen2VLRotaryEmbedding
 
 # from .qwen.modeling_qwen import QWenLMHeadModel, QWenModel
 # from .qwen.configuration_qwen import QWenConfig
 
 
+
 class LlavaQwenConfig(Qwen2Config):
     model_type = "llava_qwen"
 
+# class LlavaQwenModel(LlavaMetaModel, Qwen2Model):
+#     config_class = LlavaQwenConfig
+
+#     def __init__(self, config: Qwen2Config):
+#         super(LlavaQwenModel, self).__init__(config)
 
 class LlavaQwenModel(LlavaMetaModel, Qwen2Model):
     config_class = LlavaQwenConfig
 
     def __init__(self, config: Qwen2Config):
+        # 为config添加rope_scaling属性, 这是qwen2vl_config中要用的, 用于实现MRoPE. 但是这里的mrope_section要自定义一下
+        if not hasattr(config, 'rope_scaling') or config.rope_scaling is None:
+            head_dim=config.hidden_size//config.num_attention_heads
+            if head_dim==128:
+                config.rope_scaling = {
+                    "mrope_section": [16, 24, 24],
+                    "rope_type": "default", 
+                    "type": "default"
+                }
+            elif head_dim==64:
+                config.rope_scaling = {
+                    "mrope_section": [8, 12, 12],
+                    "rope_type": "default", 
+                    "type": "default"
+                }
+            config.spatial_merge_size=2
         super(LlavaQwenModel, self).__init__(config)
+
+
 
 
 class LlavaQwenForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
@@ -54,6 +80,7 @@ class LlavaQwenForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
 
         self.model = LlavaQwenModel(config)
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
+        self.rope_deltas = None  # cache rope_deltas here
         # Initialize weights and apply final processing
         self.post_init()
 
@@ -80,7 +107,6 @@ class LlavaQwenForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
         dpo_forward: Optional[bool] = False,
         cache_position=None,
     ) -> Union[Tuple, CausalLMOutputWithPast]:
-
         if inputs_embeds is None:
             if packing is  False:
                 (
